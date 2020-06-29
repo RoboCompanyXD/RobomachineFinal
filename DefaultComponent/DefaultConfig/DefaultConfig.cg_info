@@ -1,0 +1,51 @@
+I-Logix-RPY-Archive version 8.15.0 * 9841247
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 6;
+	- value = "DefaultComponent/DefaultConfig/Default.cpp" 6.29.2020::9:11:38
+	"DefaultComponent/DefaultConfig/Default.h" 6.29.2020::9:11:38
+	"DefaultComponent/DefaultConfig/Roboconfirmo.cpp" 6.29.2020::11:18:25
+	"DefaultComponent/DefaultConfig/Roboconfirmo.h" 6.29.2020::11:18:25
+	"DefaultComponent/DefaultConfig/UC.cpp" 6.29.2020::12:17:56
+	"DefaultComponent/DefaultConfig/UC.h" 6.29.2020::12:17:56
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 4;
+	- value = "GUID 14fe6c4a-2212-4e61-a209-4f909eb8e823" "GUID 8bf78998-c1eb-4525-9920-69c5bcc56087"
+	"GUID 49982648-15d9-4d62-b7c0-e2c115625bab" "GUID dd3775e1-6426-4e30-8bf6-b76303bc95c4"
+	"GUID 90464f6f-cc9a-415b-95f3-d875627925bf" "GUID 8bf78998-c1eb-4525-9920-69c5bcc56087"
+	"GUID dd3775e1-6426-4e30-8bf6-b76303bc95c4" "GUID 8bf78998-c1eb-4525-9920-69c5bcc56087"
+	
+}
+- size = 4;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\Robomachine_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 358ca846-0d18-45bf-9d0b-59e414ef6b1a;
+}
+- genTime = 6.29.2020::10:25:8;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Robomachine_rpy\\UC.clsx";
+	- _subsystem = "Roboconfirmo";
+	- _name = "UC";
+	- _id = GUID 49982648-15d9-4d62-b7c0-e2c115625bab;
+}
+- genTime = 6.29.2020::12:17:56;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Robomachine_rpy\\Default.sbsx";
+	- _name = "Default";
+	- _id = GUID 14fe6c4a-2212-4e61-a209-4f909eb8e823;
+}
+- genTime = 6.29.2020::10:4:13;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Robomachine_rpy\\Roboconfirmo.sbsx";
+	- _name = "Roboconfirmo";
+	- _id = GUID dd3775e1-6426-4e30-8bf6-b76303bc95c4;
+}
+- genTime = 6.29.2020::11:19:16;
+

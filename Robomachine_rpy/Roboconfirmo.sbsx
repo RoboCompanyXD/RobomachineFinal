@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID dd3775e1-6426-4e30-8bf6-b76303bc95c4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Roboconfirmo</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::11:20:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::11:26:44</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">6.29.2020::11:24:26</weakCGTime>
+			<strongCGTime type="a">6.29.2020::11:24:19</strongCGTime>
+			<_defaultComposite type="s">GUID 3ba16dfe-d1fa-4f1f-8645-74fd20acb441</_defaultComposite>
+			<_eventsBaseID type="a">13601</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 3ba16dfe-d1fa-4f1f-8645-74fd20acb441</value>
+				<value>GUID 49982648-15d9-4d62-b7c0-e2c115625bab</value>
+				<value>GUID b617270b-13ae-44c5-899c-70f31b8b8803</value>
+				<value>GUID 24b3d917-b38c-45d8-8f6a-31f43893a17f</value>
+				<value>GUID f430edf4-27b9-4a22-afe0-e4f15baeb94e</value>
+				<value>GUID 1a602b83-6325-4943-bc4f-ed303c976f2a</value>
+				<value>GUID 11447deb-4017-4651-8adc-14ae6b49af30</value>
+				<value>GUID e58a5f4e-14e3-446f-b640-ecc53bf96e80</value>
+				<value>GUID 36853275-cabc-4f8a-a2af-b67cbb0dbe45</value>
+				<value>GUID 9022c0e4-362f-41f6-9d04-8f4c85f6dc3e</value>
+				<value>GUID 424c314e-5fa6-426f-b63e-07c0d3e05ea6</value>
+				<value>GUID 77eccff5-fc85-436e-9a77-386d3f0506bc</value>
+				<value>GUID 8337ee26-cc40-442b-9de8-a1fa7bd15fd6</value>
+				<value>GUID 582ed75e-008d-405d-a198-d8ff85fc2cfe</value>
+				<value>GUID 8924365c-c809-4600-8251-1a7f6eaaa047</value>
+				<value>GUID 9bfd2a9e-819d-4b82-98f7-e6be3e6e6049</value>
+				<value>GUID 2cd3d6b4-ceac-4476-8037-d8997b7b01be</value>
+				<value>GUID 5ed4acd3-f88e-4812-a637-4bc3a09894da</value>
+				<value>GUID 4ae6d95f-74e5-46e1-bb9c-a4d6395cf268</value>
+				<value>GUID b0a088c3-cbac-467d-8c4b-5883881fb2d0</value>
+				<value>GUID efe9fe35-e815-4b62-aed4-209639216edf</value>
+				<value>GUID 3e32e8b2-b548-467e-b595-5ca4fd73d199</value>
+				<value>GUID 8d0cc1bb-4e77-4d21-849d-95e16f0037de</value>
+				<value>GUID e85fba04-3fa4-483d-b3b9-0c6ecf738d3b</value>
+				<value>GUID 0e5979a9-6d9e-4c1e-8e51-dc785c136387</value>
+				<value>GUID 6268b1e3-f892-429d-bedd-9e71d4bab656</value>
+				<value>GUID d5664a8c-201b-45c5-946b-81be506494ae</value>
+				<value>GUID c5a5f229-745e-4325-9c30-e7b283532ac0</value>
+				<value>GUID 3825db50-cef9-4f58-8295-d13ea5b45e11</value>
+				<value>GUID a686c7ff-7a19-45a7-b0dd-29ab21246b32</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 3ba16dfe-d1fa-4f1f-8645-74fd20acb441</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::11:24:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::11:24:26</_modifiedTime>
+			<_lastID type="a">20</_lastID>
+			<weakCGTime type="a">6.29.2020::11:24:26</weakCGTime>
+			<strongCGTime type="a">6.29.2020::10:31:49</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID d747378f-5575-45e7-9e48-b0961654d18f</value>
+				<value>GUID 23fb67fb-7190-42bc-ac70-aab87ff025d5</value>
+				<value>GUID 8b6f8e9b-8384-4e63-94f2-736079894552</value>
+				<value>GUID f8029ceb-885b-4baf-a61b-bb1f70d276df</value>
+				<value>GUID da4c1ca2-7c26-4d99-af72-d02728ee0aad</value>
+				<value>GUID 63437668-802f-4b40-85d6-488438909a95</value>
+				<value>GUID 8be0bf86-bfd7-4eba-b045-1ab33e853505</value>
+				<value>GUID 6dfe1dc5-f2c5-40f2-8a8b-de0b2e7b7af6</value>
+				<value>GUID dc2b62c5-2a1d-422e-9e91-7c18c4b7cae6</value>
+				<value>GUID 13aaed19-de20-4564-ba1e-f76d6271d43d</value>
+				<value>GUID 9b6d4da4-13fc-4f1f-80fb-17d8ae74771d</value>
+				<value>GUID bd68c3bc-0154-4c41-9913-dd0155596128</value>
+				<value>GUID 015430fd-29ed-4019-800c-5019ef8e64fd</value>
+				<value>GUID 132d1179-ac1e-4d65-bdcc-182c45f5ff32</value>
+				<value>GUID 067ce572-2834-494b-a615-714244a27f58</value>
+				<value>GUID 71594f4d-9a13-4c96-b4e4-37e342dc288d</value>
+				<value>GUID 6a82cd12-e5f6-4e8e-ba22-75bb6c8b2c10</value>
+				<value>GUID 486c0b22-ef5c-4be4-bcc8-72b7722f7d12</value>
+				<value>GUID 0d3298b9-ab4c-4133-b033-a59eb42a5a35</value>
+				<value>GUID 13aded05-94cf-4597-8852-1d882616af1c</value>
+			</AggregatesList>
+		</IClass>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID d747378f-5575-45e7-9e48-b0961654d18f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">init</_name>
+			<_modifiedTimeWeak type="a">6.22.2020::9:35:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.22.2020::9:35:18</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 23fb67fb-7190-42bc-ac70-aab87ff025d5</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">CPP_CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Operation</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Kind</_Name>
+													<_Value type="a">common</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">common,virtual,abstract</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">gotoDock</_name>
+			<_modifiedTimeWeak type="a">6.22.2020::10:3:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.22.2020::10:3:34</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 8b6f8e9b-8384-4e63-94f2-736079894552</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">CPP_CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Operation</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Kind</_Name>
+													<_Value type="a">common</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">common,virtual,abstract</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">reproducirSonidoPerdida</_name>
+			<_modifiedTimeWeak type="a">6.24.2020::12:7:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::12:7:39</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID f8029ceb-885b-4baf-a61b-bb1f70d276df</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">computeCameraApproach</_name>
+			<_modifiedTimeWeak type="a">6.24.2020::8:49:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::8:49:26</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID da4c1ca2-7c26-4d99-af72-d02728ee0aad</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">establecerActuadores</_name>
+			<_modifiedTimeWeak type="a">6.23.2020::9:39:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.23.2020::9:39:42</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 63437668-802f-4b40-85d6-488438909a95</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">computeCameraWithObstacle</_name>
+			<_modifiedTimeWeak type="a">6.24.2020::8:49:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::8:49:7</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IAttribute type="e">
+			<_id type="a">GUID 8be0bf86-bfd7-4eba-b045-1ab33e853505</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ComputeStepTime</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.24.2020::8:54:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::8:54:33</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 6dfe1dc5-f2c5-40f2-8a8b-de0b2e7b7af6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BumpObstacle</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.24.2020::10:24:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::10:24:25</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID dc2b62c5-2a1d-422e-9e91-7c18c4b7cae6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sensoresLBumpFront</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.24.2020::11:32:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::11:32:19</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 13aaed19-de20-4564-ba1e-f76d6271d43d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sensoresLBumpSide</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.24.2020::11:32:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::11:32:46</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 9b6d4da4-13fc-4f1f-80fb-17d8ae74771d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sensoresSumDistancia</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.24.2020::10:31:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::10:31:44</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID bd68c3bc-0154-4c41-9913-dd0155596128</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sensoresSumAngulo</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.24.2020::10:32:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::10:32:7</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 015430fd-29ed-4019-800c-5019ef8e64fd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">cameraIsPersonInView</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.24.2020::11:35:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::11:35:25</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 132d1179-ac1e-4d65-bdcc-182c45f5ff32</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sensoresBateria</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.24.2020::11:41:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::11:41:10</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 067ce572-2834-494b-a615-714244a27f58</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">initStatus</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.29.2020::10:36:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:36:11</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 71594f4d-9a13-4c96-b4e4-37e342dc288d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">lidarIsObstable</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.24.2020::12:2:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.24.2020::12:2:28</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 6a82cd12-e5f6-4e8e-ba22-75bb6c8b2c10</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sensoresInDock</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.29.2020::11:12:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::11:12:30</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 486c0b22-ef5c-4be4-bcc8-72b7722f7d12</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sensoresBr</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.29.2020::11:21:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::11:21:34</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 0d3298b9-ab4c-4133-b033-a59eb42a5a35</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sensoresBl</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.29.2020::11:21:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::11:21:55</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 13aded05-94cf-4597-8852-1d882616af1c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">sensoresCliff</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.29.2020::11:24:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::11:24:26</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IClass type="e">
+			<fileName type="a">UC</fileName>
+			<_id type="a">GUID 49982648-15d9-4d62-b7c0-e2c115625bab</_id>
+		</IClass>
+		<IEvent type="e">
+			<_id type="a">GUID b617270b-13ae-44c5-899c-70f31b8b8803</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">btnClean</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 24b3d917-b38c-45d8-8f6a-31f43893a17f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">btnDock</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID f430edf4-27b9-4a22-afe0-e4f15baeb94e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">btnSpot</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 1a602b83-6325-4943-bc4f-ed303c976f2a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">bumpCrash</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 11447deb-4017-4651-8adc-14ae6b49af30</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">cliffDetect</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID e58a5f4e-14e3-446f-b640-ecc53bf96e80</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evActuatorFinish</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 36853275-cabc-4f8a-a2af-b67cbb0dbe45</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evClearPath</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 9022c0e4-362f-41f6-9d04-8f4c85f6dc3e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evCliff</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 424c314e-5fa6-426f-b63e-07c0d3e05ea6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evComputeFinish</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 77eccff5-fc85-436e-9a77-386d3f0506bc</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evDist30</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 8337ee26-cc40-442b-9de8-a1fa7bd15fd6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evFindObstacle</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 582ed75e-008d-405d-a198-d8ff85fc2cfe</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evFrontObstacle</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 8924365c-c809-4600-8251-1a7f6eaaa047</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evGoesAway</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 9bfd2a9e-819d-4b82-98f7-e6be3e6e6049</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evIsGoodPos</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 2cd3d6b4-ceac-4476-8037-d8997b7b01be</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evLBumpFront</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 5ed4acd3-f88e-4812-a637-4bc3a09894da</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evLBumpFrontClear</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 4ae6d95f-74e5-46e1-bb9c-a4d6395cf268</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evLBumpFrontEnable</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID b0a088c3-cbac-467d-8c4b-5883881fb2d0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evLostObstacle</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID efe9fe35-e815-4b62-aed4-209639216edf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evObstaculoEnFrente</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 3e32e8b2-b548-467e-b595-5ca4fd73d199</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evPersonApproach</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 8d0cc1bb-4e77-4d21-849d-95e16f0037de</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evPersonFind</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID e85fba04-3fa4-483d-b3b9-0c6ecf738d3b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evPersonInView</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 0e5979a9-6d9e-4c1e-8e51-dc785c136387</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evPersonLost</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 6268b1e3-f892-429d-bedd-9e71d4bab656</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evRobotInDock</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID d5664a8c-201b-45c5-946b-81be506494ae</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evRotate25</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID c5a5f229-745e-4325-9c30-e7b283532ac0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">goesAway</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 3825db50-cef9-4f58-8295-d13ea5b45e11</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">isRightThere</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID a686c7ff-7a19-45a7-b0dd-29ab21246b32</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">LigthBumpFrontTrig</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
