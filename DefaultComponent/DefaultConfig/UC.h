@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: UC
-//!	Generated Date	: Mon, 29, Jun 2020  
+//!	Generated Date	: Wed, 1, Jul 2020  
 	File Path	: DefaultComponent/DefaultConfig/UC.h
 *********************************************************************/
 
@@ -45,9 +45,113 @@ public :
     UC(IOxfActive* theActiveContext = 0);
     
     //## auto_generated
-    ~UC();
+    virtual ~UC();
+    
+    ////    Operations    ////
+    
+    //## operation computeCameraApproach()
+    virtual void computeCameraApproach();
+    
+    //## operation computeCameraWithObstacle()
+    virtual void computeCameraWithObstacle();
+    
+    //## operation establecerActuadores()
+    virtual void establecerActuadores();
+    
+    //## operation gotoDock()
+    virtual void gotoDock();
+    
+    //## operation init()
+    virtual void init();
+    
+    //## operation reproducirSonidoPerdida()
+    virtual bool reproducirSonidoPerdida();
     
     ////    Additional operations    ////
+    
+    //## auto_generated
+    int getBumpObstacle() const;
+    
+    //## auto_generated
+    void setBumpObstacle(int p_BumpObstacle);
+    
+    //## auto_generated
+    int getComputeStepTime() const;
+    
+    //## auto_generated
+    void setComputeStepTime(int p_ComputeStepTime);
+    
+    //## auto_generated
+    bool getCameraIsPersonInView() const;
+    
+    //## auto_generated
+    void setCameraIsPersonInView(bool p_cameraIsPersonInView);
+    
+    //## auto_generated
+    int getInitStatus() const;
+    
+    //## auto_generated
+    void setInitStatus(int p_initStatus);
+    
+    //## auto_generated
+    int getLidarIsObstable() const;
+    
+    //## auto_generated
+    void setLidarIsObstable(int p_lidarIsObstable);
+    
+    //## auto_generated
+    int getSensoresBateria() const;
+    
+    //## auto_generated
+    void setSensoresBateria(int p_sensoresBateria);
+    
+    //## auto_generated
+    bool getSensoresBl() const;
+    
+    //## auto_generated
+    void setSensoresBl(bool p_sensoresBl);
+    
+    //## auto_generated
+    bool getSensoresBr() const;
+    
+    //## auto_generated
+    void setSensoresBr(bool p_sensoresBr);
+    
+    //## auto_generated
+    bool getSensoresCliff() const;
+    
+    //## auto_generated
+    void setSensoresCliff(bool p_sensoresCliff);
+    
+    //## auto_generated
+    int getSensoresInDock() const;
+    
+    //## auto_generated
+    void setSensoresInDock(int p_sensoresInDock);
+    
+    //## auto_generated
+    bool getSensoresLBumpFront() const;
+    
+    //## auto_generated
+    void setSensoresLBumpFront(bool p_sensoresLBumpFront);
+    
+    //## auto_generated
+    bool getSensoresLBumpSide() const;
+    
+    //## auto_generated
+    void setSensoresLBumpSide(bool p_sensoresLBumpSide);
+    
+    //## auto_generated
+    int getSensoresSumAngulo() const;
+    
+    //## auto_generated
+    void setSensoresSumAngulo(int p_sensoresSumAngulo);
+    
+    //## auto_generated
+    int getSensoresSumDistancia() const;
+    
+    //## auto_generated
+    void setSensoresSumDistancia(int p_sensoresSumDistancia);
     
     //## auto_generated
     virtual bool startBehavior();
@@ -63,6 +167,36 @@ protected :
     //## auto_generated
     bool cancelTimeout(const IOxfTimeout* arg);
     
+    ////    Attributes    ////
+    
+    int BumpObstacle;		//## attribute BumpObstacle
+    
+    int ComputeStepTime;		//## attribute ComputeStepTime
+    
+    bool cameraIsPersonInView;		//## attribute cameraIsPersonInView
+    
+    int initStatus;		//## attribute initStatus
+    
+    int lidarIsObstable;		//## attribute lidarIsObstable
+    
+    int sensoresBateria;		//## attribute sensoresBateria
+    
+    bool sensoresBl;		//## attribute sensoresBl
+    
+    bool sensoresBr;		//## attribute sensoresBr
+    
+    bool sensoresCliff;		//## attribute sensoresCliff
+    
+    int sensoresInDock;		//## attribute sensoresInDock
+    
+    bool sensoresLBumpFront;		//## attribute sensoresLBumpFront
+    
+    bool sensoresLBumpSide;		//## attribute sensoresLBumpSide
+    
+    int sensoresSumAngulo;		//## attribute sensoresSumAngulo
+    
+    int sensoresSumDistancia;		//## attribute sensoresSumDistancia
+    
     ////    Framework operations    ////
 
 public :
@@ -77,16 +211,19 @@ public :
     //## statechart_method
     virtual IOxfReactive::TakeEventStatus rootState_processEvent();
     
-    // UndoPark:
+    // UnDock:
     //## statechart_method
-    inline bool UndoPark_IN() const;
+    inline bool UnDock_IN() const;
     
     //## statechart_method
-    void UndoPark_entDef();
+    void UnDock_entDef();
     
-    // UndoPark_Rotate180:
     //## statechart_method
-    inline bool UndoPark_Rotate180_IN() const;
+    IOxfReactive::TakeEventStatus UnDock_handleEvent();
+    
+    // UnDock_Rotate180:
+    //## statechart_method
+    inline bool UnDock_Rotate180_IN() const;
     
     // ExitDock:
     //## statechart_method
@@ -101,6 +238,10 @@ public :
     
     //## statechart_method
     IOxfReactive::TakeEventStatus EndUndoParkHelperState_handleEvent();
+    
+    // Shutdown:
+    //## statechart_method
+    inline bool Shutdown_IN() const;
     
     // NormalOperate:
     //## statechart_method
@@ -185,12 +326,19 @@ public :
     //## statechart_method
     IOxfReactive::TakeEventStatus PersonInView_handleEvent();
     
-    // PathBlocked:
+    // PersonInView_PathBlocked:
     //## statechart_method
-    inline bool PathBlocked_IN() const;
+    inline bool PersonInView_PathBlocked_IN() const;
     
     //## statechart_method
-    IOxfReactive::TakeEventStatus PathBlocked_handleEvent();
+    IOxfReactive::TakeEventStatus PersonInView_PathBlocked_handleEvent();
+    
+    // PersonInView_ApproachUser:
+    //## statechart_method
+    inline bool PersonInView_ApproachUser_IN() const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus PersonInView_ApproachUser_handleEvent();
     
     // ComputeStepBlocked:
     //## statechart_method
@@ -206,29 +354,22 @@ public :
     //## statechart_method
     IOxfReactive::TakeEventStatus ComputeStepApproach_handleEvent();
     
-    // ApproachUser:
+    // DodgeObstacle:
     //## statechart_method
-    inline bool ApproachUser_IN() const;
+    inline bool DodgeObstacle_IN() const;
     
     //## statechart_method
-    IOxfReactive::TakeEventStatus ApproachUser_handleEvent();
-    
-    // SurroundObstacle:
-    //## statechart_method
-    inline bool SurroundObstacle_IN() const;
+    void DodgeObstacle_entDef();
     
     //## statechart_method
-    void SurroundObstacle_entDef();
+    IOxfReactive::TakeEventStatus DodgeObstacle_handleEvent();
+    
+    // Dodge_MoveBack:
+    //## statechart_method
+    inline bool Dodge_MoveBack_IN() const;
     
     //## statechart_method
-    IOxfReactive::TakeEventStatus SurroundObstacle_handleEvent();
-    
-    // MoveBack:
-    //## statechart_method
-    inline bool MoveBack_IN() const;
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus MoveBack_handleEvent();
+    IOxfReactive::TakeEventStatus Dodge_MoveBack_handleEvent();
     
     // CrashAlgorithm:
     //## statechart_method
@@ -243,41 +384,6 @@ public :
     //## statechart_method
     IOxfReactive::TakeEventStatus CrashAlgorithm_handleEvent();
     
-    // UndoRotate:
-    //## statechart_method
-    inline bool UndoRotate_IN() const;
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus UndoRotate_handleEvent();
-    
-    // RotateExtended:
-    //## statechart_method
-    inline bool RotateExtended_IN() const;
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus RotateExtended_handleEvent();
-    
-    // Rotate:
-    //## statechart_method
-    inline bool Rotate_IN() const;
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus Rotate_handleEvent();
-    
-    // GoForwardExtended:
-    //## statechart_method
-    inline bool GoForwardExtended_IN() const;
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus GoForwardExtended_handleEvent();
-    
-    // CrashAlgorithm_GoForward:
-    //## statechart_method
-    inline bool CrashAlgorithm_GoForward_IN() const;
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus CrashAlgorithm_GoForward_handleEvent();
-    
     // CrashAlorithmEndHelperState:
     //## statechart_method
     inline bool CrashAlorithmEndHelperState_IN() const;
@@ -287,6 +393,41 @@ public :
     
     //## statechart_method
     IOxfReactive::TakeEventStatus CrashAlorithmEndHelperState_handleEvent();
+    
+    // CrashAlgorithm_RecoverTrajectory:
+    //## statechart_method
+    inline bool CrashAlgorithm_RecoverTrajectory_IN() const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus CrashAlgorithm_RecoverTrajectory_handleEvent();
+    
+    // CrashAlgorithm_GoForwardExtended:
+    //## statechart_method
+    inline bool CrashAlgorithm_GoForwardExtended_IN() const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus CrashAlgorithm_GoForwardExtended_handleEvent();
+    
+    // CrashAlgorithm_GoForward:
+    //## statechart_method
+    inline bool CrashAlgorithm_GoForward_IN() const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus CrashAlgorithm_GoForward_handleEvent();
+    
+    // CrashAlgorithm_DodgeParallel:
+    //## statechart_method
+    inline bool CrashAlgorithm_DodgeParallel_IN() const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus CrashAlgorithm_DodgeParallel_handleEvent();
+    
+    // CrashAlgorithm_Dodge:
+    //## statechart_method
+    inline bool CrashAlgorithm_Dodge_IN() const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus CrashAlgorithm_Dodge_handleEvent();
     
     // CliffAhead:
     //## statechart_method
@@ -298,22 +439,22 @@ public :
     //## statechart_method
     IOxfReactive::TakeEventStatus CliffAhead_handleEvent();
     
-    // Rotate180:
+    // CliffAhead_Rotate180:
     //## statechart_method
-    inline bool Rotate180_IN() const;
+    inline bool CliffAhead_Rotate180_IN() const;
     
     //## statechart_method
-    IOxfReactive::TakeEventStatus Rotate180_handleEvent();
+    IOxfReactive::TakeEventStatus CliffAhead_Rotate180_handleEvent();
     
-    // GoForward:
+    // CliffAhead_GoForward:
     //## statechart_method
-    inline bool GoForward_IN() const;
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus GoForwardTakeNull();
+    inline bool CliffAhead_GoForward_IN() const;
     
     //## statechart_method
-    IOxfReactive::TakeEventStatus GoForward_handleEvent();
+    IOxfReactive::TakeEventStatus CliffAhead_GoForwardTakeNull();
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus CliffAhead_GoForward_handleEvent();
     
     // Initializing:
     //## statechart_method
@@ -333,13 +474,9 @@ public :
     //## statechart_method
     IOxfReactive::TakeEventStatus Idle_handleEvent();
     
-    // GoingDock:
+    // Dock:
     //## statechart_method
-    inline bool GoingDock_IN() const;
-    
-    // EndOperation:
-    //## statechart_method
-    inline bool EndOperation_IN() const;
+    inline bool Dock_IN() const;
     
     ////    Framework    ////
 
@@ -348,46 +485,46 @@ protected :
 //#[ ignore
     enum UC_Enum {
         OMNonState = 0,
-        UndoPark = 1,
-        UndoPark_Rotate180 = 2,
+        UnDock = 1,
+        UnDock_Rotate180 = 2,
         ExitDock = 3,
         EndUndoParkHelperState = 4,
-        NormalOperate = 5,
-        TrackingByCamera = 6,
-        PersonOutView = 7,
-        PersonOutView_RotateToMove = 8,
-        PersonOutView_Rotate360 = 9,
-        PersonOutView_GoForward = 10,
-        PersonOutView_ComputePosition = 11,
-        PersonInView = 12,
-        PathBlocked = 13,
-        ComputeStepBlocked = 14,
-        ComputeStepApproach = 15,
-        ApproachUser = 16,
-        SurroundObstacle = 17,
-        MoveBack = 18,
-        CrashAlgorithm = 19,
-        UndoRotate = 20,
-        RotateExtended = 21,
-        Rotate = 22,
-        GoForwardExtended = 23,
+        Shutdown = 5,
+        NormalOperate = 6,
+        TrackingByCamera = 7,
+        PersonOutView = 8,
+        PersonOutView_RotateToMove = 9,
+        PersonOutView_Rotate360 = 10,
+        PersonOutView_GoForward = 11,
+        PersonOutView_ComputePosition = 12,
+        PersonInView = 13,
+        PersonInView_PathBlocked = 14,
+        PersonInView_ApproachUser = 15,
+        ComputeStepBlocked = 16,
+        ComputeStepApproach = 17,
+        DodgeObstacle = 18,
+        Dodge_MoveBack = 19,
+        CrashAlgorithm = 20,
+        CrashAlorithmEndHelperState = 21,
+        CrashAlgorithm_RecoverTrajectory = 22,
+        CrashAlgorithm_GoForwardExtended = 23,
         CrashAlgorithm_GoForward = 24,
-        CrashAlorithmEndHelperState = 25,
-        CliffAhead = 26,
-        Rotate180 = 27,
-        GoForward = 28,
-        Initializing = 29,
-        InitFailed = 30,
-        Idle = 31,
-        GoingDock = 32,
-        EndOperation = 33
+        CrashAlgorithm_DodgeParallel = 25,
+        CrashAlgorithm_Dodge = 26,
+        CliffAhead = 27,
+        CliffAhead_Rotate180 = 28,
+        CliffAhead_GoForward = 29,
+        Initializing = 30,
+        InitFailed = 31,
+        Idle = 32,
+        Dock = 33
     };
     
     int rootState_subState;
     
     int rootState_active;
     
-    int UndoPark_subState;
+    int UnDock_subState;
     
     int NormalOperate_subState;
     
@@ -399,7 +536,7 @@ protected :
     
     IOxfTimeout* PersonInView_timeout;
     
-    int SurroundObstacle_subState;
+    int DodgeObstacle_subState;
     
     int CrashAlgorithm_subState;
     
@@ -416,20 +553,25 @@ class OMAnimatedUC : virtual public AOMInstance {
     
 public :
 
+    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
     //## statechart_method
     void rootState_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void UndoPark_serializeStates(AOMSState* aomsState) const;
+    void UnDock_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void UndoPark_Rotate180_serializeStates(AOMSState* aomsState) const;
+    void UnDock_Rotate180_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void ExitDock_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void EndUndoParkHelperState_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void Shutdown_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void NormalOperate_serializeStates(AOMSState* aomsState) const;
@@ -456,7 +598,10 @@ public :
     void PersonInView_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void PathBlocked_serializeStates(AOMSState* aomsState) const;
+    void PersonInView_PathBlocked_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void PersonInView_ApproachUser_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void ComputeStepBlocked_serializeStates(AOMSState* aomsState) const;
@@ -465,43 +610,40 @@ public :
     void ComputeStepApproach_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void ApproachUser_serializeStates(AOMSState* aomsState) const;
+    void DodgeObstacle_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void SurroundObstacle_serializeStates(AOMSState* aomsState) const;
-    
-    //## statechart_method
-    void MoveBack_serializeStates(AOMSState* aomsState) const;
+    void Dodge_MoveBack_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void CrashAlgorithm_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void UndoRotate_serializeStates(AOMSState* aomsState) const;
+    void CrashAlorithmEndHelperState_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void RotateExtended_serializeStates(AOMSState* aomsState) const;
+    void CrashAlgorithm_RecoverTrajectory_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void Rotate_serializeStates(AOMSState* aomsState) const;
-    
-    //## statechart_method
-    void GoForwardExtended_serializeStates(AOMSState* aomsState) const;
+    void CrashAlgorithm_GoForwardExtended_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void CrashAlgorithm_GoForward_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void CrashAlorithmEndHelperState_serializeStates(AOMSState* aomsState) const;
+    void CrashAlgorithm_DodgeParallel_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void CrashAlgorithm_Dodge_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void CliffAhead_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void Rotate180_serializeStates(AOMSState* aomsState) const;
+    void CliffAhead_Rotate180_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void GoForward_serializeStates(AOMSState* aomsState) const;
+    void CliffAhead_GoForward_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void Initializing_serializeStates(AOMSState* aomsState) const;
@@ -513,10 +655,7 @@ public :
     void Idle_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void GoingDock_serializeStates(AOMSState* aomsState) const;
-    
-    //## statechart_method
-    void EndOperation_serializeStates(AOMSState* aomsState) const;
+    void Dock_serializeStates(AOMSState* aomsState) const;
 };
 //#]
 #endif // _OMINSTRUMENT
@@ -525,20 +664,24 @@ inline bool UC::rootState_IN() const {
     return true;
 }
 
-inline bool UC::UndoPark_IN() const {
-    return rootState_subState == UndoPark;
+inline bool UC::UnDock_IN() const {
+    return rootState_subState == UnDock;
 }
 
-inline bool UC::UndoPark_Rotate180_IN() const {
-    return UndoPark_subState == UndoPark_Rotate180;
+inline bool UC::UnDock_Rotate180_IN() const {
+    return UnDock_subState == UnDock_Rotate180;
 }
 
 inline bool UC::ExitDock_IN() const {
-    return UndoPark_subState == ExitDock;
+    return UnDock_subState == ExitDock;
 }
 
 inline bool UC::EndUndoParkHelperState_IN() const {
-    return UndoPark_subState == EndUndoParkHelperState;
+    return UnDock_subState == EndUndoParkHelperState;
+}
+
+inline bool UC::Shutdown_IN() const {
+    return rootState_subState == Shutdown;
 }
 
 inline bool UC::NormalOperate_IN() const {
@@ -573,8 +716,12 @@ inline bool UC::PersonInView_IN() const {
     return TrackingByCamera_subState == PersonInView;
 }
 
-inline bool UC::PathBlocked_IN() const {
-    return PersonInView_subState == PathBlocked;
+inline bool UC::PersonInView_PathBlocked_IN() const {
+    return PersonInView_subState == PersonInView_PathBlocked;
+}
+
+inline bool UC::PersonInView_ApproachUser_IN() const {
+    return PersonInView_subState == PersonInView_ApproachUser;
 }
 
 inline bool UC::ComputeStepBlocked_IN() const {
@@ -585,56 +732,52 @@ inline bool UC::ComputeStepApproach_IN() const {
     return PersonInView_subState == ComputeStepApproach;
 }
 
-inline bool UC::ApproachUser_IN() const {
-    return PersonInView_subState == ApproachUser;
+inline bool UC::DodgeObstacle_IN() const {
+    return NormalOperate_subState == DodgeObstacle;
 }
 
-inline bool UC::SurroundObstacle_IN() const {
-    return NormalOperate_subState == SurroundObstacle;
-}
-
-inline bool UC::MoveBack_IN() const {
-    return SurroundObstacle_subState == MoveBack;
+inline bool UC::Dodge_MoveBack_IN() const {
+    return DodgeObstacle_subState == Dodge_MoveBack;
 }
 
 inline bool UC::CrashAlgorithm_IN() const {
-    return SurroundObstacle_subState == CrashAlgorithm;
-}
-
-inline bool UC::UndoRotate_IN() const {
-    return CrashAlgorithm_subState == UndoRotate;
-}
-
-inline bool UC::RotateExtended_IN() const {
-    return CrashAlgorithm_subState == RotateExtended;
-}
-
-inline bool UC::Rotate_IN() const {
-    return CrashAlgorithm_subState == Rotate;
-}
-
-inline bool UC::GoForwardExtended_IN() const {
-    return CrashAlgorithm_subState == GoForwardExtended;
-}
-
-inline bool UC::CrashAlgorithm_GoForward_IN() const {
-    return CrashAlgorithm_subState == CrashAlgorithm_GoForward;
+    return DodgeObstacle_subState == CrashAlgorithm;
 }
 
 inline bool UC::CrashAlorithmEndHelperState_IN() const {
     return CrashAlgorithm_subState == CrashAlorithmEndHelperState;
 }
 
+inline bool UC::CrashAlgorithm_RecoverTrajectory_IN() const {
+    return CrashAlgorithm_subState == CrashAlgorithm_RecoverTrajectory;
+}
+
+inline bool UC::CrashAlgorithm_GoForwardExtended_IN() const {
+    return CrashAlgorithm_subState == CrashAlgorithm_GoForwardExtended;
+}
+
+inline bool UC::CrashAlgorithm_GoForward_IN() const {
+    return CrashAlgorithm_subState == CrashAlgorithm_GoForward;
+}
+
+inline bool UC::CrashAlgorithm_DodgeParallel_IN() const {
+    return CrashAlgorithm_subState == CrashAlgorithm_DodgeParallel;
+}
+
+inline bool UC::CrashAlgorithm_Dodge_IN() const {
+    return CrashAlgorithm_subState == CrashAlgorithm_Dodge;
+}
+
 inline bool UC::CliffAhead_IN() const {
     return NormalOperate_subState == CliffAhead;
 }
 
-inline bool UC::Rotate180_IN() const {
-    return CliffAhead_subState == Rotate180;
+inline bool UC::CliffAhead_Rotate180_IN() const {
+    return CliffAhead_subState == CliffAhead_Rotate180;
 }
 
-inline bool UC::GoForward_IN() const {
-    return CliffAhead_subState == GoForward;
+inline bool UC::CliffAhead_GoForward_IN() const {
+    return CliffAhead_subState == CliffAhead_GoForward;
 }
 
 inline bool UC::Initializing_IN() const {
@@ -649,12 +792,8 @@ inline bool UC::Idle_IN() const {
     return rootState_subState == Idle;
 }
 
-inline bool UC::GoingDock_IN() const {
-    return rootState_subState == GoingDock;
-}
-
-inline bool UC::EndOperation_IN() const {
-    return rootState_subState == EndOperation;
+inline bool UC::Dock_IN() const {
+    return rootState_subState == Dock;
 }
 
 #endif

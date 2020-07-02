@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: UC
-//!	Generated Date	: Mon, 29, Jun 2020  
+//!	Generated Date	: Thu, 2, Jul 2020  
 	File Path	: DefaultComponent/DefaultConfig/UC.cpp
 *********************************************************************/
 
@@ -18,6 +18,18 @@
 #include "UC.h"
 //#[ ignore
 #define Roboconfirmo_UC_UC_SERIALIZE OM_NO_OP
+
+#define Roboconfirmo_UC_computeCameraApproach_SERIALIZE OM_NO_OP
+
+#define Roboconfirmo_UC_computeCameraWithObstacle_SERIALIZE OM_NO_OP
+
+#define Roboconfirmo_UC_establecerActuadores_SERIALIZE OM_NO_OP
+
+#define Roboconfirmo_UC_gotoDock_SERIALIZE OM_NO_OP
+
+#define Roboconfirmo_UC_init_SERIALIZE OM_NO_OP
+
+#define Roboconfirmo_UC_reproducirSonidoPerdida_SERIALIZE OM_NO_OP
 //#]
 
 //## package Roboconfirmo
@@ -34,6 +46,154 @@ UC::~UC() {
     cancelTimeouts();
 }
 
+void UC::computeCameraApproach() {
+    NOTIFY_OPERATION(computeCameraApproach, computeCameraApproach(), 0, Roboconfirmo_UC_computeCameraApproach_SERIALIZE);
+    //#[ operation computeCameraApproach()
+    //#]
+}
+
+void UC::computeCameraWithObstacle() {
+    NOTIFY_OPERATION(computeCameraWithObstacle, computeCameraWithObstacle(), 0, Roboconfirmo_UC_computeCameraWithObstacle_SERIALIZE);
+    //#[ operation computeCameraWithObstacle()
+    //#]
+}
+
+void UC::establecerActuadores() {
+    NOTIFY_OPERATION(establecerActuadores, establecerActuadores(), 0, Roboconfirmo_UC_establecerActuadores_SERIALIZE);
+    //#[ operation establecerActuadores()
+    //#]
+}
+
+void UC::gotoDock() {
+    NOTIFY_OPERATION(gotoDock, gotoDock(), 0, Roboconfirmo_UC_gotoDock_SERIALIZE);
+    //#[ operation gotoDock()
+    //#]
+}
+
+void UC::init() {
+    NOTIFY_OPERATION(init, init(), 0, Roboconfirmo_UC_init_SERIALIZE);
+    //#[ operation init()
+    //#]
+}
+
+bool UC::reproducirSonidoPerdida() {
+    NOTIFY_OPERATION(reproducirSonidoPerdida, reproducirSonidoPerdida(), 0, Roboconfirmo_UC_reproducirSonidoPerdida_SERIALIZE);
+    //#[ operation reproducirSonidoPerdida()
+    //#]
+}
+
+int UC::getBumpObstacle() const {
+    return BumpObstacle;
+}
+
+void UC::setBumpObstacle(int p_BumpObstacle) {
+    BumpObstacle = p_BumpObstacle;
+}
+
+int UC::getComputeStepTime() const {
+    return ComputeStepTime;
+}
+
+void UC::setComputeStepTime(int p_ComputeStepTime) {
+    ComputeStepTime = p_ComputeStepTime;
+}
+
+bool UC::getCameraIsPersonInView() const {
+    return cameraIsPersonInView;
+}
+
+void UC::setCameraIsPersonInView(bool p_cameraIsPersonInView) {
+    cameraIsPersonInView = p_cameraIsPersonInView;
+}
+
+int UC::getInitStatus() const {
+    return initStatus;
+}
+
+void UC::setInitStatus(int p_initStatus) {
+    initStatus = p_initStatus;
+}
+
+int UC::getLidarIsObstable() const {
+    return lidarIsObstable;
+}
+
+void UC::setLidarIsObstable(int p_lidarIsObstable) {
+    lidarIsObstable = p_lidarIsObstable;
+}
+
+int UC::getSensoresBateria() const {
+    return sensoresBateria;
+}
+
+void UC::setSensoresBateria(int p_sensoresBateria) {
+    sensoresBateria = p_sensoresBateria;
+}
+
+bool UC::getSensoresBl() const {
+    return sensoresBl;
+}
+
+void UC::setSensoresBl(bool p_sensoresBl) {
+    sensoresBl = p_sensoresBl;
+}
+
+bool UC::getSensoresBr() const {
+    return sensoresBr;
+}
+
+void UC::setSensoresBr(bool p_sensoresBr) {
+    sensoresBr = p_sensoresBr;
+}
+
+bool UC::getSensoresCliff() const {
+    return sensoresCliff;
+}
+
+void UC::setSensoresCliff(bool p_sensoresCliff) {
+    sensoresCliff = p_sensoresCliff;
+}
+
+int UC::getSensoresInDock() const {
+    return sensoresInDock;
+}
+
+void UC::setSensoresInDock(int p_sensoresInDock) {
+    sensoresInDock = p_sensoresInDock;
+}
+
+bool UC::getSensoresLBumpFront() const {
+    return sensoresLBumpFront;
+}
+
+void UC::setSensoresLBumpFront(bool p_sensoresLBumpFront) {
+    sensoresLBumpFront = p_sensoresLBumpFront;
+}
+
+bool UC::getSensoresLBumpSide() const {
+    return sensoresLBumpSide;
+}
+
+void UC::setSensoresLBumpSide(bool p_sensoresLBumpSide) {
+    sensoresLBumpSide = p_sensoresLBumpSide;
+}
+
+int UC::getSensoresSumAngulo() const {
+    return sensoresSumAngulo;
+}
+
+void UC::setSensoresSumAngulo(int p_sensoresSumAngulo) {
+    sensoresSumAngulo = p_sensoresSumAngulo;
+}
+
+int UC::getSensoresSumDistancia() const {
+    return sensoresSumDistancia;
+}
+
+void UC::setSensoresSumDistancia(int p_sensoresSumDistancia) {
+    sensoresSumDistancia = p_sensoresSumDistancia;
+}
+
 bool UC::startBehavior() {
     bool done = false;
     done = OMReactive::startBehavior();
@@ -43,13 +203,13 @@ bool UC::startBehavior() {
 void UC::initStatechart() {
     rootState_subState = OMNonState;
     rootState_active = OMNonState;
-    UndoPark_subState = OMNonState;
+    UnDock_subState = OMNonState;
     NormalOperate_subState = OMNonState;
     TrackingByCamera_subState = OMNonState;
     PersonOutView_subState = OMNonState;
     PersonInView_subState = OMNonState;
     PersonInView_timeout = NULL;
-    SurroundObstacle_subState = OMNonState;
+    DodgeObstacle_subState = OMNonState;
     CrashAlgorithm_subState = OMNonState;
     CliffAhead_subState = OMNonState;
 }
@@ -123,6 +283,18 @@ IOxfReactive::TakeEventStatus UC::rootState_processEvent() {
                                 }
                         }
                 }
+            else if(IS_EVENT_TYPE_OF(btnSpot_Roboconfirmo_id))
+                {
+                    NOTIFY_TRANSITION_STARTED("33");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.Initializing");
+                    NOTIFY_STATE_ENTERED("ROOT.Shutdown");
+                    pushNullTransition();
+                    rootState_subState = Shutdown;
+                    rootState_active = Shutdown;
+                    NOTIFY_TRANSITION_TERMINATED("33");
+                    res = eventConsumed;
+                }
             
         }
         break;
@@ -137,9 +309,9 @@ IOxfReactive::TakeEventStatus UC::rootState_processEvent() {
             res = Idle_handleEvent();
         }
         break;
-        // State GoingDock
+        // State Dock
         // Description: Dirigirse a la base.
-        case GoingDock:
+        case Dock:
         {
             if(IS_EVENT_TYPE_OF(OMNullEventId))
                 {
@@ -148,7 +320,7 @@ IOxfReactive::TakeEventStatus UC::rootState_processEvent() {
                         {
                             NOTIFY_TRANSITION_STARTED("29");
                             popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.GoingDock");
+                            NOTIFY_STATE_EXITED("ROOT.Dock");
                             NOTIFY_STATE_ENTERED("ROOT.Idle");
                             pushNullTransition();
                             rootState_subState = Idle;
@@ -160,22 +332,22 @@ IOxfReactive::TakeEventStatus UC::rootState_processEvent() {
             
         }
         break;
-        // State ApproachUser
+        // State PersonInView_ApproachUser
         // Description: Acercarse a la persona
         // El frente está libre, el robot se acerca a la persona.
         // //
-        case ApproachUser:
+        case PersonInView_ApproachUser:
         {
-            res = ApproachUser_handleEvent();
+            res = PersonInView_ApproachUser_handleEvent();
         }
         break;
-        // State PathBlocked
+        // State PersonInView_PathBlocked
         // Description: Obstaculo en el camino
         // El obstaculo puede ser una persona o un onstaculo real
         // Puedo rotar si la persona se mueve y retroceder
-        case PathBlocked:
+        case PersonInView_PathBlocked:
         {
-            res = PathBlocked_handleEvent();
+            res = PersonInView_PathBlocked_handleEvent();
         }
         break;
         case ComputeStepBlocked:
@@ -214,58 +386,58 @@ IOxfReactive::TakeEventStatus UC::rootState_processEvent() {
             res = PersonOutView_Rotate360_handleEvent();
         }
         break;
-        // State Rotate180
-        case Rotate180:
+        // State Dodge_MoveBack
+        case Dodge_MoveBack:
         {
-            res = Rotate180_handleEvent();
+            res = Dodge_MoveBack_handleEvent();
         }
         break;
-        // State GoForward
-        case GoForward:
+        // State CrashAlgorithm_Dodge
+        case CrashAlgorithm_Dodge:
         {
-            res = GoForward_handleEvent();
+            res = CrashAlgorithm_Dodge_handleEvent();
         }
         break;
-        // State MoveBack
-        case MoveBack:
+        // State CrashAlgorithm_DodgeParallel
+        case CrashAlgorithm_DodgeParallel:
         {
-            res = MoveBack_handleEvent();
+            res = CrashAlgorithm_DodgeParallel_handleEvent();
         }
         break;
-        // State UndoRotate
-        case UndoRotate:
-        {
-            res = UndoRotate_handleEvent();
-        }
-        break;
-        // State GoForwardExtended
-        case GoForwardExtended:
-        {
-            res = GoForwardExtended_handleEvent();
-        }
-        break;
-        // State GoForward
+        // State CrashAlgorithm_GoForward
         case CrashAlgorithm_GoForward:
         {
             res = CrashAlgorithm_GoForward_handleEvent();
         }
         break;
-        // State RotateExtended
-        case RotateExtended:
+        // State CrashAlgorithm_GoForwardExtended
+        case CrashAlgorithm_GoForwardExtended:
         {
-            res = RotateExtended_handleEvent();
+            res = CrashAlgorithm_GoForwardExtended_handleEvent();
         }
         break;
-        // State Rotate
-        case Rotate:
+        // State CrashAlgorithm_RecoverTrajectory
+        case CrashAlgorithm_RecoverTrajectory:
         {
-            res = Rotate_handleEvent();
+            res = CrashAlgorithm_RecoverTrajectory_handleEvent();
         }
         break;
         // State CrashAlorithmEndHelperState
         case CrashAlorithmEndHelperState:
         {
             res = CrashAlorithmEndHelperState_handleEvent();
+        }
+        break;
+        // State CliffAhead_Rotate180
+        case CliffAhead_Rotate180:
+        {
+            res = CliffAhead_Rotate180_handleEvent();
+        }
+        break;
+        // State CliffAhead_GoForward
+        case CliffAhead_GoForward:
+        {
+            res = CliffAhead_GoForward_handleEvent();
         }
         break;
         // State InitFailed
@@ -285,42 +457,20 @@ IOxfReactive::TakeEventStatus UC::rootState_processEvent() {
             
         }
         break;
-        // State EndOperation
+        // State Shutdown
         // Description: Fin de operacion
-        // Terminar la ejecucion del algoritmo proncipal, liberar recursos y salir.
-        case EndOperation:
+        // Terminar la ejecucion del algoritmo principal, liberar recursos y salir.
+        case Shutdown:
         {
             if(IS_EVENT_TYPE_OF(OMNullEventId))
                 {
                     NOTIFY_TRANSITION_STARTED("24");
                     popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.EndOperation");
+                    NOTIFY_STATE_EXITED("ROOT.Shutdown");
                     endBehavior();
                     NOTIFY_TRANSITION_TERMINATED("24");
                     res = eventConsumed;
                 }
-            
-        }
-        break;
-        // State Rotate180
-        case UndoPark_Rotate180:
-        {
-            if(IS_EVENT_TYPE_OF(OMNullEventId))
-                {
-                    //## transition UndoPark.2 
-                    if(sensoresSumAngulo>180;)
-                        {
-                            NOTIFY_TRANSITION_STARTED("ROOT.UndoPark.2");
-                            popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.UndoPark.ROOT.UndoPark.Rotate180");
-                            pushNullTransition();
-                            UndoPark_subState = EndUndoParkHelperState;
-                            rootState_active = EndUndoParkHelperState;
-                            NOTIFY_TRANSITION_TERMINATED("ROOT.UndoPark.2");
-                            res = eventConsumed;
-                        }
-                }
-            
             
         }
         break;
@@ -329,25 +479,53 @@ IOxfReactive::TakeEventStatus UC::rootState_processEvent() {
         {
             if(IS_EVENT_TYPE_OF(OMNullEventId))
                 {
-                    //## transition UndoPark.1 
+                    //## transition UnDock.1 
                     if(sensoresSumDistancia<-300)
                         {
-                            NOTIFY_TRANSITION_STARTED("ROOT.UndoPark.1");
+                            NOTIFY_TRANSITION_STARTED("ROOT.UnDock.1");
                             popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.UndoPark.ROOT.UndoPark.ExitDock");
-                            //#[ transition UndoPark.1 
+                            NOTIFY_STATE_EXITED("ROOT.UnDock.ROOT.UnDock.ExitDock");
+                            //#[ transition UnDock.1 
                             sensoresSumAngulo=0;
                             //#]
-                            NOTIFY_STATE_ENTERED("ROOT.UndoPark.ROOT.UndoPark.Rotate180");
+                            NOTIFY_STATE_ENTERED("ROOT.UnDock.ROOT.UnDock.UnDock_Rotate180");
                             pushNullTransition();
-                            UndoPark_subState = UndoPark_Rotate180;
-                            rootState_active = UndoPark_Rotate180;
-                            NOTIFY_TRANSITION_TERMINATED("ROOT.UndoPark.1");
+                            UnDock_subState = UnDock_Rotate180;
+                            rootState_active = UnDock_Rotate180;
+                            NOTIFY_TRANSITION_TERMINATED("ROOT.UnDock.1");
                             res = eventConsumed;
                         }
                 }
             
+            if(res == eventNotConsumed)
+                {
+                    res = UnDock_handleEvent();
+                }
+        }
+        break;
+        // State UnDock_Rotate180
+        case UnDock_Rotate180:
+        {
+            if(IS_EVENT_TYPE_OF(OMNullEventId))
+                {
+                    //## transition UnDock.2 
+                    if(sensoresSumAngulo>180;)
+                        {
+                            NOTIFY_TRANSITION_STARTED("ROOT.UnDock.2");
+                            popNullTransition();
+                            NOTIFY_STATE_EXITED("ROOT.UnDock.ROOT.UnDock.UnDock_Rotate180");
+                            pushNullTransition();
+                            UnDock_subState = EndUndoParkHelperState;
+                            rootState_active = EndUndoParkHelperState;
+                            NOTIFY_TRANSITION_TERMINATED("ROOT.UnDock.2");
+                            res = eventConsumed;
+                        }
+                }
             
+            if(res == eventNotConsumed)
+                {
+                    res = UnDock_handleEvent();
+                }
         }
         break;
         // State EndUndoParkHelperState
@@ -362,36 +540,78 @@ IOxfReactive::TakeEventStatus UC::rootState_processEvent() {
     return res;
 }
 
-void UC::UndoPark_entDef() {
-    NOTIFY_STATE_ENTERED("ROOT.UndoPark");
-    rootState_subState = UndoPark;
-    NOTIFY_TRANSITION_STARTED("ROOT.UndoPark.0");
-    //#[ transition UndoPark.0 
+void UC::UnDock_entDef() {
+    NOTIFY_STATE_ENTERED("ROOT.UnDock");
+    rootState_subState = UnDock;
+    NOTIFY_TRANSITION_STARTED("ROOT.UnDock.0");
+    //#[ transition UnDock.0 
     sensoresSumDistancia=0;
     //#]
-    NOTIFY_STATE_ENTERED("ROOT.UndoPark.ROOT.UndoPark.ExitDock");
+    NOTIFY_STATE_ENTERED("ROOT.UnDock.ROOT.UnDock.ExitDock");
     pushNullTransition();
-    UndoPark_subState = ExitDock;
+    UnDock_subState = ExitDock;
     rootState_active = ExitDock;
-    NOTIFY_TRANSITION_TERMINATED("ROOT.UndoPark.0");
+    NOTIFY_TRANSITION_TERMINATED("ROOT.UnDock.0");
+}
+
+IOxfReactive::TakeEventStatus UC::UnDock_handleEvent() {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(btnSpot_Roboconfirmo_id))
+        {
+            NOTIFY_TRANSITION_STARTED("34");
+            switch (UnDock_subState) {
+                // State ExitDock
+                case ExitDock:
+                {
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.UnDock.ROOT.UnDock.ExitDock");
+                }
+                break;
+                // State UnDock_Rotate180
+                case UnDock_Rotate180:
+                {
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.UnDock.ROOT.UnDock.UnDock_Rotate180");
+                }
+                break;
+                // State EndUndoParkHelperState
+                case EndUndoParkHelperState:
+                {
+                    popNullTransition();
+                }
+                break;
+                default:
+                    break;
+            }
+            UnDock_subState = OMNonState;
+            NOTIFY_STATE_EXITED("ROOT.UnDock");
+            NOTIFY_STATE_ENTERED("ROOT.Shutdown");
+            pushNullTransition();
+            rootState_subState = Shutdown;
+            rootState_active = Shutdown;
+            NOTIFY_TRANSITION_TERMINATED("34");
+            res = eventConsumed;
+        }
+    
+    return res;
 }
 
 IOxfReactive::TakeEventStatus UC::EndUndoParkHelperStateTakeNull() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    NOTIFY_TRANSITION_STARTED("ROOT.UndoPark.3");
-    switch (UndoPark_subState) {
-        // State Rotate180
-        case UndoPark_Rotate180:
-        {
-            popNullTransition();
-            NOTIFY_STATE_EXITED("ROOT.UndoPark.ROOT.UndoPark.Rotate180");
-        }
-        break;
+    NOTIFY_TRANSITION_STARTED("ROOT.UnDock.3");
+    switch (UnDock_subState) {
         // State ExitDock
         case ExitDock:
         {
             popNullTransition();
-            NOTIFY_STATE_EXITED("ROOT.UndoPark.ROOT.UndoPark.ExitDock");
+            NOTIFY_STATE_EXITED("ROOT.UnDock.ROOT.UnDock.ExitDock");
+        }
+        break;
+        // State UnDock_Rotate180
+        case UnDock_Rotate180:
+        {
+            popNullTransition();
+            NOTIFY_STATE_EXITED("ROOT.UnDock.ROOT.UnDock.UnDock_Rotate180");
         }
         break;
         // State EndUndoParkHelperState
@@ -403,10 +623,10 @@ IOxfReactive::TakeEventStatus UC::EndUndoParkHelperStateTakeNull() {
         default:
             break;
     }
-    UndoPark_subState = OMNonState;
-    NOTIFY_STATE_EXITED("ROOT.UndoPark");
+    UnDock_subState = OMNonState;
+    NOTIFY_STATE_EXITED("ROOT.UnDock");
     NormalOperate_entDef();
-    NOTIFY_TRANSITION_TERMINATED("ROOT.UndoPark.3");
+    NOTIFY_TRANSITION_TERMINATED("ROOT.UnDock.3");
     res = eventConsumed;
     return res;
 }
@@ -418,7 +638,10 @@ IOxfReactive::TakeEventStatus UC::EndUndoParkHelperState_handleEvent() {
             res = EndUndoParkHelperStateTakeNull();
         }
     
-    
+    if(res == eventNotConsumed)
+        {
+            res = UnDock_handleEvent();
+        }
     return res;
 }
 
@@ -467,45 +690,18 @@ void UC::NormalOperate_exit() {
             NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera");
         }
         break;
-        // State CliffAhead
-        // Description: Barranco detectado.
-        // Devolver el robot a un estado seguro.
-        case CliffAhead:
-        {
-            switch (CliffAhead_subState) {
-                // State Rotate180
-                case Rotate180:
-                {
-                    popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.Rotate180");
-                }
-                break;
-                // State GoForward
-                case GoForward:
-                {
-                    popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.GoForward");
-                }
-                break;
-                default:
-                    break;
-            }
-            CliffAhead_subState = OMNonState;
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead");
-        }
-        break;
-        // State SurroundObstacle
+        // State DodgeObstacle
         // Description: Se ha colisionado con un obstaculo.
         // Rodear el obstaculo y volver a encontrar a la persona.
-        case SurroundObstacle:
+        case DodgeObstacle:
         {
             popNullTransition();
-            switch (SurroundObstacle_subState) {
-                // State MoveBack
-                case MoveBack:
+            switch (DodgeObstacle_subState) {
+                // State Dodge_MoveBack
+                case Dodge_MoveBack:
                 {
                     popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.MoveBack");
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.Dodge_MoveBack");
                 }
                 break;
                 // State CrashAlgorithm
@@ -519,8 +715,35 @@ void UC::NormalOperate_exit() {
                 default:
                     break;
             }
-            SurroundObstacle_subState = OMNonState;
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle");
+            DodgeObstacle_subState = OMNonState;
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle");
+        }
+        break;
+        // State CliffAhead
+        // Description: Barranco detectado.
+        // Devolver el robot a un estado seguro.
+        case CliffAhead:
+        {
+            switch (CliffAhead_subState) {
+                // State CliffAhead_Rotate180
+                case CliffAhead_Rotate180:
+                {
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.CliffAhead_Rotate180");
+                }
+                break;
+                // State CliffAhead_GoForward
+                case CliffAhead_GoForward:
+                {
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.CliffAhead_GoForward");
+                }
+                break;
+                default:
+                    break;
+            }
+            CliffAhead_subState = OMNonState;
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead");
         }
         break;
         default:
@@ -540,32 +763,18 @@ IOxfReactive::TakeEventStatus UC::NormalOperate_handleEvent() {
                 {
                     NOTIFY_TRANSITION_STARTED("20");
                     NormalOperate_exit();
-                    NOTIFY_STATE_ENTERED("ROOT.GoingDock");
+                    NOTIFY_STATE_ENTERED("ROOT.Dock");
                     pushNullTransition();
-                    rootState_subState = GoingDock;
-                    rootState_active = GoingDock;
-                    //#[ state GoingDock.(Entry) 
+                    rootState_subState = Dock;
+                    rootState_active = Dock;
+                    //#[ state Dock.(Entry) 
                     gotoDock();
                     //#]
                     NOTIFY_TRANSITION_TERMINATED("20");
                     res = eventConsumed;
                 }
         }
-    else if(IS_EVENT_TYPE_OF(btnDock_Roboconfirmo_id))
-        {
-            NOTIFY_TRANSITION_STARTED("6");
-            NormalOperate_exit();
-            NOTIFY_STATE_ENTERED("ROOT.GoingDock");
-            pushNullTransition();
-            rootState_subState = GoingDock;
-            rootState_active = GoingDock;
-            //#[ state GoingDock.(Entry) 
-            gotoDock();
-            //#]
-            NOTIFY_TRANSITION_TERMINATED("6");
-            res = eventConsumed;
-        }
-    else if(IS_EVENT_TYPE_OF(btnSpot_Roboconfirmo_id))
+    else if(IS_EVENT_TYPE_OF(btnClean_Roboconfirmo_id))
         {
             NOTIFY_TRANSITION_STARTED("5");
             NormalOperate_exit();
@@ -574,6 +783,31 @@ IOxfReactive::TakeEventStatus UC::NormalOperate_handleEvent() {
             rootState_subState = Idle;
             rootState_active = Idle;
             NOTIFY_TRANSITION_TERMINATED("5");
+            res = eventConsumed;
+        }
+    else if(IS_EVENT_TYPE_OF(btnSpot_Roboconfirmo_id))
+        {
+            NOTIFY_TRANSITION_STARTED("32");
+            NormalOperate_exit();
+            NOTIFY_STATE_ENTERED("ROOT.Shutdown");
+            pushNullTransition();
+            rootState_subState = Shutdown;
+            rootState_active = Shutdown;
+            NOTIFY_TRANSITION_TERMINATED("32");
+            res = eventConsumed;
+        }
+    else if(IS_EVENT_TYPE_OF(btnDock_Roboconfirmo_id))
+        {
+            NOTIFY_TRANSITION_STARTED("6");
+            NormalOperate_exit();
+            NOTIFY_STATE_ENTERED("ROOT.Dock");
+            pushNullTransition();
+            rootState_subState = Dock;
+            rootState_active = Dock;
+            //#[ state Dock.(Entry) 
+            gotoDock();
+            //#]
+            NOTIFY_TRANSITION_TERMINATED("6");
             res = eventConsumed;
         }
     
@@ -638,7 +872,7 @@ IOxfReactive::TakeEventStatus UC::TrackingByCamera_handleEvent() {
                     }
                     TrackingByCamera_subState = OMNonState;
                     NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera");
-                    SurroundObstacle_entDef();
+                    DodgeObstacle_entDef();
                     NOTIFY_TRANSITION_TERMINATED("8");
                     res = eventConsumed;
                 }
@@ -716,6 +950,7 @@ void UC::PersonOutView_exit() {
         // Encontrar sector con mayor media de distancia.
         case PersonOutView_ComputePosition:
         {
+            popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonOutView.ROOT.PersonOutView.PersonOutView_ComputePosition");
         }
         break;
@@ -800,6 +1035,7 @@ IOxfReactive::TakeEventStatus UC::PersonOutView_Rotate360_handleEvent() {
                     popNullTransition();
                     NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonOutView.ROOT.PersonOutView.PersonOutView_Rotate360");
                     NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonOutView.ROOT.PersonOutView.PersonOutView_ComputePosition");
+                    pushNullTransition();
                     PersonOutView_subState = PersonOutView_ComputePosition;
                     rootState_active = PersonOutView_ComputePosition;
                     NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.TrackingByCamera.PersonOutView.3");
@@ -846,9 +1082,10 @@ IOxfReactive::TakeEventStatus UC::PersonOutView_GoForward_handleEvent() {
 
 IOxfReactive::TakeEventStatus UC::PersonOutView_ComputePosition_handleEvent() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    if(IS_EVENT_TYPE_OF(evComputeFinish_Roboconfirmo_id))
+    if(IS_EVENT_TYPE_OF(OMNullEventId))
         {
             NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonOutView.0");
+            popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonOutView.ROOT.PersonOutView.PersonOutView_ComputePosition");
             //#[ transition NormalOperate.TrackingByCamera.PersonOutView.0 
             sensoresSumAngulo=0;
@@ -873,40 +1110,40 @@ void UC::PersonInView_entDef() {
     pushNullTransition();
     TrackingByCamera_subState = PersonInView;
     NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonInView.0");
-    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
+    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
     pushNullTransition();
-    PersonInView_subState = ApproachUser;
-    rootState_active = ApproachUser;
-    //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.ApproachUser.(Entry) 
+    PersonInView_subState = PersonInView_ApproachUser;
+    rootState_active = PersonInView_ApproachUser;
+    //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.PersonInView_ApproachUser.(Entry) 
     computeCameraApproach();     	
     //#]
-    PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
+    PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
     NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.TrackingByCamera.PersonInView.0");
 }
 
 void UC::PersonInView_exit() {
     popNullTransition();
     switch (PersonInView_subState) {
-        // State ApproachUser
+        // State PersonInView_ApproachUser
         // Description: Acercarse a la persona
         // El frente está libre, el robot se acerca a la persona.
         // //
-        case ApproachUser:
+        case PersonInView_ApproachUser:
         {
             popNullTransition();
             cancel(PersonInView_timeout);
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
         }
         break;
-        // State PathBlocked
+        // State PersonInView_PathBlocked
         // Description: Obstaculo en el camino
         // El obstaculo puede ser una persona o un onstaculo real
         // Puedo rotar si la persona se mueve y retroceder
-        case PathBlocked:
+        case PersonInView_PathBlocked:
         {
             popNullTransition();
             cancel(PersonInView_timeout);
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PathBlocked");
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_PathBlocked");
         }
         break;
         case ComputeStepBlocked:
@@ -951,7 +1188,7 @@ IOxfReactive::TakeEventStatus UC::PersonInView_handleEvent() {
     return res;
 }
 
-IOxfReactive::TakeEventStatus UC::PathBlocked_handleEvent() {
+IOxfReactive::TakeEventStatus UC::PersonInView_PathBlocked_handleEvent() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
     if(IS_EVENT_TYPE_OF(OMTimeoutEventId))
         {
@@ -960,7 +1197,7 @@ IOxfReactive::TakeEventStatus UC::PathBlocked_handleEvent() {
                     NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonInView.3");
                     popNullTransition();
                     cancel(PersonInView_timeout);
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PathBlocked");
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_PathBlocked");
                     NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ComputeStepBlocked");
                     pushNullTransition();
                     PersonInView_subState = ComputeStepBlocked;
@@ -977,16 +1214,67 @@ IOxfReactive::TakeEventStatus UC::PathBlocked_handleEvent() {
                     NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonInView.2");
                     popNullTransition();
                     cancel(PersonInView_timeout);
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PathBlocked");
-                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_PathBlocked");
+                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
                     pushNullTransition();
-                    PersonInView_subState = ApproachUser;
-                    rootState_active = ApproachUser;
-                    //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.ApproachUser.(Entry) 
+                    PersonInView_subState = PersonInView_ApproachUser;
+                    rootState_active = PersonInView_ApproachUser;
+                    //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.PersonInView_ApproachUser.(Entry) 
                     computeCameraApproach();     	
                     //#]
-                    PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
+                    PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
                     NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.TrackingByCamera.PersonInView.2");
+                    res = eventConsumed;
+                }
+        }
+    
+    if(res == eventNotConsumed)
+        {
+            res = PersonInView_handleEvent();
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus UC::PersonInView_ApproachUser_handleEvent() {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMTimeoutEventId))
+        {
+            if(getCurrentEvent() == PersonInView_timeout)
+                {
+                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonInView.5");
+                    popNullTransition();
+                    cancel(PersonInView_timeout);
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
+                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ComputeStepApproach");
+                    pushNullTransition();
+                    PersonInView_subState = ComputeStepApproach;
+                    rootState_active = ComputeStepApproach;
+                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.TrackingByCamera.PersonInView.5");
+                    res = eventConsumed;
+                }
+        }
+    else if(IS_EVENT_TYPE_OF(OMNullEventId))
+        {
+            //## transition NormalOperate.TrackingByCamera.PersonInView.1 
+            if(lidarIsObstable==true)
+                {
+                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonInView.1");
+                    popNullTransition();
+                    cancel(PersonInView_timeout);
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
+                    //#[ transition NormalOperate.TrackingByCamera.PersonInView.1 
+                    
+                    reproducirSonidoPerdida();
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_PathBlocked");
+                    pushNullTransition();
+                    PersonInView_subState = PersonInView_PathBlocked;
+                    rootState_active = PersonInView_PathBlocked;
+                    //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.PersonInView_PathBlocked.(Entry) 
+                    computeCameraWithObstacle();            	
+                    //#]
+                    PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_PathBlocked");
+                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.TrackingByCamera.PersonInView.1");
                     res = eventConsumed;
                 }
         }
@@ -1005,14 +1293,14 @@ IOxfReactive::TakeEventStatus UC::ComputeStepBlocked_handleEvent() {
             NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonInView.4");
             popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ComputeStepBlocked");
-            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PathBlocked");
+            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_PathBlocked");
             pushNullTransition();
-            PersonInView_subState = PathBlocked;
-            rootState_active = PathBlocked;
-            //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.PathBlocked.(Entry) 
+            PersonInView_subState = PersonInView_PathBlocked;
+            rootState_active = PersonInView_PathBlocked;
+            //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.PersonInView_PathBlocked.(Entry) 
             computeCameraWithObstacle();            	
             //#]
-            PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PathBlocked");
+            PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_PathBlocked");
             NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.TrackingByCamera.PersonInView.4");
             res = eventConsumed;
         }
@@ -1031,14 +1319,14 @@ IOxfReactive::TakeEventStatus UC::ComputeStepApproach_handleEvent() {
             NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonInView.6");
             popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ComputeStepApproach");
-            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
+            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
             pushNullTransition();
-            PersonInView_subState = ApproachUser;
-            rootState_active = ApproachUser;
-            //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.ApproachUser.(Entry) 
+            PersonInView_subState = PersonInView_ApproachUser;
+            rootState_active = PersonInView_ApproachUser;
+            //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.PersonInView_ApproachUser.(Entry) 
             computeCameraApproach();     	
             //#]
-            PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
+            PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
             NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.TrackingByCamera.PersonInView.6");
             res = eventConsumed;
         }
@@ -1050,74 +1338,23 @@ IOxfReactive::TakeEventStatus UC::ComputeStepApproach_handleEvent() {
     return res;
 }
 
-IOxfReactive::TakeEventStatus UC::ApproachUser_handleEvent() {
-    IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    if(IS_EVENT_TYPE_OF(OMTimeoutEventId))
-        {
-            if(getCurrentEvent() == PersonInView_timeout)
-                {
-                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonInView.5");
-                    popNullTransition();
-                    cancel(PersonInView_timeout);
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
-                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ComputeStepApproach");
-                    pushNullTransition();
-                    PersonInView_subState = ComputeStepApproach;
-                    rootState_active = ComputeStepApproach;
-                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.TrackingByCamera.PersonInView.5");
-                    res = eventConsumed;
-                }
-        }
-    else if(IS_EVENT_TYPE_OF(OMNullEventId))
-        {
-            //## transition NormalOperate.TrackingByCamera.PersonInView.1 
-            if(lidarIsObstable==true)
-                {
-                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.TrackingByCamera.PersonInView.1");
-                    popNullTransition();
-                    cancel(PersonInView_timeout);
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
-                    //#[ transition NormalOperate.TrackingByCamera.PersonInView.1 
-                    
-                    reproducirSonidoPerdida();
-                    //#]
-                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PathBlocked");
-                    pushNullTransition();
-                    PersonInView_subState = PathBlocked;
-                    rootState_active = PathBlocked;
-                    //#[ state NormalOperate.TrackingByCamera.PersonInView.PersonInView.PathBlocked.(Entry) 
-                    computeCameraWithObstacle();            	
-                    //#]
-                    PersonInView_timeout = scheduleTimeout(ComputeStepTime, "ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PathBlocked");
-                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.TrackingByCamera.PersonInView.1");
-                    res = eventConsumed;
-                }
-        }
-    
-    if(res == eventNotConsumed)
-        {
-            res = PersonInView_handleEvent();
-        }
-    return res;
-}
-
-void UC::SurroundObstacle_entDef() {
-    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle");
+void UC::DodgeObstacle_entDef() {
+    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle");
     pushNullTransition();
-    NormalOperate_subState = SurroundObstacle;
+    NormalOperate_subState = DodgeObstacle;
     NOTIFY_TRANSITION_STARTED("9");
     //#[ transition 9 
     sensoresSumAngulo = 0;
     sensoresSumDistancia = 0;
     //#]
-    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.MoveBack");
+    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.Dodge_MoveBack");
     pushNullTransition();
-    SurroundObstacle_subState = MoveBack;
-    rootState_active = MoveBack;
+    DodgeObstacle_subState = Dodge_MoveBack;
+    rootState_active = Dodge_MoveBack;
     NOTIFY_TRANSITION_TERMINATED("9");
 }
 
-IOxfReactive::TakeEventStatus UC::SurroundObstacle_handleEvent() {
+IOxfReactive::TakeEventStatus UC::DodgeObstacle_handleEvent() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
     if(IS_EVENT_TYPE_OF(OMNullEventId))
         {
@@ -1126,12 +1363,12 @@ IOxfReactive::TakeEventStatus UC::SurroundObstacle_handleEvent() {
                 {
                     NOTIFY_TRANSITION_STARTED("16");
                     popNullTransition();
-                    switch (SurroundObstacle_subState) {
-                        // State MoveBack
-                        case MoveBack:
+                    switch (DodgeObstacle_subState) {
+                        // State Dodge_MoveBack
+                        case Dodge_MoveBack:
                         {
                             popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.MoveBack");
+                            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.Dodge_MoveBack");
                         }
                         break;
                         // State CrashAlgorithm
@@ -1145,8 +1382,8 @@ IOxfReactive::TakeEventStatus UC::SurroundObstacle_handleEvent() {
                         default:
                             break;
                     }
-                    SurroundObstacle_subState = OMNonState;
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle");
+                    DodgeObstacle_subState = OMNonState;
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle");
                     CliffAhead_entDef();
                     NOTIFY_TRANSITION_TERMINATED("16");
                     res = eventConsumed;
@@ -1160,7 +1397,7 @@ IOxfReactive::TakeEventStatus UC::SurroundObstacle_handleEvent() {
     return res;
 }
 
-IOxfReactive::TakeEventStatus UC::MoveBack_handleEvent() {
+IOxfReactive::TakeEventStatus UC::Dodge_MoveBack_handleEvent() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
     if(IS_EVENT_TYPE_OF(OMNullEventId))
         {
@@ -1169,7 +1406,7 @@ IOxfReactive::TakeEventStatus UC::MoveBack_handleEvent() {
                 {
                     NOTIFY_TRANSITION_STARTED("10");
                     popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.MoveBack");
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.Dodge_MoveBack");
                     CrashAlgorithm_entDef();
                     NOTIFY_TRANSITION_TERMINATED("10");
                     res = eventConsumed;
@@ -1178,59 +1415,59 @@ IOxfReactive::TakeEventStatus UC::MoveBack_handleEvent() {
     
     if(res == eventNotConsumed)
         {
-            res = SurroundObstacle_handleEvent();
+            res = DodgeObstacle_handleEvent();
         }
     return res;
 }
 
 void UC::CrashAlgorithm_entDef() {
-    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm");
+    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm");
     pushNullTransition();
-    SurroundObstacle_subState = CrashAlgorithm;
-    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.1");
-    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.Rotate");
+    DodgeObstacle_subState = CrashAlgorithm;
+    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.1");
+    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_Dodge");
     pushNullTransition();
-    CrashAlgorithm_subState = Rotate;
-    rootState_active = Rotate;
-    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.1");
+    CrashAlgorithm_subState = CrashAlgorithm_Dodge;
+    rootState_active = CrashAlgorithm_Dodge;
+    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.1");
 }
 
 void UC::CrashAlgorithm_exit() {
     popNullTransition();
     switch (CrashAlgorithm_subState) {
-        // State UndoRotate
-        case UndoRotate:
+        // State CrashAlgorithm_Dodge
+        case CrashAlgorithm_Dodge:
         {
             popNullTransition();
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.UndoRotate");
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_Dodge");
         }
         break;
-        // State GoForwardExtended
-        case GoForwardExtended:
+        // State CrashAlgorithm_DodgeParallel
+        case CrashAlgorithm_DodgeParallel:
         {
             popNullTransition();
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForwardExtended");
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_DodgeParallel");
         }
         break;
-        // State GoForward
+        // State CrashAlgorithm_GoForward
         case CrashAlgorithm_GoForward:
         {
             popNullTransition();
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForward");
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForward");
         }
         break;
-        // State RotateExtended
-        case RotateExtended:
+        // State CrashAlgorithm_GoForwardExtended
+        case CrashAlgorithm_GoForwardExtended:
         {
             popNullTransition();
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.RotateExtended");
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForwardExtended");
         }
         break;
-        // State Rotate
-        case Rotate:
+        // State CrashAlgorithm_RecoverTrajectory
+        case CrashAlgorithm_RecoverTrajectory:
         {
             popNullTransition();
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.Rotate");
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_RecoverTrajectory");
         }
         break;
         // State CrashAlorithmEndHelperState
@@ -1244,7 +1481,7 @@ void UC::CrashAlgorithm_exit() {
     }
     CrashAlgorithm_subState = OMNonState;
     
-    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm");
+    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm");
 }
 
 IOxfReactive::TakeEventStatus UC::CrashAlgorithm_handleEvent() {
@@ -1257,12 +1494,13 @@ IOxfReactive::TakeEventStatus UC::CrashAlgorithm_handleEvent() {
                     NOTIFY_TRANSITION_STARTED("11");
                     CrashAlgorithm_exit();
                     //#[ transition 11 
+                    
                     sensoresSumDistancia = 0;
                     //#]
-                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.MoveBack");
+                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.Dodge_MoveBack");
                     pushNullTransition();
-                    SurroundObstacle_subState = MoveBack;
-                    rootState_active = MoveBack;
+                    DodgeObstacle_subState = Dodge_MoveBack;
+                    rootState_active = Dodge_MoveBack;
                     NOTIFY_TRANSITION_TERMINATED("11");
                     res = eventConsumed;
                 }
@@ -1270,234 +1508,21 @@ IOxfReactive::TakeEventStatus UC::CrashAlgorithm_handleEvent() {
     
     if(res == eventNotConsumed)
         {
-            res = SurroundObstacle_handleEvent();
-        }
-    return res;
-}
-
-IOxfReactive::TakeEventStatus UC::UndoRotate_handleEvent() {
-    IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    if(IS_EVENT_TYPE_OF(OMNullEventId))
-        {
-            //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.0 
-            if(sensoresSumAngulo<25)
-                {
-                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.0");
-                    popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.UndoRotate");
-                    pushNullTransition();
-                    CrashAlgorithm_subState = CrashAlorithmEndHelperState;
-                    rootState_active = CrashAlorithmEndHelperState;
-                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.0");
-                    res = eventConsumed;
-                }
-            else
-                {
-                    //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.4 
-                    if(sensoresLBumpFront==true)
-                        {
-                            NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.4");
-                            popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.UndoRotate");
-                            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.RotateExtended");
-                            pushNullTransition();
-                            CrashAlgorithm_subState = RotateExtended;
-                            rootState_active = RotateExtended;
-                            NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.4");
-                            res = eventConsumed;
-                        }
-                    else
-                        {
-                            //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.10 
-                            if(sensoresLBumpFront==false && sensoresLBumpSide==true)
-                                {
-                                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.10");
-                                    popNullTransition();
-                                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.UndoRotate");
-                                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForward");
-                                    pushNullTransition();
-                                    CrashAlgorithm_subState = CrashAlgorithm_GoForward;
-                                    rootState_active = CrashAlgorithm_GoForward;
-                                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.10");
-                                    res = eventConsumed;
-                                }
-                        }
-                }
-        }
-    
-    if(res == eventNotConsumed)
-        {
-            res = CrashAlgorithm_handleEvent();
-        }
-    return res;
-}
-
-IOxfReactive::TakeEventStatus UC::RotateExtended_handleEvent() {
-    IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    if(IS_EVENT_TYPE_OF(OMNullEventId))
-        {
-            //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.3 
-            if(sensoresLBumpFront==false)
-                {
-                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.3");
-                    popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.RotateExtended");
-                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForward");
-                    pushNullTransition();
-                    CrashAlgorithm_subState = CrashAlgorithm_GoForward;
-                    rootState_active = CrashAlgorithm_GoForward;
-                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.3");
-                    res = eventConsumed;
-                }
-        }
-    
-    if(res == eventNotConsumed)
-        {
-            res = CrashAlgorithm_handleEvent();
-        }
-    return res;
-}
-
-IOxfReactive::TakeEventStatus UC::Rotate_handleEvent() {
-    IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    if(IS_EVENT_TYPE_OF(OMNullEventId))
-        {
-            //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.2 
-            if(sensoresSumAngulo>25)
-                {
-                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.2");
-                    popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.Rotate");
-                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.RotateExtended");
-                    pushNullTransition();
-                    CrashAlgorithm_subState = RotateExtended;
-                    rootState_active = RotateExtended;
-                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.2");
-                    res = eventConsumed;
-                }
-        }
-    
-    if(res == eventNotConsumed)
-        {
-            res = CrashAlgorithm_handleEvent();
-        }
-    return res;
-}
-
-IOxfReactive::TakeEventStatus UC::GoForwardExtended_handleEvent() {
-    IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    if(IS_EVENT_TYPE_OF(OMNullEventId))
-        {
-            //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.6 
-            if(sensoresSumDistancia>300)
-                {
-                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.6");
-                    popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForwardExtended");
-                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.UndoRotate");
-                    pushNullTransition();
-                    CrashAlgorithm_subState = UndoRotate;
-                    rootState_active = UndoRotate;
-                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.6");
-                    res = eventConsumed;
-                }
-            else
-                {
-                    //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.7 
-                    if(sensoresLBumpFront==false && sensoresLBumpSide==true)
-                        {
-                            NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.7");
-                            popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForwardExtended");
-                            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForward");
-                            pushNullTransition();
-                            CrashAlgorithm_subState = CrashAlgorithm_GoForward;
-                            rootState_active = CrashAlgorithm_GoForward;
-                            NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.7");
-                            res = eventConsumed;
-                        }
-                    else
-                        {
-                            //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.9 
-                            if(sensoresLBumpFront==true)
-                                {
-                                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.9");
-                                    popNullTransition();
-                                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForwardExtended");
-                                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.RotateExtended");
-                                    pushNullTransition();
-                                    CrashAlgorithm_subState = RotateExtended;
-                                    rootState_active = RotateExtended;
-                                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.9");
-                                    res = eventConsumed;
-                                }
-                        }
-                }
-        }
-    
-    if(res == eventNotConsumed)
-        {
-            res = CrashAlgorithm_handleEvent();
-        }
-    return res;
-}
-
-IOxfReactive::TakeEventStatus UC::CrashAlgorithm_GoForward_handleEvent() {
-    IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    if(IS_EVENT_TYPE_OF(OMNullEventId))
-        {
-            //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.5 
-            if(sensoresLBumpSide==false)
-                {
-                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.5");
-                    popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForward");
-                    //#[ transition NormalOperate.SurroundObstacle.CrashAlgorithm.5 
-                    
-                    sensoresSumDistancia=0;
-                    //#]
-                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForwardExtended");
-                    pushNullTransition();
-                    CrashAlgorithm_subState = GoForwardExtended;
-                    rootState_active = GoForwardExtended;
-                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.5");
-                    res = eventConsumed;
-                }
-            else
-                {
-                    //## transition NormalOperate.SurroundObstacle.CrashAlgorithm.8 
-                    if(sensoresLBumpFront==true)
-                        {
-                            NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.8");
-                            popNullTransition();
-                            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForward");
-                            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.RotateExtended");
-                            pushNullTransition();
-                            CrashAlgorithm_subState = RotateExtended;
-                            rootState_active = RotateExtended;
-                            NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.8");
-                            res = eventConsumed;
-                        }
-                }
-        }
-    
-    if(res == eventNotConsumed)
-        {
-            res = CrashAlgorithm_handleEvent();
+            res = DodgeObstacle_handleEvent();
         }
     return res;
 }
 
 IOxfReactive::TakeEventStatus UC::CrashAlorithmEndHelperStateTakeNull() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.11");
+    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.11");
     popNullTransition();
-    switch (SurroundObstacle_subState) {
-        // State MoveBack
-        case MoveBack:
+    switch (DodgeObstacle_subState) {
+        // State Dodge_MoveBack
+        case Dodge_MoveBack:
         {
             popNullTransition();
-            NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle.MoveBack");
+            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.Dodge_MoveBack");
         }
         break;
         // State CrashAlgorithm
@@ -1511,10 +1536,10 @@ IOxfReactive::TakeEventStatus UC::CrashAlorithmEndHelperStateTakeNull() {
         default:
             break;
     }
-    SurroundObstacle_subState = OMNonState;
-    NOTIFY_STATE_EXITED("ROOT.NormalOperate.SurroundObstacle");
+    DodgeObstacle_subState = OMNonState;
+    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle");
     TrackingByCamera_entDef();
-    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.11");
+    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.11");
     res = eventConsumed;
     return res;
 }
@@ -1533,6 +1558,219 @@ IOxfReactive::TakeEventStatus UC::CrashAlorithmEndHelperState_handleEvent() {
     return res;
 }
 
+IOxfReactive::TakeEventStatus UC::CrashAlgorithm_RecoverTrajectory_handleEvent() {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMNullEventId))
+        {
+            //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.0 
+            if(sensoresSumAngulo<25)
+                {
+                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.0");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_RecoverTrajectory");
+                    pushNullTransition();
+                    CrashAlgorithm_subState = CrashAlorithmEndHelperState;
+                    rootState_active = CrashAlorithmEndHelperState;
+                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.0");
+                    res = eventConsumed;
+                }
+            else
+                {
+                    //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.4 
+                    if(sensoresLBumpFront==true)
+                        {
+                            NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.4");
+                            popNullTransition();
+                            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_RecoverTrajectory");
+                            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_DodgeParallel");
+                            pushNullTransition();
+                            CrashAlgorithm_subState = CrashAlgorithm_DodgeParallel;
+                            rootState_active = CrashAlgorithm_DodgeParallel;
+                            NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.4");
+                            res = eventConsumed;
+                        }
+                    else
+                        {
+                            //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.10 
+                            if(sensoresLBumpFront==false && sensoresLBumpSide==true)
+                                {
+                                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.10");
+                                    popNullTransition();
+                                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_RecoverTrajectory");
+                                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForward");
+                                    pushNullTransition();
+                                    CrashAlgorithm_subState = CrashAlgorithm_GoForward;
+                                    rootState_active = CrashAlgorithm_GoForward;
+                                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.10");
+                                    res = eventConsumed;
+                                }
+                        }
+                }
+        }
+    
+    if(res == eventNotConsumed)
+        {
+            res = CrashAlgorithm_handleEvent();
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus UC::CrashAlgorithm_GoForwardExtended_handleEvent() {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMNullEventId))
+        {
+            //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.6 
+            if(sensoresSumDistancia>300)
+                {
+                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.6");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForwardExtended");
+                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_RecoverTrajectory");
+                    pushNullTransition();
+                    CrashAlgorithm_subState = CrashAlgorithm_RecoverTrajectory;
+                    rootState_active = CrashAlgorithm_RecoverTrajectory;
+                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.6");
+                    res = eventConsumed;
+                }
+            else
+                {
+                    //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.7 
+                    if(sensoresLBumpFront==false && sensoresLBumpSide==true)
+                        {
+                            NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.7");
+                            popNullTransition();
+                            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForwardExtended");
+                            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForward");
+                            pushNullTransition();
+                            CrashAlgorithm_subState = CrashAlgorithm_GoForward;
+                            rootState_active = CrashAlgorithm_GoForward;
+                            NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.7");
+                            res = eventConsumed;
+                        }
+                    else
+                        {
+                            //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.9 
+                            if(sensoresLBumpFront==true)
+                                {
+                                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.9");
+                                    popNullTransition();
+                                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForwardExtended");
+                                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_DodgeParallel");
+                                    pushNullTransition();
+                                    CrashAlgorithm_subState = CrashAlgorithm_DodgeParallel;
+                                    rootState_active = CrashAlgorithm_DodgeParallel;
+                                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.9");
+                                    res = eventConsumed;
+                                }
+                        }
+                }
+        }
+    
+    if(res == eventNotConsumed)
+        {
+            res = CrashAlgorithm_handleEvent();
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus UC::CrashAlgorithm_GoForward_handleEvent() {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMNullEventId))
+        {
+            //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.5 
+            if(sensoresLBumpSide==false)
+                {
+                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.5");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForward");
+                    //#[ transition NormalOperate.DodgeObstacle.CrashAlgorithm.5 
+                    
+                    sensoresSumDistancia=0;
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForwardExtended");
+                    pushNullTransition();
+                    CrashAlgorithm_subState = CrashAlgorithm_GoForwardExtended;
+                    rootState_active = CrashAlgorithm_GoForwardExtended;
+                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.5");
+                    res = eventConsumed;
+                }
+            else
+                {
+                    //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.8 
+                    if(sensoresLBumpFront==true)
+                        {
+                            NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.8");
+                            popNullTransition();
+                            NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForward");
+                            NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_DodgeParallel");
+                            pushNullTransition();
+                            CrashAlgorithm_subState = CrashAlgorithm_DodgeParallel;
+                            rootState_active = CrashAlgorithm_DodgeParallel;
+                            NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.8");
+                            res = eventConsumed;
+                        }
+                }
+        }
+    
+    if(res == eventNotConsumed)
+        {
+            res = CrashAlgorithm_handleEvent();
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus UC::CrashAlgorithm_DodgeParallel_handleEvent() {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMNullEventId))
+        {
+            //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.3 
+            if(sensoresLBumpFront==false)
+                {
+                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.3");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_DodgeParallel");
+                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForward");
+                    pushNullTransition();
+                    CrashAlgorithm_subState = CrashAlgorithm_GoForward;
+                    rootState_active = CrashAlgorithm_GoForward;
+                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.3");
+                    res = eventConsumed;
+                }
+        }
+    
+    if(res == eventNotConsumed)
+        {
+            res = CrashAlgorithm_handleEvent();
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus UC::CrashAlgorithm_Dodge_handleEvent() {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMNullEventId))
+        {
+            //## transition NormalOperate.DodgeObstacle.CrashAlgorithm.2 
+            if(sensoresSumAngulo>25)
+                {
+                    NOTIFY_TRANSITION_STARTED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.2");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_Dodge");
+                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_DodgeParallel");
+                    pushNullTransition();
+                    CrashAlgorithm_subState = CrashAlgorithm_DodgeParallel;
+                    rootState_active = CrashAlgorithm_DodgeParallel;
+                    NOTIFY_TRANSITION_TERMINATED("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.2");
+                    res = eventConsumed;
+                }
+        }
+    
+    if(res == eventNotConsumed)
+        {
+            res = CrashAlgorithm_handleEvent();
+        }
+    return res;
+}
+
 void UC::CliffAhead_entDef() {
     NOTIFY_STATE_ENTERED("ROOT.NormalOperate.CliffAhead");
     NormalOperate_subState = CliffAhead;
@@ -1541,10 +1779,10 @@ void UC::CliffAhead_entDef() {
     sensoresSumAngulo=0;
     sensoresSumDistancia=0;
     //#]
-    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.CliffAhead.Rotate180");
+    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.CliffAhead.CliffAhead_Rotate180");
     pushNullTransition();
-    CliffAhead_subState = Rotate180;
-    rootState_active = Rotate180;
+    CliffAhead_subState = CliffAhead_Rotate180;
+    rootState_active = CliffAhead_Rotate180;
     NOTIFY_TRANSITION_TERMINATED("12");
 }
 
@@ -1554,7 +1792,7 @@ IOxfReactive::TakeEventStatus UC::CliffAhead_handleEvent() {
     return res;
 }
 
-IOxfReactive::TakeEventStatus UC::Rotate180_handleEvent() {
+IOxfReactive::TakeEventStatus UC::CliffAhead_Rotate180_handleEvent() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
     if(IS_EVENT_TYPE_OF(OMNullEventId))
         {
@@ -1563,11 +1801,11 @@ IOxfReactive::TakeEventStatus UC::Rotate180_handleEvent() {
                 {
                     NOTIFY_TRANSITION_STARTED("13");
                     popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.Rotate180");
-                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.CliffAhead.GoForward");
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.CliffAhead_Rotate180");
+                    NOTIFY_STATE_ENTERED("ROOT.NormalOperate.CliffAhead.CliffAhead_GoForward");
                     pushNullTransition();
-                    CliffAhead_subState = GoForward;
-                    rootState_active = GoForward;
+                    CliffAhead_subState = CliffAhead_GoForward;
+                    rootState_active = CliffAhead_GoForward;
                     NOTIFY_TRANSITION_TERMINATED("13");
                     res = eventConsumed;
                 }
@@ -1580,25 +1818,25 @@ IOxfReactive::TakeEventStatus UC::Rotate180_handleEvent() {
     return res;
 }
 
-IOxfReactive::TakeEventStatus UC::GoForwardTakeNull() {
+IOxfReactive::TakeEventStatus UC::CliffAhead_GoForwardTakeNull() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
     //## transition 17 
     if(sensoresSumDistancia>300)
         {
             NOTIFY_TRANSITION_STARTED("17");
             switch (CliffAhead_subState) {
-                // State Rotate180
-                case Rotate180:
+                // State CliffAhead_Rotate180
+                case CliffAhead_Rotate180:
                 {
                     popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.Rotate180");
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.CliffAhead_Rotate180");
                 }
                 break;
-                // State GoForward
-                case GoForward:
+                // State CliffAhead_GoForward
+                case CliffAhead_GoForward:
                 {
                     popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.GoForward");
+                    NOTIFY_STATE_EXITED("ROOT.NormalOperate.CliffAhead.CliffAhead_GoForward");
                 }
                 break;
                 default:
@@ -1613,11 +1851,11 @@ IOxfReactive::TakeEventStatus UC::GoForwardTakeNull() {
     return res;
 }
 
-IOxfReactive::TakeEventStatus UC::GoForward_handleEvent() {
+IOxfReactive::TakeEventStatus UC::CliffAhead_GoForward_handleEvent() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
     if(IS_EVENT_TYPE_OF(OMNullEventId))
         {
-            res = GoForwardTakeNull();
+            res = CliffAhead_GoForwardTakeNull();
         }
     
     if(res == eventNotConsumed)
@@ -1636,7 +1874,7 @@ IOxfReactive::TakeEventStatus UC::IdleTakebtnClean() {
             NOTIFY_TRANSITION_STARTED("26");
             popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.Idle");
-            UndoPark_entDef();
+            UnDock_entDef();
             NOTIFY_TRANSITION_TERMINATED("26");
             NOTIFY_TRANSITION_TERMINATED("2");
             res = eventConsumed;
@@ -1665,11 +1903,11 @@ IOxfReactive::TakeEventStatus UC::Idle_handleEvent() {
                     NOTIFY_TRANSITION_STARTED("21");
                     popNullTransition();
                     NOTIFY_STATE_EXITED("ROOT.Idle");
-                    NOTIFY_STATE_ENTERED("ROOT.GoingDock");
+                    NOTIFY_STATE_ENTERED("ROOT.Dock");
                     pushNullTransition();
-                    rootState_subState = GoingDock;
-                    rootState_active = GoingDock;
-                    //#[ state GoingDock.(Entry) 
+                    rootState_subState = Dock;
+                    rootState_active = Dock;
+                    //#[ state Dock.(Entry) 
                     gotoDock();
                     //#]
                     NOTIFY_TRANSITION_TERMINATED("21");
@@ -1685,10 +1923,10 @@ IOxfReactive::TakeEventStatus UC::Idle_handleEvent() {
             NOTIFY_TRANSITION_STARTED("25");
             popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.Idle");
-            NOTIFY_STATE_ENTERED("ROOT.EndOperation");
+            NOTIFY_STATE_ENTERED("ROOT.Shutdown");
             pushNullTransition();
-            rootState_subState = EndOperation;
-            rootState_active = EndOperation;
+            rootState_subState = Shutdown;
+            rootState_active = Shutdown;
             NOTIFY_TRANSITION_TERMINATED("25");
             res = eventConsumed;
         }
@@ -1697,11 +1935,11 @@ IOxfReactive::TakeEventStatus UC::Idle_handleEvent() {
             NOTIFY_TRANSITION_STARTED("7");
             popNullTransition();
             NOTIFY_STATE_EXITED("ROOT.Idle");
-            NOTIFY_STATE_ENTERED("ROOT.GoingDock");
+            NOTIFY_STATE_ENTERED("ROOT.Dock");
             pushNullTransition();
-            rootState_subState = GoingDock;
-            rootState_active = GoingDock;
-            //#[ state GoingDock.(Entry) 
+            rootState_subState = Dock;
+            rootState_active = Dock;
+            //#[ state Dock.(Entry) 
             gotoDock();
             //#]
             NOTIFY_TRANSITION_TERMINATED("7");
@@ -1713,6 +1951,23 @@ IOxfReactive::TakeEventStatus UC::Idle_handleEvent() {
 
 #ifdef _OMINSTRUMENT
 //#[ ignore
+void OMAnimatedUC::serializeAttributes(AOMSAttributes* aomsAttributes) const {
+    aomsAttributes->addAttribute("BumpObstacle", x2String(myReal->BumpObstacle));
+    aomsAttributes->addAttribute("cameraIsPersonInView", x2String(myReal->cameraIsPersonInView));
+    aomsAttributes->addAttribute("ComputeStepTime", x2String(myReal->ComputeStepTime));
+    aomsAttributes->addAttribute("initStatus", x2String(myReal->initStatus));
+    aomsAttributes->addAttribute("lidarIsObstable", x2String(myReal->lidarIsObstable));
+    aomsAttributes->addAttribute("sensoresBateria", x2String(myReal->sensoresBateria));
+    aomsAttributes->addAttribute("sensoresBl", x2String(myReal->sensoresBl));
+    aomsAttributes->addAttribute("sensoresBr", x2String(myReal->sensoresBr));
+    aomsAttributes->addAttribute("sensoresCliff", x2String(myReal->sensoresCliff));
+    aomsAttributes->addAttribute("sensoresInDock", x2String(myReal->sensoresInDock));
+    aomsAttributes->addAttribute("sensoresLBumpFront", x2String(myReal->sensoresLBumpFront));
+    aomsAttributes->addAttribute("sensoresLBumpSide", x2String(myReal->sensoresLBumpSide));
+    aomsAttributes->addAttribute("sensoresSumAngulo", x2String(myReal->sensoresSumAngulo));
+    aomsAttributes->addAttribute("sensoresSumDistancia", x2String(myReal->sensoresSumDistancia));
+}
+
 void OMAnimatedUC::rootState_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT");
     switch (myReal->rootState_subState) {
@@ -1726,9 +1981,9 @@ void OMAnimatedUC::rootState_serializeStates(AOMSState* aomsState) const {
             Idle_serializeStates(aomsState);
         }
         break;
-        case UC::GoingDock:
+        case UC::Dock:
         {
-            GoingDock_serializeStates(aomsState);
+            Dock_serializeStates(aomsState);
         }
         break;
         case UC::NormalOperate:
@@ -1741,14 +1996,14 @@ void OMAnimatedUC::rootState_serializeStates(AOMSState* aomsState) const {
             InitFailed_serializeStates(aomsState);
         }
         break;
-        case UC::EndOperation:
+        case UC::Shutdown:
         {
-            EndOperation_serializeStates(aomsState);
+            Shutdown_serializeStates(aomsState);
         }
         break;
-        case UC::UndoPark:
+        case UC::UnDock:
         {
-            UndoPark_serializeStates(aomsState);
+            UnDock_serializeStates(aomsState);
         }
         break;
         default:
@@ -1756,17 +2011,17 @@ void OMAnimatedUC::rootState_serializeStates(AOMSState* aomsState) const {
     }
 }
 
-void OMAnimatedUC::UndoPark_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.UndoPark");
-    switch (myReal->UndoPark_subState) {
-        case UC::UndoPark_Rotate180:
-        {
-            UndoPark_Rotate180_serializeStates(aomsState);
-        }
-        break;
+void OMAnimatedUC::UnDock_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.UnDock");
+    switch (myReal->UnDock_subState) {
         case UC::ExitDock:
         {
             ExitDock_serializeStates(aomsState);
+        }
+        break;
+        case UC::UnDock_Rotate180:
+        {
+            UnDock_Rotate180_serializeStates(aomsState);
         }
         break;
         case UC::EndUndoParkHelperState:
@@ -1779,16 +2034,20 @@ void OMAnimatedUC::UndoPark_serializeStates(AOMSState* aomsState) const {
     }
 }
 
-void OMAnimatedUC::UndoPark_Rotate180_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.UndoPark.ROOT.UndoPark.Rotate180");
+void OMAnimatedUC::UnDock_Rotate180_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.UnDock.ROOT.UnDock.UnDock_Rotate180");
 }
 
 void OMAnimatedUC::ExitDock_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.UndoPark.ROOT.UndoPark.ExitDock");
+    aomsState->addState("ROOT.UnDock.ROOT.UnDock.ExitDock");
 }
 
 void OMAnimatedUC::EndUndoParkHelperState_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.UndoPark.ROOT.UndoPark.EndUndoParkHelperState");
+    aomsState->addState("ROOT.UnDock.ROOT.UnDock.EndUndoParkHelperState");
+}
+
+void OMAnimatedUC::Shutdown_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.Shutdown");
 }
 
 void OMAnimatedUC::NormalOperate_serializeStates(AOMSState* aomsState) const {
@@ -1799,14 +2058,14 @@ void OMAnimatedUC::NormalOperate_serializeStates(AOMSState* aomsState) const {
             TrackingByCamera_serializeStates(aomsState);
         }
         break;
+        case UC::DodgeObstacle:
+        {
+            DodgeObstacle_serializeStates(aomsState);
+        }
+        break;
         case UC::CliffAhead:
         {
             CliffAhead_serializeStates(aomsState);
-        }
-        break;
-        case UC::SurroundObstacle:
-        {
-            SurroundObstacle_serializeStates(aomsState);
         }
         break;
         default:
@@ -1879,14 +2138,14 @@ void OMAnimatedUC::PersonOutView_ComputePosition_serializeStates(AOMSState* aoms
 void OMAnimatedUC::PersonInView_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT.NormalOperate.TrackingByCamera.PersonInView");
     switch (myReal->PersonInView_subState) {
-        case UC::ApproachUser:
+        case UC::PersonInView_ApproachUser:
         {
-            ApproachUser_serializeStates(aomsState);
+            PersonInView_ApproachUser_serializeStates(aomsState);
         }
         break;
-        case UC::PathBlocked:
+        case UC::PersonInView_PathBlocked:
         {
-            PathBlocked_serializeStates(aomsState);
+            PersonInView_PathBlocked_serializeStates(aomsState);
         }
         break;
         case UC::ComputeStepBlocked:
@@ -1904,8 +2163,12 @@ void OMAnimatedUC::PersonInView_serializeStates(AOMSState* aomsState) const {
     }
 }
 
-void OMAnimatedUC::PathBlocked_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PathBlocked");
+void OMAnimatedUC::PersonInView_PathBlocked_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_PathBlocked");
+}
+
+void OMAnimatedUC::PersonInView_ApproachUser_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.PersonInView_ApproachUser");
 }
 
 void OMAnimatedUC::ComputeStepBlocked_serializeStates(AOMSState* aomsState) const {
@@ -1916,16 +2179,12 @@ void OMAnimatedUC::ComputeStepApproach_serializeStates(AOMSState* aomsState) con
     aomsState->addState("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ComputeStepApproach");
 }
 
-void OMAnimatedUC::ApproachUser_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.TrackingByCamera.PersonInView.ROOT.PersonInView.ApproachUser");
-}
-
-void OMAnimatedUC::SurroundObstacle_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.SurroundObstacle");
-    switch (myReal->SurroundObstacle_subState) {
-        case UC::MoveBack:
+void OMAnimatedUC::DodgeObstacle_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.DodgeObstacle");
+    switch (myReal->DodgeObstacle_subState) {
+        case UC::Dodge_MoveBack:
         {
-            MoveBack_serializeStates(aomsState);
+            Dodge_MoveBack_serializeStates(aomsState);
         }
         break;
         case UC::CrashAlgorithm:
@@ -1938,21 +2197,21 @@ void OMAnimatedUC::SurroundObstacle_serializeStates(AOMSState* aomsState) const 
     }
 }
 
-void OMAnimatedUC::MoveBack_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.SurroundObstacle.MoveBack");
+void OMAnimatedUC::Dodge_MoveBack_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.DodgeObstacle.Dodge_MoveBack");
 }
 
 void OMAnimatedUC::CrashAlgorithm_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm");
+    aomsState->addState("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm");
     switch (myReal->CrashAlgorithm_subState) {
-        case UC::UndoRotate:
+        case UC::CrashAlgorithm_Dodge:
         {
-            UndoRotate_serializeStates(aomsState);
+            CrashAlgorithm_Dodge_serializeStates(aomsState);
         }
         break;
-        case UC::GoForwardExtended:
+        case UC::CrashAlgorithm_DodgeParallel:
         {
-            GoForwardExtended_serializeStates(aomsState);
+            CrashAlgorithm_DodgeParallel_serializeStates(aomsState);
         }
         break;
         case UC::CrashAlgorithm_GoForward:
@@ -1960,14 +2219,14 @@ void OMAnimatedUC::CrashAlgorithm_serializeStates(AOMSState* aomsState) const {
             CrashAlgorithm_GoForward_serializeStates(aomsState);
         }
         break;
-        case UC::RotateExtended:
+        case UC::CrashAlgorithm_GoForwardExtended:
         {
-            RotateExtended_serializeStates(aomsState);
+            CrashAlgorithm_GoForwardExtended_serializeStates(aomsState);
         }
         break;
-        case UC::Rotate:
+        case UC::CrashAlgorithm_RecoverTrajectory:
         {
-            Rotate_serializeStates(aomsState);
+            CrashAlgorithm_RecoverTrajectory_serializeStates(aomsState);
         }
         break;
         case UC::CrashAlorithmEndHelperState:
@@ -1980,41 +2239,41 @@ void OMAnimatedUC::CrashAlgorithm_serializeStates(AOMSState* aomsState) const {
     }
 }
 
-void OMAnimatedUC::UndoRotate_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.UndoRotate");
+void OMAnimatedUC::CrashAlorithmEndHelperState_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlorithmEndHelperState");
 }
 
-void OMAnimatedUC::RotateExtended_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.RotateExtended");
+void OMAnimatedUC::CrashAlgorithm_RecoverTrajectory_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_RecoverTrajectory");
 }
 
-void OMAnimatedUC::Rotate_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.Rotate");
-}
-
-void OMAnimatedUC::GoForwardExtended_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForwardExtended");
+void OMAnimatedUC::CrashAlgorithm_GoForwardExtended_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForwardExtended");
 }
 
 void OMAnimatedUC::CrashAlgorithm_GoForward_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.GoForward");
+    aomsState->addState("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_GoForward");
 }
 
-void OMAnimatedUC::CrashAlorithmEndHelperState_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.SurroundObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlorithmEndHelperState");
+void OMAnimatedUC::CrashAlgorithm_DodgeParallel_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_DodgeParallel");
+}
+
+void OMAnimatedUC::CrashAlgorithm_Dodge_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.DodgeObstacle.CrashAlgorithm.ROOT.CrashAlgorithm.CrashAlgorithm_Dodge");
 }
 
 void OMAnimatedUC::CliffAhead_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT.NormalOperate.CliffAhead");
     switch (myReal->CliffAhead_subState) {
-        case UC::Rotate180:
+        case UC::CliffAhead_Rotate180:
         {
-            Rotate180_serializeStates(aomsState);
+            CliffAhead_Rotate180_serializeStates(aomsState);
         }
         break;
-        case UC::GoForward:
+        case UC::CliffAhead_GoForward:
         {
-            GoForward_serializeStates(aomsState);
+            CliffAhead_GoForward_serializeStates(aomsState);
         }
         break;
         default:
@@ -2022,12 +2281,12 @@ void OMAnimatedUC::CliffAhead_serializeStates(AOMSState* aomsState) const {
     }
 }
 
-void OMAnimatedUC::Rotate180_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.CliffAhead.Rotate180");
+void OMAnimatedUC::CliffAhead_Rotate180_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.CliffAhead.CliffAhead_Rotate180");
 }
 
-void OMAnimatedUC::GoForward_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.NormalOperate.CliffAhead.GoForward");
+void OMAnimatedUC::CliffAhead_GoForward_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.NormalOperate.CliffAhead.CliffAhead_GoForward");
 }
 
 void OMAnimatedUC::Initializing_serializeStates(AOMSState* aomsState) const {
@@ -2042,12 +2301,8 @@ void OMAnimatedUC::Idle_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT.Idle");
 }
 
-void OMAnimatedUC::GoingDock_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.GoingDock");
-}
-
-void OMAnimatedUC::EndOperation_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.EndOperation");
+void OMAnimatedUC::Dock_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.Dock");
 }
 //#]
 

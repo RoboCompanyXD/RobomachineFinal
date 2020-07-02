@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Roboconfirmo
-//!	Generated Date	: Mon, 29, Jun 2020  
+//!	Generated Date	: Thu, 2, Jul 2020  
 	File Path	: DefaultComponent/DefaultConfig/Roboconfirmo.cpp
 *********************************************************************/
 
@@ -17,18 +17,6 @@
 //## auto_generated
 #include "UC.h"
 //#[ ignore
-#define Roboconfirmo_computeCameraApproach_SERIALIZE OM_NO_OP
-
-#define Roboconfirmo_computeCameraWithObstacle_SERIALIZE OM_NO_OP
-
-#define Roboconfirmo_establecerActuadores_SERIALIZE OM_NO_OP
-
-#define Roboconfirmo_gotoDock_SERIALIZE OM_NO_OP
-
-#define Roboconfirmo_init_SERIALIZE OM_NO_OP
-
-#define Roboconfirmo_reproducirSonidoPerdida_SERIALIZE OM_NO_OP
-
 #define btnClean_SERIALIZE OM_NO_OP
 
 #define btnClean_UNSERIALIZE OM_NO_OP
@@ -201,100 +189,12 @@
 //## package Roboconfirmo
 
 
-//## attribute BumpObstacle
-int BumpObstacle;
-
-//## attribute ComputeStepTime
-int ComputeStepTime;
-
-//## attribute cameraIsPersonInView
-bool cameraIsPersonInView;
-
-//## attribute initStatus
-int initStatus;
-
-//## attribute lidarIsObstable
-int lidarIsObstable;
-
-//## attribute sensoresBateria
-int sensoresBateria;
-
-//## attribute sensoresInDock
-int sensoresInDock;
-
-//## attribute sensoresLBumpFront
-bool sensoresLBumpFront;
-
-//## attribute sensoresLBumpSide
-bool sensoresLBumpSide;
-
-//## attribute sensoresSumAngulo
-int sensoresSumAngulo;
-
-//## attribute sensoresSumDistancia
-int sensoresSumDistancia;
-
 #ifdef _OMINSTRUMENT
-static void serializeGlobalVars(AOMSAttributes* aomsAttributes);
+static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */);
 
 IMPLEMENT_META_PACKAGE(Roboconfirmo, Roboconfirmo)
-#endif // _OMINSTRUMENT
 
-//## operation computeCameraApproach()
-void computeCameraApproach() {
-    NOTIFY_FUNCTION(Roboconfirmo, computeCameraApproach, computeCameraApproach(), 0, Roboconfirmo_computeCameraApproach_SERIALIZE);
-    //#[ operation computeCameraApproach()
-    //#]
-}
-
-//## operation computeCameraWithObstacle()
-void computeCameraWithObstacle() {
-    NOTIFY_FUNCTION(Roboconfirmo, computeCameraWithObstacle, computeCameraWithObstacle(), 0, Roboconfirmo_computeCameraWithObstacle_SERIALIZE);
-    //#[ operation computeCameraWithObstacle()
-    //#]
-}
-
-//## operation establecerActuadores()
-void establecerActuadores() {
-    NOTIFY_FUNCTION(Roboconfirmo, establecerActuadores, establecerActuadores(), 0, Roboconfirmo_establecerActuadores_SERIALIZE);
-    //#[ operation establecerActuadores()
-    //#]
-}
-
-//## operation gotoDock()
-void gotoDock() {
-    NOTIFY_FUNCTION(Roboconfirmo, gotoDock, gotoDock(), 0, Roboconfirmo_gotoDock_SERIALIZE);
-    //#[ operation gotoDock()
-    //#]
-}
-
-//## operation init()
-void init() {
-    NOTIFY_FUNCTION(Roboconfirmo, init, init(), 0, Roboconfirmo_init_SERIALIZE);
-    //#[ operation init()
-    //#]
-}
-
-//## operation reproducirSonidoPerdida()
-bool reproducirSonidoPerdida() {
-    NOTIFY_FUNCTION(Roboconfirmo, reproducirSonidoPerdida, reproducirSonidoPerdida(), 0, Roboconfirmo_reproducirSonidoPerdida_SERIALIZE);
-    //#[ operation reproducirSonidoPerdida()
-    //#]
-}
-
-#ifdef _OMINSTRUMENT
-static void serializeGlobalVars(AOMSAttributes* aomsAttributes) {
-    aomsAttributes->addAttribute("ComputeStepTime", x2String(ComputeStepTime));
-    aomsAttributes->addAttribute("BumpObstacle", x2String(BumpObstacle));
-    aomsAttributes->addAttribute("sensoresLBumpFront", x2String(sensoresLBumpFront));
-    aomsAttributes->addAttribute("sensoresLBumpSide", x2String(sensoresLBumpSide));
-    aomsAttributes->addAttribute("sensoresSumDistancia", x2String(sensoresSumDistancia));
-    aomsAttributes->addAttribute("sensoresSumAngulo", x2String(sensoresSumAngulo));
-    aomsAttributes->addAttribute("cameraIsPersonInView", x2String(cameraIsPersonInView));
-    aomsAttributes->addAttribute("sensoresBateria", x2String(sensoresBateria));
-    aomsAttributes->addAttribute("initStatus", x2String(initStatus));
-    aomsAttributes->addAttribute("lidarIsObstable", x2String(lidarIsObstable));
-    aomsAttributes->addAttribute("sensoresInDock", x2String(sensoresInDock));
+static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */) {
 }
 #endif // _OMINSTRUMENT
 

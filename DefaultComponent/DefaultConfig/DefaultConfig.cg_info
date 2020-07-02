@@ -4,10 +4,10 @@ I-Logix-RPY-Archive version 8.15.0 * 9841247
 	- size = 6;
 	- value = "DefaultComponent/DefaultConfig/Default.cpp" 6.29.2020::9:11:38
 	"DefaultComponent/DefaultConfig/Default.h" 6.29.2020::9:11:38
-	"DefaultComponent/DefaultConfig/Roboconfirmo.cpp" 6.29.2020::11:18:25
-	"DefaultComponent/DefaultConfig/Roboconfirmo.h" 6.29.2020::11:18:25
-	"DefaultComponent/DefaultConfig/UC.cpp" 6.29.2020::12:17:56
-	"DefaultComponent/DefaultConfig/UC.h" 6.29.2020::12:17:56
+	"DefaultComponent/DefaultConfig/Roboconfirmo.cpp" 7.2.2020::9:11:29
+	"DefaultComponent/DefaultConfig/Roboconfirmo.h" 7.2.2020::9:11:29
+	"DefaultComponent/DefaultConfig/UC.cpp" 7.2.2020::9:11:29
+	"DefaultComponent/DefaultConfig/UC.h" 7.1.2020::12:41:15
 	
 }
 - m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
@@ -33,7 +33,7 @@ I-Logix-RPY-Archive version 8.15.0 * 9841247
 	- _name = "UC";
 	- _id = GUID 49982648-15d9-4d62-b7c0-e2c115625bab;
 }
-- genTime = 6.29.2020::12:17:56;
+- genTime = 7.2.2020::9:11:29;
 - hElement = { IHandle 
 	- _m2Class = "ISubsystem";
 	- _filename = ".\\..\\..\\Robomachine_rpy\\Default.sbsx";
@@ -47,5 +47,5 @@ I-Logix-RPY-Archive version 8.15.0 * 9841247
 	- _name = "Roboconfirmo";
 	- _id = GUID dd3775e1-6426-4e30-8bf6-b76303bc95c4;
 }
-- genTime = 6.29.2020::11:19:16;
+- genTime = 7.2.2020::9:11:29;
 

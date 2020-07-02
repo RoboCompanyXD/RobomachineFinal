@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Roboconfirmo
-//!	Generated Date	: Mon, 29, Jun 2020  
+//!	Generated Date	: Thu, 2, Jul 2020  
 	File Path	: DefaultComponent/DefaultConfig/Roboconfirmo.h
 *********************************************************************/
 
@@ -83,56 +83,6 @@ class UC;
 //## package Roboconfirmo
 
 
-//## attribute BumpObstacle
-extern int BumpObstacle;
-
-//## attribute ComputeStepTime
-extern int ComputeStepTime;
-
-//## attribute cameraIsPersonInView
-extern bool cameraIsPersonInView;
-
-//## attribute initStatus
-extern int initStatus;
-
-//## attribute lidarIsObstable
-extern int lidarIsObstable;
-
-//## attribute sensoresBateria
-extern int sensoresBateria;
-
-//## attribute sensoresInDock
-extern int sensoresInDock;
-
-//## attribute sensoresLBumpFront
-extern bool sensoresLBumpFront;
-
-//## attribute sensoresLBumpSide
-extern bool sensoresLBumpSide;
-
-//## attribute sensoresSumAngulo
-extern int sensoresSumAngulo;
-
-//## attribute sensoresSumDistancia
-extern int sensoresSumDistancia;
-
-//## operation computeCameraApproach()
-void computeCameraApproach();
-
-//## operation computeCameraWithObstacle()
-void computeCameraWithObstacle();
-
-//## operation establecerActuadores()
-void establecerActuadores();
-
-//## operation gotoDock()
-void gotoDock();
-
-//## operation init()
-void init();
-
-//## operation reproducirSonidoPerdida()
-bool reproducirSonidoPerdida();
 
 //## event btnClean()
 class btnClean : public OMEvent {
