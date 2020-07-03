@@ -25,10 +25,10 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">7.2.2020::11:3:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.2.2020::10:59:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.3.2020::9:5:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.3.2020::13:22:32</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">7.2.2020::11:3:13</weakCGTime>
+			<weakCGTime type="a">7.3.2020::9:5:22</weakCGTime>
 			<strongCGTime type="a">7.1.2020::11:27:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -72,6 +72,7 @@
 				<value>GUID 23fb67fb-7190-42bc-ac70-aab87ff025d5</value>
 				<value>GUID d747378f-5575-45e7-9e48-b0961654d18f</value>
 				<value>GUID 8b6f8e9b-8384-4e63-94f2-736079894552</value>
+				<value>GUID 29d02783-358c-468e-b5c2-2e503a372d74</value>
 				<value>GUID 6dfe1dc5-f2c5-40f2-8a8b-de0b2e7b7af6</value>
 				<value>GUID 015430fd-29ed-4019-800c-5019ef8e64fd</value>
 				<value>GUID 8be0bf86-bfd7-4eba-b045-1ab33e853505</value>
@@ -905,6 +906,27 @@
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 		</IPrimitiveOperation>
+		<IReception type="e">
+			<_id type="a">GUID 29d02783-358c-468e-b5c2-2e503a372d74</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
+					<_hname type="a">dsdhs()</_hname>
+					<_hid type="a">GUID 98665e4a-b51e-4c4a-ad95-15f2deb26cd0</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
 		<IAttribute type="e">
 			<_id type="a">GUID 6dfe1dc5-f2c5-40f2-8a8b-de0b2e7b7af6</_id>
 			<_myState type="a">8192</_myState>
@@ -1214,7 +1236,7 @@
 		<IAttribute type="e">
 			<_id type="a">GUID 6a82cd12-e5f6-4e8e-ba22-75bb6c8b2c10</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sensoresInDock</_name>
+			<_name type="a">sensoresIsDocked</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -1229,8 +1251,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">7.1.2020::11:27:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.1.2020::11:1:13</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.3.2020::9:5:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.3.2020::9:5:22</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1385,10 +1407,10 @@
 			<_id type="a">GUID a1a6264f-dcb4-4313-8d2f-a570d42acffa</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_0</_name>
-			<_modifiedTimeWeak type="a">7.2.2020::11:3:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.2.2020::11:3:13</_modifiedTime>
-			<_lastID type="a">68</_lastID>
-			<weakCGTime type="a">7.2.2020::11:3:13</weakCGTime>
+			<_modifiedTimeWeak type="a">7.3.2020::9:5:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.3.2020::9:5:0</_modifiedTime>
+			<_lastID type="a">69</_lastID>
+			<weakCGTime type="a">7.3.2020::9:5:0</weakCGTime>
 			<strongCGTime type="a">7.1.2020::11:27:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1396,7 +1418,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">52</_defNumber>
-			<_version type="a">7.2.2020::13:4:1</_version>
+			<_version type="a">7.3.2020::11:5:0</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 08ddd88f-00ed-40d9-94d2-506ab535380e</_diagram>
 			<AggregatesList type="e">
@@ -2239,8 +2261,8 @@ sensoresSumDistancia=0;</_body>
 			<_id type="a">GUID e5a14a79-7768-471b-9ceb-9a1f06322327</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_60</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::11:19:28</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.29.2020::11:14:7</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.3.2020::9:5:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.3.2020::9:5:0</_modifiedTime>
 			<_itsTarget type="s">GUID 0947ae6c-dc8a-4d73-a273-0fad43d30c7e</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 0bf52fa6-61ea-4694-af74-409955911c25</_itsSource>
@@ -2250,8 +2272,8 @@ sensoresSumDistancia=0;</_body>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 3fb7b6be-b6cf-4ab8-8a9f-7524d7d0e9e3</_id>
-			<_modifiedTimeWeak type="a">6.29.2020::11:14:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.29.2020::11:14:7</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.3.2020::9:5:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.3.2020::9:5:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -2260,9 +2282,9 @@ sensoresSumDistancia=0;</_body>
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID f664d394-6d8e-4c44-93bf-1ffc731b0884</_id>
-			<_modifiedTimeWeak type="a">6.29.2020::11:14:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.29.2020::11:14:7</_modifiedTime>
-			<_body type="a">sensoresInDock==true</_body>
+			<_modifiedTimeWeak type="a">7.3.2020::9:5:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.3.2020::9:5:0</_modifiedTime>
+			<_body type="a">sensoresIsDocked==true</_body>
 		</IGuard>
 		<IDefaultDrvdTrans type="e">
 			<_id type="a">GUID 90288528-a813-411b-8127-8d27d22883af</_id>
@@ -2350,7 +2372,7 @@ sensoresSumDistancia=0;</_body>
 		<IInterfaceItemTrigger type="e">
 			<_id type="a">GUID 9b11de27-1496-4741-abb6-e68517662599</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">btnSpot</_body>
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
@@ -2379,7 +2401,7 @@ sensoresSumDistancia=0;</_body>
 		<ILabel type="e">
 			<_id type="a">GUID 3c3339b4-1c5d-446b-ad6a-d17605c179db</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -2434,7 +2456,7 @@ sensoresSumDistancia=0;</_body>
 		<IState type="e">
 			<_id type="a">GUID 0947ae6c-dc8a-4d73-a273-0fad43d30c7e</_id>
 			<_name type="a">Idle</_name>
-			<_modifiedTimeWeak type="a">7.2.2020::11:3:13</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.3.2020::9:4:41</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 Modo de espera.\par%0D
@@ -2446,7 +2468,7 @@ En el modo de espera se puede estar cargando o sin cargar\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">7.2.2020::11:3:13</_modifiedTime>
+			<_modifiedTime type="a">7.3.2020::9:4:41</_modifiedTime>
 			<_parent type="s">GUID b6e02952-1d43-4be0-b601-a6616e5247cd</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
@@ -7780,13 +7802,13 @@ Devolver el robot a un estado seguro.</_text>
 		<IState type="e">
 			<_id type="a">GUID 59243a46-790c-490e-8498-a78a6a22e51b</_id>
 			<_name type="a">Shutdown</_name>
-			<_modifiedTimeWeak type="a">7.2.2020::11:3:2</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.3.2020::9:4:41</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Fin de operacion%0D
 Terminar la ejecucion del algoritmo principal, liberar recursos y salir.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">7.2.2020::11:3:2</_modifiedTime>
+			<_modifiedTime type="a">7.3.2020::9:4:41</_modifiedTime>
 			<_parent type="s">GUID b6e02952-1d43-4be0-b601-a6616e5247cd</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
@@ -9225,9 +9247,9 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">MainMaschine</_name>
-			<_modifiedTimeWeak type="a">7.2.2020::11:2:46</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.2.2020::11:3:13</_modifiedTime>
-			<_lastModifiedTime type="a">7.2.2020::11:4:1</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">7.3.2020::9:4:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.3.2020::9:4:41</_modifiedTime>
+			<_lastModifiedTime type="a">7.3.2020::9:5:0</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12763,7 +12785,7 @@ sensoresSumDistancia=0;</m_str>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[sensoresInDock==true]</m_str>
+					<m_str type="a">[sensoresIsDocked==true]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">

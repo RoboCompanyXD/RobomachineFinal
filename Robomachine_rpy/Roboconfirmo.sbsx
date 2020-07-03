@@ -11,10 +11,10 @@
 			<_id type="a">GUID dd3775e1-6426-4e30-8bf6-b76303bc95c4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Roboconfirmo</_name>
-			<_modifiedTimeWeak type="a">7.1.2020::11:1:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.1.2020::11:18:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.3.2020::9:4:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.3.2020::13:22:32</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">7.1.2020::11:1:13</weakCGTime>
+			<weakCGTime type="a">7.3.2020::9:4:38</weakCGTime>
 			<strongCGTime type="a">6.29.2020::11:24:19</strongCGTime>
 			<_defaultComposite type="s">GUID 3ba16dfe-d1fa-4f1f-8645-74fd20acb441</_defaultComposite>
 			<_eventsBaseID type="a">13601</_eventsBaseID>
@@ -50,6 +50,7 @@
 				<value>GUID c5a5f229-745e-4325-9c30-e7b283532ac0</value>
 				<value>GUID 3825db50-cef9-4f58-8295-d13ea5b45e11</value>
 				<value>GUID a686c7ff-7a19-45a7-b0dd-29ab21246b32</value>
+				<value>GUID 98665e4a-b51e-4c4a-ad95-15f2deb26cd0</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IClass type="e">
@@ -61,11 +62,6 @@
 			<_lastID type="a">20</_lastID>
 			<weakCGTime type="a">7.1.2020::11:1:13</weakCGTime>
 			<strongCGTime type="a">6.29.2020::10:31:49</strongCGTime>
-			<Operations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Operations>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -433,6 +429,19 @@
 			<_name type="a">LigthBumpFrontTrig</_name>
 			<_modifiedTimeWeak type="a">6.29.2020::10:31:55</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.29.2020::10:31:55</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 98665e4a-b51e-4c4a-ad95-15f2deb26cd0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">dsdhs</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
