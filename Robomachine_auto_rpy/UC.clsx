@@ -25,10 +25,10 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">7.7.2020::9:57:10</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.7.2020::10:23:42</_modifiedTimeWeak>
 			<_modifiedTime type="a">7.7.2020::9:57:3</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">7.7.2020::9:57:10</weakCGTime>
+			<weakCGTime type="a">7.7.2020::10:23:42</weakCGTime>
 			<strongCGTime type="a">7.1.2020::11:27:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -104,7 +104,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnClean()</_hname>
 					<_hid type="a">GUID b617270b-13ae-44c5-899c-70f31b8b8803</_hid>
@@ -125,7 +125,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evPersonInView()</_hname>
 					<_hid type="a">GUID e85fba04-3fa4-483d-b3b9-0c6ecf738d3b</_hid>
@@ -146,7 +146,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evPersonFind()</_hname>
 					<_hid type="a">GUID 8d0cc1bb-4e77-4d21-849d-95e16f0037de</_hid>
@@ -167,7 +167,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evPersonLost()</_hname>
 					<_hid type="a">GUID 0e5979a9-6d9e-4c1e-8e51-dc785c136387</_hid>
@@ -188,7 +188,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnSpot()</_hname>
 					<_hid type="a">GUID f430edf4-27b9-4a22-afe0-e4f15baeb94e</_hid>
@@ -209,7 +209,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evRobotInDock()</_hname>
 					<_hid type="a">GUID 6268b1e3-f892-429d-bedd-9e71d4bab656</_hid>
@@ -230,7 +230,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnDock()</_hname>
 					<_hid type="a">GUID 24b3d917-b38c-45d8-8f6a-31f43893a17f</_hid>
@@ -251,7 +251,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">bumpCrash()</_hname>
 					<_hid type="a">GUID 1a602b83-6325-4943-bc4f-ed303c976f2a</_hid>
@@ -272,7 +272,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evDist30()</_hname>
 					<_hid type="a">GUID 77eccff5-fc85-436e-9a77-386d3f0506bc</_hid>
@@ -293,7 +293,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">LigthBumpFrontTrig()</_hname>
 					<_hid type="a">GUID a686c7ff-7a19-45a7-b0dd-29ab21246b32</_hid>
@@ -314,7 +314,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">isRightThere()</_hname>
 					<_hid type="a">GUID 3825db50-cef9-4f58-8295-d13ea5b45e11</_hid>
@@ -335,7 +335,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">goesAway()</_hname>
 					<_hid type="a">GUID c5a5f229-745e-4325-9c30-e7b283532ac0</_hid>
@@ -356,7 +356,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evGoesAway()</_hname>
 					<_hid type="a">GUID 8924365c-c809-4600-8251-1a7f6eaaa047</_hid>
@@ -377,7 +377,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evIsGoodPos()</_hname>
 					<_hid type="a">GUID 9bfd2a9e-819d-4b82-98f7-e6be3e6e6049</_hid>
@@ -398,7 +398,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evPersonApproach()</_hname>
 					<_hid type="a">GUID 3e32e8b2-b548-467e-b595-5ca4fd73d199</_hid>
@@ -419,7 +419,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evClearPath()</_hname>
 					<_hid type="a">GUID 36853275-cabc-4f8a-a2af-b67cbb0dbe45</_hid>
@@ -440,7 +440,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">cliffDetect()</_hname>
 					<_hid type="a">GUID 11447deb-4017-4651-8adc-14ae6b49af30</_hid>
@@ -461,7 +461,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evActuatorFinish()</_hname>
 					<_hid type="a">GUID e58a5f4e-14e3-446f-b640-ecc53bf96e80</_hid>
@@ -482,7 +482,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evObstaculoEnFrente()</_hname>
 					<_hid type="a">GUID efe9fe35-e815-4b62-aed4-209639216edf</_hid>
@@ -503,7 +503,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evFrontObstacle()</_hname>
 					<_hid type="a">GUID 582ed75e-008d-405d-a198-d8ff85fc2cfe</_hid>
@@ -524,7 +524,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evLostObstacle()</_hname>
 					<_hid type="a">GUID b0a088c3-cbac-467d-8c4b-5883881fb2d0</_hid>
@@ -545,7 +545,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evFindObstacle()</_hname>
 					<_hid type="a">GUID 8337ee26-cc40-442b-9de8-a1fa7bd15fd6</_hid>
@@ -566,7 +566,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evComputeFinish()</_hname>
 					<_hid type="a">GUID 424c314e-5fa6-426f-b63e-07c0d3e05ea6</_hid>
@@ -587,7 +587,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evLBumpFront()</_hname>
 					<_hid type="a">GUID 2cd3d6b4-ceac-4476-8037-d8997b7b01be</_hid>
@@ -608,7 +608,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evRotate25()</_hname>
 					<_hid type="a">GUID d5664a8c-201b-45c5-946b-81be506494ae</_hid>
@@ -629,7 +629,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evLBumpFrontEnable()</_hname>
 					<_hid type="a">GUID 4ae6d95f-74e5-46e1-bb9c-a4d6395cf268</_hid>
@@ -650,7 +650,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evLBumpFrontClear()</_hname>
 					<_hid type="a">GUID 5ed4acd3-f88e-4812-a637-4bc3a09894da</_hid>
@@ -671,7 +671,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">evCliff()</_hname>
 					<_hid type="a">GUID 9022c0e4-362f-41f6-9d04-8f4c85f6dc3e</_hid>
@@ -920,7 +920,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">dsdhs()</_hname>
 					<_hid type="a">GUID 98665e4a-b51e-4c4a-ad95-15f2deb26cd0</_hid>
@@ -1407,10 +1407,10 @@
 			<_id type="a">GUID a1a6264f-dcb4-4313-8d2f-a570d42acffa</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_0</_name>
-			<_modifiedTimeWeak type="a">7.7.2020::9:57:10</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.7.2020::9:57:10</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.7.2020::10:23:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.7.2020::10:23:42</_modifiedTime>
 			<_lastID type="a">69</_lastID>
-			<weakCGTime type="a">7.7.2020::9:57:10</weakCGTime>
+			<weakCGTime type="a">7.7.2020::10:23:42</weakCGTime>
 			<strongCGTime type="a">7.1.2020::11:27:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1418,7 +1418,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">52</_defNumber>
-			<_version type="a">7.7.2020::11:57:11</_version>
+			<_version type="a">7.7.2020::12:23:42</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 08ddd88f-00ed-40d9-94d2-506ab535380e</_diagram>
 			<AggregatesList type="e">
@@ -1507,7 +1507,7 @@
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnClean()</_hname>
 					<_hid type="a">GUID b617270b-13ae-44c5-899c-70f31b8b8803</_hid>
@@ -1603,7 +1603,7 @@
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnClean()</_hname>
 					<_hid type="a">GUID b617270b-13ae-44c5-899c-70f31b8b8803</_hid>
@@ -1641,7 +1641,7 @@
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnDock()</_hname>
 					<_hid type="a">GUID 24b3d917-b38c-45d8-8f6a-31f43893a17f</_hid>
@@ -1679,7 +1679,7 @@
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnDock()</_hname>
 					<_hid type="a">GUID 24b3d917-b38c-45d8-8f6a-31f43893a17f</_hid>
@@ -2171,7 +2171,7 @@ sensoresSumDistancia=0;</_body>
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnSpot()</_hname>
 					<_hid type="a">GUID f430edf4-27b9-4a22-afe0-e4f15baeb94e</_hid>
@@ -2339,7 +2339,7 @@ sensoresSumDistancia=0;</_body>
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnSpot()</_hname>
 					<_hid type="a">GUID f430edf4-27b9-4a22-afe0-e4f15baeb94e</_hid>
@@ -2377,7 +2377,7 @@ sensoresSumDistancia=0;</_body>
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\Roboconfirmo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Robomachine_rpy\Roboconfirmo.sbsx</_hfilename>
 					<_hsubsystem type="a">Roboconfirmo</_hsubsystem>
 					<_hname type="a">btnSpot()</_hname>
 					<_hid type="a">GUID f430edf4-27b9-4a22-afe0-e4f15baeb94e</_hid>
@@ -2475,7 +2475,7 @@ En el modo de espera se puede estar cargando o sin cargar\par%0D
 		<IState type="e">
 			<_id type="a">GUID 2f80e355-c3cb-4d17-bc28-d6bfc7c89d93</_id>
 			<_name type="a">PersonInView</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::12:26:17</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.7.2020::10:23:42</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 La persona est\'e1 a la vista.\par%0D
@@ -2490,10 +2490,10 @@ Acercarse todo lo que se pueda sin invadir su espacio.\par%0D
 			<_nestedStateChart type="p"><IStateChart type="e">
 				<_id type="a">GUID 70d0934c-5d2e-4d38-bc4b-612b5842822b</_id>
 				<_myState type="a">8192</_myState>
-				<_modifiedTimeWeak type="a">6.29.2020::12:26:17</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:2:49</_modifiedTime>
-				<_lastID type="a">27</_lastID>
-				<weakCGTime type="a">6.29.2020::12:26:17</weakCGTime>
+				<_modifiedTimeWeak type="a">7.7.2020::10:23:42</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.7.2020::10:23:42</_modifiedTime>
+				<_lastID type="a">29</_lastID>
+				<weakCGTime type="a">7.7.2020::10:23:42</weakCGTime>
 				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -2508,16 +2508,12 @@ Acercarse todo lo que se pueda sin invadir su espacio.\par%0D
 					<value>GUID cf2ff380-99df-45be-a2a7-4594ebacf0ce</value>
 					<value>GUID b86f4ae7-9da8-4a5b-a332-e32d0a9615de</value>
 					<value>GUID a23c6fb7-20ea-4266-b9f6-f52ed0e20cbc</value>
-					<value>GUID 61f21189-2a55-456d-b333-55660f6d1e49</value>
-					<value>GUID fe393bfb-ca19-4c41-80e6-6fcc027055c7</value>
-					<value>GUID c639417e-4149-4efe-8da4-1b19fd7130b7</value>
-					<value>GUID aba596a5-dbe3-4adc-80b7-cc1761e85472</value>
+					<value>GUID 21627c7d-89f4-40e2-87bd-f75126944d0f</value>
+					<value>GUID 4c545bea-ec40-4ce0-b38e-41fa6f2ed5ea</value>
 					<value>GUID 8e69d477-0ea3-4bdf-bb99-9a1ea505f745</value>
 					<value>GUID b1bb4980-daa7-41da-a2ae-e4220d2b4a29</value>
 					<value>GUID b81c3c0e-1c59-4b77-b8b9-6d2d84c65c25</value>
 					<value>GUID a514a3c0-8627-4bbc-b333-ffa45d58be15</value>
-					<value>GUID 968aa6df-218b-4521-984d-1d032d83a55e</value>
-					<value>GUID f61eafff-a16f-464c-9112-385e9f1f9874</value>
 					<value>GUID cca71dd4-014e-4be4-a0b3-7809895f2423</value>
 				</AggregatesList>
 			</IStateChart>
@@ -2525,8 +2521,8 @@ Acercarse todo lo que se pueda sin invadir su espacio.\par%0D
 				<_id type="a">GUID cf2ff380-99df-45be-a2a7-4594ebacf0ce</_id>
 				<_myState type="a">2048</_myState>
 				<_name type="a">defaulttransition_1</_name>
-				<_modifiedTimeWeak type="a">6.24.2020::12:3:31</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:3:31</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.7.2020::10:23:29</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.7.2020::10:23:29</_modifiedTime>
 				<_errorStatus type="a">ErrorItem</_errorStatus>
 				<_itsTarget type="s">GUID b81c3c0e-1c59-4b77-b8b9-6d2d84c65c25</_itsTarget>
 				<_staticReaction type="a">0</_staticReaction>
@@ -2610,108 +2606,66 @@ reproducirSonidoPerdida();</_body>
 				<_body type="a">lidarIsObstable==false</_body>
 			</IGuard>
 			<ITransition type="e">
-				<_id type="a">GUID 61f21189-2a55-456d-b333-55660f6d1e49</_id>
+				<_id type="a">GUID 21627c7d-89f4-40e2-87bd-f75126944d0f</_id>
 				<_myState type="a">2048</_myState>
-				<_name type="a">transition_23</_name>
-				<_modifiedTimeWeak type="a">6.24.2020::8:58:33</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::8:58:33</_modifiedTime>
-				<_itsTarget type="s">GUID 968aa6df-218b-4521-984d-1d032d83a55e</_itsTarget>
-				<_staticReaction type="a">0</_staticReaction>
-				<_itsSource type="s">GUID a514a3c0-8627-4bbc-b333-ffa45d58be15</_itsSource>
-				<AggregatesList type="e">
-					<value>GUID d73a03b9-c533-411f-ace2-3850fc9c017b</value>
-				</AggregatesList>
-			</ITransition>
-			<ILabel type="e">
-				<_id type="a">GUID d73a03b9-c533-411f-ace2-3850fc9c017b</_id>
-				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-				<_itsTrigger>NULL</_itsTrigger>
-				<_itsGuard>NULL</_itsGuard>
-				<_itsAction>NULL</_itsAction>
-			</ILabel>
-			<ITransition type="e">
-				<_id type="a">GUID fe393bfb-ca19-4c41-80e6-6fcc027055c7</_id>
-				<_myState type="a">2048</_myState>
-				<_name type="a">transition_24</_name>
-				<_modifiedTimeWeak type="a">6.24.2020::8:58:38</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::8:58:38</_modifiedTime>
-				<_itsTarget type="s">GUID a514a3c0-8627-4bbc-b333-ffa45d58be15</_itsTarget>
-				<_staticReaction type="a">0</_staticReaction>
-				<_itsSource type="s">GUID 968aa6df-218b-4521-984d-1d032d83a55e</_itsSource>
-				<AggregatesList type="e">
-					<value>GUID cf8d5992-9ce0-4c29-b718-9280528bcdef</value>
-				</AggregatesList>
-			</ITransition>
-			<ILabel type="e">
-				<_id type="a">GUID cf8d5992-9ce0-4c29-b718-9280528bcdef</_id>
-				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-				<_itsTrigger>NULL</_itsTrigger>
-				<_itsGuard>NULL</_itsGuard>
-				<_itsAction>NULL</_itsAction>
-			</ILabel>
-			<ITransition type="e">
-				<_id type="a">GUID c639417e-4149-4efe-8da4-1b19fd7130b7</_id>
-				<_myState type="a">2048</_myState>
-				<_name type="a">transition_25</_name>
-				<_modifiedTimeWeak type="a">6.24.2020::8:58:52</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::8:58:52</_modifiedTime>
-				<_itsTarget type="s">GUID f61eafff-a16f-464c-9112-385e9f1f9874</_itsTarget>
+				<_name type="a">transition_27</_name>
+				<_modifiedTimeWeak type="a">7.7.2020::10:23:35</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.7.2020::10:23:35</_modifiedTime>
+				<_itsTarget type="s">GUID b81c3c0e-1c59-4b77-b8b9-6d2d84c65c25</_itsTarget>
 				<_staticReaction type="a">0</_staticReaction>
 				<_itsSource type="s">GUID b81c3c0e-1c59-4b77-b8b9-6d2d84c65c25</_itsSource>
 				<AggregatesList type="e">
-					<value>GUID c27236a7-53cf-48ca-897e-e42d8b0ac717</value>
+					<value>GUID 4171e8c5-bc5a-4fcf-b1f7-44568b7b10e2</value>
 				</AggregatesList>
 			</ITransition>
 			<ILabel type="e">
-				<_id type="a">GUID c27236a7-53cf-48ca-897e-e42d8b0ac717</_id>
+				<_id type="a">GUID 4171e8c5-bc5a-4fcf-b1f7-44568b7b10e2</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 				<_itsTrigger>NULL</_itsTrigger>
 				<_itsGuard>NULL</_itsGuard>
 				<_itsAction>NULL</_itsAction>
 			</ILabel>
 			<ITransition type="e">
-				<_id type="a">GUID aba596a5-dbe3-4adc-80b7-cc1761e85472</_id>
+				<_id type="a">GUID 4c545bea-ec40-4ce0-b38e-41fa6f2ed5ea</_id>
 				<_myState type="a">2048</_myState>
-				<_name type="a">transition_26</_name>
-				<_modifiedTimeWeak type="a">6.24.2020::8:58:57</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::8:58:57</_modifiedTime>
-				<_itsTarget type="s">GUID b81c3c0e-1c59-4b77-b8b9-6d2d84c65c25</_itsTarget>
+				<_name type="a">transition_28</_name>
+				<_modifiedTimeWeak type="a">7.7.2020::10:23:42</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.7.2020::10:23:42</_modifiedTime>
+				<_itsTarget type="s">GUID a514a3c0-8627-4bbc-b333-ffa45d58be15</_itsTarget>
 				<_staticReaction type="a">0</_staticReaction>
-				<_itsSource type="s">GUID f61eafff-a16f-464c-9112-385e9f1f9874</_itsSource>
+				<_itsSource type="s">GUID a514a3c0-8627-4bbc-b333-ffa45d58be15</_itsSource>
 				<AggregatesList type="e">
-					<value>GUID 69822678-c7d9-4369-a8bc-2642b018825f</value>
+					<value>GUID a4e90d23-1547-4a5b-8d32-911cdb4f111c</value>
 				</AggregatesList>
 			</ITransition>
 			<ILabel type="e">
-				<_id type="a">GUID 69822678-c7d9-4369-a8bc-2642b018825f</_id>
+				<_id type="a">GUID a4e90d23-1547-4a5b-8d32-911cdb4f111c</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 				<_itsTrigger>NULL</_itsTrigger>
 				<_itsGuard>NULL</_itsGuard>
 				<_itsAction>NULL</_itsAction>
 			</ILabel>
 			<IState type="e">
 				<_id type="a">GUID 8e69d477-0ea3-4bdf-bb99-9a1ea505f745</_id>
-				<_modifiedTimeWeak type="a">6.24.2020::12:3:31</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:3:31</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.7.2020::10:23:29</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.7.2020::10:23:29</_modifiedTime>
 				<_parent type="s"></_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID b1bb4980-daa7-41da-a2ae-e4220d2b4a29</_id>
 				<_name type="a">PersonInView</_name>
-				<_modifiedTimeWeak type="a">6.24.2020::12:3:31</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:3:31</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.7.2020::10:23:29</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.7.2020::10:23:29</_modifiedTime>
 				<_parent type="s">GUID 8e69d477-0ea3-4bdf-bb99-9a1ea505f745</_parent>
 				<_defaultTrans type="s">GUID cf2ff380-99df-45be-a2a7-4594ebacf0ce</_defaultTrans>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID b81c3c0e-1c59-4b77-b8b9-6d2d84c65c25</_id>
 				<_name type="a">PersonInView_ApproachUser</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:26:17</_modifiedTimeWeak>
+				<_modifiedTimeWeak type="a">7.7.2020::10:23:35</_modifiedTimeWeak>
 				<_description type="p"><IDescription type="e">
 					<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 Acercarse a la persona\par%0D
@@ -2721,7 +2675,7 @@ El frente est\'e1 libre, el robot se acerca a la persona.\par%0D
 </_textRTF>
 				</IDescription>
 				</_description>
-				<_modifiedTime type="a">6.29.2020::12:26:17</_modifiedTime>
+				<_modifiedTime type="a">7.7.2020::10:23:35</_modifiedTime>
 				<_parent type="s">GUID b1bb4980-daa7-41da-a2ae-e4220d2b4a29</_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 				<_entryAction type="p"><IAction type="e">
@@ -2736,14 +2690,14 @@ El frente est\'e1 libre, el robot se acerca a la persona.\par%0D
 			<IState type="e">
 				<_id type="a">GUID a514a3c0-8627-4bbc-b333-ffa45d58be15</_id>
 				<_name type="a">PersonInView_PathBlocked</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:26:9</_modifiedTimeWeak>
+				<_modifiedTimeWeak type="a">7.7.2020::10:23:42</_modifiedTimeWeak>
 				<_description type="p"><IDescription type="e">
 					<_text type="a">Obstaculo en el camino%0D
 El obstaculo puede ser una persona o un onstaculo real%0D
 Puedo rotar si la persona se mueve y retroceder</_text>
 				</IDescription>
 				</_description>
-				<_modifiedTime type="a">6.29.2020::12:26:9</_modifiedTime>
+				<_modifiedTime type="a">7.7.2020::10:23:42</_modifiedTime>
 				<_parent type="s">GUID b1bb4980-daa7-41da-a2ae-e4220d2b4a29</_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 				<_entryAction type="p"><IAction type="e">
@@ -2755,26 +2709,6 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 				</IAction>
 				</_entryAction>
 			</IState>
-			<ITimeEvent type="e">
-				<_id type="a">GUID 968aa6df-218b-4521-984d-1d032d83a55e</_id>
-				<_name type="a">ComputeStepBlocked</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::9:9:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::9:9:23</_modifiedTime>
-				<_parent type="s">GUID b1bb4980-daa7-41da-a2ae-e4220d2b4a29</_parent>
-				<_stateType type="a">TimeEvent</_stateType>
-				<_defaultTrans type="s"></_defaultTrans>
-				<_durationTime type="a">ComputeStepTime</_durationTime>
-			</ITimeEvent>
-			<ITimeEvent type="e">
-				<_id type="a">GUID f61eafff-a16f-464c-9112-385e9f1f9874</_id>
-				<_name type="a">ComputeStepApproach</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::9:9:41</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::9:9:41</_modifiedTime>
-				<_parent type="s">GUID b1bb4980-daa7-41da-a2ae-e4220d2b4a29</_parent>
-				<_stateType type="a">TimeEvent</_stateType>
-				<_defaultTrans type="s"></_defaultTrans>
-				<_durationTime type="a">ComputeStepTime</_durationTime>
-			</ITimeEvent>
 			<IStateChartDiagram type="e">
 				<_id type="a">GUID cca71dd4-014e-4be4-a0b3-7809895f2423</_id>
 				<_myState type="a">10240</_myState>
@@ -3003,9 +2937,9 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">statechartdiagram_0</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:26:9</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:3:31</_modifiedTime>
-				<_lastModifiedTime type="a">6.29.2020::12:26:17</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">7.7.2020::10:23:5</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.7.2020::10:23:42</_modifiedTime>
+				<_lastModifiedTime type="a">7.7.2020::10:23:42</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -3042,7 +2976,7 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 				</m_name>
 				<m_drawBehavior type="a">4096</m_drawBehavior>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-				<elementList type="a">14</elementList>
+				<elementList type="a">10</elementList>
 				
 				<m_access type="a">'Z'</m_access>
 				<m_modified type="a">'N'</m_modified>
@@ -3067,12 +3001,8 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 					<value>GUID 11fd9634-d81a-48ad-a8f4-190ce58cb660</value>
 					<value>GUID ea59b338-7355-4d59-87ca-92ffed8631be</value>
 					<value>GUID e7f9d2d7-56e1-4c1c-8c64-2491c899f4f4</value>
-					<value>GUID 4e51a670-1b08-4e59-af59-1b8ffdf32382</value>
-					<value>GUID a8ae439e-539b-4638-b0c3-a08d0495ec7d</value>
-					<value>GUID 056c9b42-17d7-4d07-b51f-6ce20bd61d6a</value>
-					<value>GUID 7c71ed62-d9c4-4e69-8a41-a2868fc57f49</value>
-					<value>GUID 2caf4b1b-bc15-45c0-ac32-b3f60ff58e50</value>
-					<value>GUID 0613f90e-dfd2-4737-bf61-4e476d7da7f0</value>
+					<value>GUID 2d0343d1-8f57-4386-84a2-9a7e884607d3</value>
+					<value>GUID 1bd4aa08-c88e-4d3e-aaf0-2d80243205cf</value>
 				</AggregatesList>
 			</CGIStateChart>
 			<CGIState type="e">
@@ -3239,7 +3169,7 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.651459 0 0 0.257547 50 50 </m_transform>
+				<m_transform type="a">0.651459 0 0 0.254717 50 50 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -3383,7 +3313,7 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.303921 0 0 0.410257 53.7255 271.794 </m_transform>
+				<m_transform type="a">0.303921 0 0 0.414815 53.7255 274.814 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -3511,7 +3441,7 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.32493 0 0 0.410258 673.871 271.796 </m_transform>
+				<m_transform type="a">0.32493 0 0 0.414816 673.871 274.816 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -3607,7 +3537,7 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">0</m_line_style>
-				<m_SourcePort type="a">218 128 </m_SourcePort>
+				<m_SourcePort type="a">218 130 </m_SourcePort>
 				<m_TargetPort type="a">540 0 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
@@ -3747,258 +3677,13 @@ reproducirSonidoPerdida();</m_str>
 				<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 				<m_bShowName type="a">1</m_bShowName>
 			</CGITrans>
-			<CGIState type="e">
-				<_id type="a">GUID 4e51a670-1b08-4e59-af59-1b8ffdf32382</_id>
-				<_properties type="p"><IPropertyContainer type="e">
-					<Subjects type="c">
-						<IRPYRawContainer type="e">
-							<size type="a">1</size>
-							<IPropertySubject type="e">
-								<_Name type="a">Format</_Name>
-								<Metaclasses type="c">
-									<IRPYRawContainer type="e">
-										<size type="a">1</size>
-										<IPropertyMetaclass type="e">
-											<_Name type="a">AcceptTimeEvent</_Name>
-											<Properties type="c">
-												<IRPYRawContainer type="e">
-													<size type="a">2</size>
-													<IProperty type="e">
-														<_Name type="a">Font.FontColor</_Name>
-														<_Value type="a">0,0,0</_Value>
-														<_Type type="a">Color</_Type>
-													</IProperty>
-													
-													<IProperty type="e">
-														<_Name type="a">Font.Underline</_Name>
-														<_Value type="a">0</_Value>
-														<_Type type="a">Int</_Type>
-													</IProperty>
-													
-												</IRPYRawContainer>
-											</Properties>
-										</IPropertyMetaclass>
-										
-									</IRPYRawContainer>
-								</Metaclasses>
-							</IPropertySubject>
-							
-						</IRPYRawContainer>
-					</Subjects>
-				</IPropertyContainer>
-				</_properties>
-				<m_type type="a">234</m_type>
-				<m_pModelObject type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">ITimeEvent</_hm2Class>
-						<_hid type="a">GUID 968aa6df-218b-4521-984d-1d032d83a55e</_hid>
-					</IHandle>
-				</m_pModelObject>
-				<m_pParent type="s">GUID 4c12300e-d221-4da5-9a4a-7bcc23d0b6d3</m_pParent>
-				<m_name type="p">
-					<CGIText type="e">
-						<m_str type="a">ComputeStepBlocked</m_str>
-						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-						<m_color type="p">
-							<IColor type="e">
-								<m_fgColor type="a">0</m_fgColor>
-								<m_bgColor type="a">0</m_bgColor>
-								<m_bgFlag type="a">0</m_bgFlag>
-							</IColor>
-						</m_color>
-						<m_position type="a">1 0 0  </m_position>
-						<m_nIdent type="a">0</m_nIdent>
-						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_nVerticalSpacing type="a">20</m_nVerticalSpacing>
-						<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-					</CGIText>
-				</m_name>
-				<m_drawBehavior type="a">4096</m_drawBehavior>
-				<m_transform type="a">1.53502 0 0 3.45137 825.838 788.206 </m_transform>
-				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-				<m_polygon type="a">4 0 0  0 45  30 45  30 0  </m_polygon>
-				<m_nNameFormat type="a">0</m_nNameFormat>
-				<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-				<nAndLineCount type="a">0</nAndLineCount>
-				<m_pInheritsFrom type="r">
-					<IHandle type="e">
-					</IHandle>
-				</m_pInheritsFrom>
-				<m_nInheritanceMask type="a">0</m_nInheritanceMask>
-				<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
-				<m_moveAndLineTimeStamp type="a">1.2.1990::0:0:0</m_moveAndLineTimeStamp>
-			</CGIState>
 			<CGITrans type="e">
-				<_id type="a">GUID a8ae439e-539b-4638-b0c3-a08d0495ec7d</_id>
+				<_id type="a">GUID 2d0343d1-8f57-4386-84a2-9a7e884607d3</_id>
 				<m_type type="a">28</m_type>
 				<m_pModelObject type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">ITransition</_hm2Class>
-						<_hid type="a">GUID 61f21189-2a55-456d-b333-55660f6d1e49</_hid>
-					</IHandle>
-				</m_pModelObject>
-				<m_pParent type="s"></m_pParent>
-				<m_name type="p">
-					<CGIText type="e">
-						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-						<m_color type="p">
-							<IColor type="e">
-								<m_fgColor type="a">0</m_fgColor>
-								<m_bgColor type="a">0</m_bgColor>
-								<m_bgFlag type="a">0</m_bgFlag>
-							</IColor>
-						</m_color>
-						<m_position type="a">1 0 0  </m_position>
-						<m_nIdent type="a">0</m_nIdent>
-						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-					</CGIText>
-				</m_name>
-				<m_drawBehavior type="a">4096</m_drawBehavior>
-				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-				<m_pSource type="s">GUID 32510fd3-af24-4748-800c-7234c1f35e0b</m_pSource>
-				<m_sourceType type="a">'F'</m_sourceType>
-				<m_pTarget type="s">GUID 4e51a670-1b08-4e59-af59-1b8ffdf32382</m_pTarget>
-				<m_targetType type="a">'T'</m_targetType>
-				<m_direction type="a">' '</m_direction>
-				<m_rpn type="p">
-					<CGIText type="e">
-						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-						<m_color type="p">
-							<IColor type="e">
-								<m_fgColor type="a">0</m_fgColor>
-								<m_bgColor type="a">0</m_bgColor>
-								<m_bgFlag type="a">0</m_bgFlag>
-							</IColor>
-						</m_color>
-						<m_position type="a">1 0 0  </m_position>
-						<m_nIdent type="a">0</m_nIdent>
-						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
-					</CGIText>
-				</m_rpn>
-				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">912 1060 </m_SourcePort>
-				<m_TargetPort type="a">17 25 </m_TargetPort>
-				<m_pInheritsFrom type="r">
-					<IHandle type="e">
-					</IHandle>
-				</m_pInheritsFrom>
-				<m_nInheritanceMask type="a">0</m_nInheritanceMask>
-				<m_bShowName type="a">1</m_bShowName>
-			</CGITrans>
-			<CGITrans type="e">
-				<_id type="a">GUID 056c9b42-17d7-4d07-b51f-6ce20bd61d6a</_id>
-				<m_type type="a">28</m_type>
-				<m_pModelObject type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">ITransition</_hm2Class>
-						<_hid type="a">GUID fe393bfb-ca19-4c41-80e6-6fcc027055c7</_hid>
-					</IHandle>
-				</m_pModelObject>
-				<m_pParent type="s"></m_pParent>
-				<m_name type="p">
-					<CGIText type="e">
-						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-						<m_color type="p">
-							<IColor type="e">
-								<m_fgColor type="a">0</m_fgColor>
-								<m_bgColor type="a">0</m_bgColor>
-								<m_bgFlag type="a">0</m_bgFlag>
-							</IColor>
-						</m_color>
-						<m_position type="a">1 0 0  </m_position>
-						<m_nIdent type="a">0</m_nIdent>
-						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-					</CGIText>
-				</m_name>
-				<m_drawBehavior type="a">4096</m_drawBehavior>
-				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-				<m_pSource type="s">GUID 4e51a670-1b08-4e59-af59-1b8ffdf32382</m_pSource>
-				<m_sourceType type="a">'F'</m_sourceType>
-				<m_pTarget type="s">GUID 32510fd3-af24-4748-800c-7234c1f35e0b</m_pTarget>
-				<m_targetType type="a">'T'</m_targetType>
-				<m_direction type="a">' '</m_direction>
-				<m_rpn type="p">
-					<CGIText type="e">
-						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-						<m_color type="p">
-							<IColor type="e">
-								<m_fgColor type="a">0</m_fgColor>
-								<m_bgColor type="a">0</m_bgColor>
-								<m_bgFlag type="a">0</m_bgFlag>
-							</IColor>
-						</m_color>
-						<m_position type="a">1 0 0  </m_position>
-						<m_nIdent type="a">0</m_nIdent>
-						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
-					</CGIText>
-				</m_rpn>
-				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">14 24 </m_SourcePort>
-				<m_TargetPort type="a">165 1060 </m_TargetPort>
-				<m_pInheritsFrom type="r">
-					<IHandle type="e">
-					</IHandle>
-				</m_pInheritsFrom>
-				<m_nInheritanceMask type="a">0</m_nInheritanceMask>
-				<m_bShowName type="a">1</m_bShowName>
-			</CGITrans>
-			<CGIState type="e">
-				<_id type="a">GUID 7c71ed62-d9c4-4e69-8a41-a2868fc57f49</_id>
-				<m_type type="a">234</m_type>
-				<m_pModelObject type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">ITimeEvent</_hm2Class>
-						<_hid type="a">GUID f61eafff-a16f-464c-9112-385e9f1f9874</_hid>
-					</IHandle>
-				</m_pModelObject>
-				<m_pParent type="s">GUID 4c12300e-d221-4da5-9a4a-7bcc23d0b6d3</m_pParent>
-				<m_name type="p">
-					<CGIText type="e">
-						<m_str type="a">ComputeStepApproach</m_str>
-						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-						<m_color type="p">
-							<IColor type="e">
-								<m_fgColor type="a">0</m_fgColor>
-								<m_bgColor type="a">0</m_bgColor>
-								<m_bgFlag type="a">0</m_bgFlag>
-							</IColor>
-						</m_color>
-						<m_position type="a">1 0 0  </m_position>
-						<m_nIdent type="a">0</m_nIdent>
-						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_nVerticalSpacing type="a">20</m_nVerticalSpacing>
-						<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-					</CGIText>
-				</m_name>
-				<m_drawBehavior type="a">4096</m_drawBehavior>
-				<m_transform type="a">1.53502 0 0 3.45137 185.737 788.205 </m_transform>
-				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-				<m_polygon type="a">4 0 0  0 45  30 45  30 0  </m_polygon>
-				<m_nNameFormat type="a">0</m_nNameFormat>
-				<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-				<nAndLineCount type="a">0</nAndLineCount>
-				<m_pInheritsFrom type="r">
-					<IHandle type="e">
-					</IHandle>
-				</m_pInheritsFrom>
-				<m_nInheritanceMask type="a">0</m_nInheritanceMask>
-				<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
-			</CGIState>
-			<CGITrans type="e">
-				<_id type="a">GUID 2caf4b1b-bc15-45c0-ac32-b3f60ff58e50</_id>
-				<m_type type="a">28</m_type>
-				<m_pModelObject type="r">
-					<IHandle type="e">
-						<_hm2Class type="a">ITransition</_hm2Class>
-						<_hid type="a">GUID c639417e-4149-4efe-8da4-1b19fd7130b7</_hid>
+						<_hid type="a">GUID 21627c7d-89f4-40e2-87bd-f75126944d0f</_hid>
 					</IHandle>
 				</m_pModelObject>
 				<m_pParent type="s"></m_pParent>
@@ -4022,7 +3707,7 @@ reproducirSonidoPerdida();</m_str>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_pSource type="s">GUID fd9f9157-3e8e-461b-9359-f3d788c95627</m_pSource>
 				<m_sourceType type="a">'F'</m_sourceType>
-				<m_pTarget type="s">GUID 7c71ed62-d9c4-4e69-8a41-a2868fc57f49</m_pTarget>
+				<m_pTarget type="s">GUID fd9f9157-3e8e-461b-9359-f3d788c95627</m_pTarget>
 				<m_targetType type="a">'T'</m_targetType>
 				<m_direction type="a">' '</m_direction>
 				<m_rpn type="p">
@@ -4041,11 +3726,12 @@ reproducirSonidoPerdida();</m_str>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
+				<m_arrow type="a">2 259 276  126 276  </m_arrow>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
+				<m_line_style type="a">6</m_line_style>
 				<m_SourcePort type="a">879 1060 </m_SourcePort>
-				<m_TargetPort type="a">16 24 </m_TargetPort>
+				<m_TargetPort type="a">207 1060 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -4054,12 +3740,12 @@ reproducirSonidoPerdida();</m_str>
 				<m_bShowName type="a">1</m_bShowName>
 			</CGITrans>
 			<CGITrans type="e">
-				<_id type="a">GUID 0613f90e-dfd2-4737-bf61-4e476d7da7f0</_id>
+				<_id type="a">GUID 1bd4aa08-c88e-4d3e-aaf0-2d80243205cf</_id>
 				<m_type type="a">28</m_type>
 				<m_pModelObject type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">ITransition</_hm2Class>
-						<_hid type="a">GUID aba596a5-dbe3-4adc-80b7-cc1761e85472</_hid>
+						<_hid type="a">GUID 4c545bea-ec40-4ce0-b38e-41fa6f2ed5ea</_hid>
 					</IHandle>
 				</m_pModelObject>
 				<m_pParent type="s"></m_pParent>
@@ -4081,9 +3767,9 @@ reproducirSonidoPerdida();</m_str>
 				</m_name>
 				<m_drawBehavior type="a">4096</m_drawBehavior>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-				<m_pSource type="s">GUID 7c71ed62-d9c4-4e69-8a41-a2868fc57f49</m_pSource>
+				<m_pSource type="s">GUID 32510fd3-af24-4748-800c-7234c1f35e0b</m_pSource>
 				<m_sourceType type="a">'F'</m_sourceType>
-				<m_pTarget type="s">GUID fd9f9157-3e8e-461b-9359-f3d788c95627</m_pTarget>
+				<m_pTarget type="s">GUID 32510fd3-af24-4748-800c-7234c1f35e0b</m_pTarget>
 				<m_targetType type="a">'T'</m_targetType>
 				<m_direction type="a">' '</m_direction>
 				<m_rpn type="p">
@@ -4102,11 +3788,12 @@ reproducirSonidoPerdida();</m_str>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
+				<m_arrow type="a">2 679 278  538 278  </m_arrow>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">11 27 </m_SourcePort>
-				<m_TargetPort type="a">157 1060 </m_TargetPort>
+				<m_line_style type="a">6</m_line_style>
+				<m_SourcePort type="a">898 1060 </m_SourcePort>
+				<m_TargetPort type="a">231 1060 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>

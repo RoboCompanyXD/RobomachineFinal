@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: UC
-//!	Generated Date	: Wed, 1, Jul 2020  
+//!	Generated Date	: Tue, 7, Jul 2020  
 	File Path	: DefaultComponent/DefaultConfig/UC.h
 *********************************************************************/
 
@@ -124,10 +124,10 @@ public :
     void setSensoresCliff(bool p_sensoresCliff);
     
     //## auto_generated
-    int getSensoresInDock() const;
+    int getSensoresIsDocked() const;
     
     //## auto_generated
-    void setSensoresInDock(int p_sensoresInDock);
+    void setSensoresIsDocked(int p_sensoresIsDocked);
     
     //## auto_generated
     bool getSensoresLBumpFront() const;
@@ -161,12 +161,6 @@ protected :
     //## auto_generated
     void initStatechart();
     
-    //## auto_generated
-    void cancelTimeouts();
-    
-    //## auto_generated
-    bool cancelTimeout(const IOxfTimeout* arg);
-    
     ////    Attributes    ////
     
     int BumpObstacle;		//## attribute BumpObstacle
@@ -187,7 +181,7 @@ protected :
     
     bool sensoresCliff;		//## attribute sensoresCliff
     
-    int sensoresInDock;		//## attribute sensoresInDock
+    int sensoresIsDocked;		//## attribute sensoresIsDocked
     
     bool sensoresLBumpFront;		//## attribute sensoresLBumpFront
     
@@ -321,9 +315,6 @@ public :
     void PersonInView_entDef();
     
     //## statechart_method
-    void PersonInView_exit();
-    
-    //## statechart_method
     IOxfReactive::TakeEventStatus PersonInView_handleEvent();
     
     // PersonInView_PathBlocked:
@@ -339,20 +330,6 @@ public :
     
     //## statechart_method
     IOxfReactive::TakeEventStatus PersonInView_ApproachUser_handleEvent();
-    
-    // ComputeStepBlocked:
-    //## statechart_method
-    inline bool ComputeStepBlocked_IN() const;
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus ComputeStepBlocked_handleEvent();
-    
-    // ComputeStepApproach:
-    //## statechart_method
-    inline bool ComputeStepApproach_IN() const;
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus ComputeStepApproach_handleEvent();
     
     // DodgeObstacle:
     //## statechart_method
@@ -456,14 +433,6 @@ public :
     //## statechart_method
     IOxfReactive::TakeEventStatus CliffAhead_GoForward_handleEvent();
     
-    // Initializing:
-    //## statechart_method
-    inline bool Initializing_IN() const;
-    
-    // InitFailed:
-    //## statechart_method
-    inline bool InitFailed_IN() const;
-    
     // Idle:
     //## statechart_method
     inline bool Idle_IN() const;
@@ -500,24 +469,20 @@ protected :
         PersonInView = 13,
         PersonInView_PathBlocked = 14,
         PersonInView_ApproachUser = 15,
-        ComputeStepBlocked = 16,
-        ComputeStepApproach = 17,
-        DodgeObstacle = 18,
-        Dodge_MoveBack = 19,
-        CrashAlgorithm = 20,
-        CrashAlorithmEndHelperState = 21,
-        CrashAlgorithm_RecoverTrajectory = 22,
-        CrashAlgorithm_GoForwardExtended = 23,
-        CrashAlgorithm_GoForward = 24,
-        CrashAlgorithm_DodgeParallel = 25,
-        CrashAlgorithm_Dodge = 26,
-        CliffAhead = 27,
-        CliffAhead_Rotate180 = 28,
-        CliffAhead_GoForward = 29,
-        Initializing = 30,
-        InitFailed = 31,
-        Idle = 32,
-        Dock = 33
+        DodgeObstacle = 16,
+        Dodge_MoveBack = 17,
+        CrashAlgorithm = 18,
+        CrashAlorithmEndHelperState = 19,
+        CrashAlgorithm_RecoverTrajectory = 20,
+        CrashAlgorithm_GoForwardExtended = 21,
+        CrashAlgorithm_GoForward = 22,
+        CrashAlgorithm_DodgeParallel = 23,
+        CrashAlgorithm_Dodge = 24,
+        CliffAhead = 25,
+        CliffAhead_Rotate180 = 26,
+        CliffAhead_GoForward = 27,
+        Idle = 28,
+        Dock = 29
     };
     
     int rootState_subState;
@@ -533,8 +498,6 @@ protected :
     int PersonOutView_subState;
     
     int PersonInView_subState;
-    
-    IOxfTimeout* PersonInView_timeout;
     
     int DodgeObstacle_subState;
     
@@ -604,12 +567,6 @@ public :
     void PersonInView_ApproachUser_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void ComputeStepBlocked_serializeStates(AOMSState* aomsState) const;
-    
-    //## statechart_method
-    void ComputeStepApproach_serializeStates(AOMSState* aomsState) const;
-    
-    //## statechart_method
     void DodgeObstacle_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
@@ -644,12 +601,6 @@ public :
     
     //## statechart_method
     void CliffAhead_GoForward_serializeStates(AOMSState* aomsState) const;
-    
-    //## statechart_method
-    void Initializing_serializeStates(AOMSState* aomsState) const;
-    
-    //## statechart_method
-    void InitFailed_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void Idle_serializeStates(AOMSState* aomsState) const;
@@ -724,14 +675,6 @@ inline bool UC::PersonInView_ApproachUser_IN() const {
     return PersonInView_subState == PersonInView_ApproachUser;
 }
 
-inline bool UC::ComputeStepBlocked_IN() const {
-    return PersonInView_subState == ComputeStepBlocked;
-}
-
-inline bool UC::ComputeStepApproach_IN() const {
-    return PersonInView_subState == ComputeStepApproach;
-}
-
 inline bool UC::DodgeObstacle_IN() const {
     return NormalOperate_subState == DodgeObstacle;
 }
@@ -778,14 +721,6 @@ inline bool UC::CliffAhead_Rotate180_IN() const {
 
 inline bool UC::CliffAhead_GoForward_IN() const {
     return CliffAhead_subState == CliffAhead_GoForward;
-}
-
-inline bool UC::Initializing_IN() const {
-    return rootState_subState == Initializing;
-}
-
-inline bool UC::InitFailed_IN() const {
-    return rootState_subState == InitFailed;
 }
 
 inline bool UC::Idle_IN() const {
