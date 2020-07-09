@@ -25,10 +25,10 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">7.9.2020::8:30:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.9.2020::8:46:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.9.2020::11:54:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.9.2020::11:51:13</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">7.9.2020::8:30:13</weakCGTime>
+			<weakCGTime type="a">7.9.2020::11:54:19</weakCGTime>
 			<strongCGTime type="a">7.1.2020::11:27:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1407,10 +1407,10 @@
 			<_id type="a">GUID a1a6264f-dcb4-4313-8d2f-a570d42acffa</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_0</_name>
-			<_modifiedTimeWeak type="a">7.9.2020::8:30:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.7.2020::9:57:10</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.9.2020::11:54:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.9.2020::11:54:19</_modifiedTime>
 			<_lastID type="a">69</_lastID>
-			<weakCGTime type="a">7.9.2020::8:30:13</weakCGTime>
+			<weakCGTime type="a">7.9.2020::11:54:19</weakCGTime>
 			<strongCGTime type="a">7.1.2020::11:27:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1418,7 +1418,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">52</_defNumber>
-			<_version type="a">7.9.2020::10:30:13</_version>
+			<_version type="a">7.9.2020::13:56:20</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 08ddd88f-00ed-40d9-94d2-506ab535380e</_diagram>
 			<AggregatesList type="e">
@@ -1480,15 +1480,29 @@
 			<_id type="a">GUID c38e6557-64f9-43d0-b417-c25bfafb5c09</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_3</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::11:19:28</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.29.2020::11:3:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.9.2020::11:20:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.9.2020::11:20:57</_modifiedTime>
 			<_itsTarget type="s">GUID 2fcefc39-2628-4ef0-8dae-a0df2432d43e</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 0947ae6c-dc8a-4d73-a273-0fad43d30c7e</_itsSource>
 			<AggregatesList type="e">
+				<value>GUID bc160a0d-c5e0-440e-9623-ec91438033fe</value>
 				<value>GUID 8b48c2a1-2bfa-4d42-ac9e-a45f26c2c45c</value>
 			</AggregatesList>
 		</ITransition>
+		<IMHyperLink type="e">
+			<_id type="a">GUID bc160a0d-c5e0-440e-9623-ec91438033fe</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">hyperlink_0</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">hyperlink_0</_linkTarget>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
 		<ILabel type="e">
 			<_id type="a">GUID 8b48c2a1-2bfa-4d42-ac9e-a45f26c2c45c</_id>
 			<_modifiedTimeWeak type="a">6.22.2020::9:40:37</_modifiedTimeWeak>
@@ -4119,13 +4133,12 @@ reproducirSonidoPerdida();</m_str>
 		<IState type="e">
 			<_id type="a">GUID 9404afd9-092d-42c6-9ab1-37a9b3fc6f86</_id>
 			<_name type="a">SearchingUser</_name>
-			<_modifiedTimeWeak type="a">7.9.2020::8:17:7</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.9.2020::11:52:25</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 La persona no est\'e1 a la vista.\par%0D
 Ejecutar algoritmo de b\'fasqueda.\par%0D
-}%0D
-</_textRTF>
+}</_textRTF>
 			</IDescription>
 			</_description>
 			<_modifiedTime type="a">7.9.2020::8:4:43</_modifiedTime>
@@ -4134,10 +4147,10 @@ Ejecutar algoritmo de b\'fasqueda.\par%0D
 			<_nestedStateChart type="p"><IStateChart type="e">
 				<_id type="a">GUID 959fb343-b7b9-40c5-aa5b-286623d6e776</_id>
 				<_myState type="a">8192</_myState>
-				<_modifiedTimeWeak type="a">7.9.2020::8:17:7</_modifiedTimeWeak>
+				<_modifiedTimeWeak type="a">7.9.2020::11:52:25</_modifiedTimeWeak>
 				<_modifiedTime type="a">7.9.2020::8:3:4</_modifiedTime>
 				<_lastID type="a">6</_lastID>
-				<weakCGTime type="a">7.9.2020::8:17:7</weakCGTime>
+				<weakCGTime type="a">7.9.2020::11:52:25</weakCGTime>
 				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -4290,8 +4303,8 @@ sensoresSumAngulo=0;</_body>
 				<_id type="a">GUID e78c6227-b01c-45ec-b551-65853dcba285</_id>
 				<_myState type="a">2048</_myState>
 				<_name type="a">defaulttransition_5</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::8:41:53</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::8:41:53</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:52:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:52:25</_modifiedTime>
 				<_errorStatus type="a">ErrorItem</_errorStatus>
 				<_itsTarget type="s">GUID 509afdc1-d5d0-425d-9397-c237f088c2f6</_itsTarget>
 				<_staticReaction type="a">0</_staticReaction>
@@ -4320,16 +4333,16 @@ sensoresSumDistancia = 0;</_body>
 			</IAction>
 			<IState type="e">
 				<_id type="a">GUID ded41808-bd7e-4708-bdfe-117689ddccb6</_id>
-				<_modifiedTimeWeak type="a">6.24.2020::12:1:27</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:1:27</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:52:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:52:25</_modifiedTime>
 				<_parent type="s"></_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID 97d29809-7076-4608-a8d8-e62fb185241e</_id>
 				<_name type="a">SearchingUser</_name>
-				<_modifiedTimeWeak type="a">7.9.2020::8:4:43</_modifiedTimeWeak>
-				<_modifiedTime type="a">7.9.2020::8:4:43</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:52:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:52:25</_modifiedTime>
 				<_parent type="s">GUID ded41808-bd7e-4708-bdfe-117689ddccb6</_parent>
 				<_defaultTrans type="s">GUID e78c6227-b01c-45ec-b551-65853dcba285</_defaultTrans>
 			</IState>
@@ -4514,9 +4527,9 @@ Encontrar sector con mayor media de distancia.</_text>
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">statechartdiagram_0</_name>
-				<_modifiedTimeWeak type="a">7.9.2020::8:17:7</_modifiedTimeWeak>
-				<_modifiedTime type="a">7.9.2020::8:4:43</_modifiedTime>
-				<_lastModifiedTime type="a">7.9.2020::8:17:32</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:46:49</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:52:23</_modifiedTime>
+				<_lastModifiedTime type="a">7.9.2020::11:52:25</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -4639,6 +4652,7 @@ Encontrar sector con mayor media de distancia.</_text>
 				</m_pInheritsFrom>
 				<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 				<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+				<m_moveAndLineTimeStamp type="a">1.2.1990::0:0:0</m_moveAndLineTimeStamp>
 			</CGIState>
 			<CGIDiagramFrame type="e">
 				<_id type="a">GUID 21c28c8e-7465-4303-b0df-1610e816c0cd</_id>
@@ -4665,7 +4679,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4096</m_drawBehavior>
-				<m_transform type="a">3.93981 0 0 3.63636 20 20 </m_transform>
+				<m_transform type="a">2.94907 0 0 3.63636 20 20 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -4747,7 +4761,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.739964 0 0 0.260377 50 50 </m_transform>
+				<m_transform type="a">0.544708 0 0 0.316981 50 50 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -4837,7 +4851,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.223181 0 0 0.217391 55.4087 691.304 </m_transform>
+				<m_transform type="a">0.224259 0 0 0.2203 808.539 758.658 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -4865,6 +4879,7 @@ Encontrar sector con mayor media de distancia.</_text>
 				</m_pInheritsFrom>
 				<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 				<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+				<m_moveAndLineTimeStamp type="a">1.2.1990::0:0:0</m_moveAndLineTimeStamp>
 			</CGIState>
 			<CGIState type="e">
 				<_id type="a">GUID 89c9fa4e-6c46-4a96-98a4-0bcca2f81613</_id>
@@ -4926,7 +4941,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.223181 0 0 0.217391 55.4087 188.188 </m_transform>
+				<m_transform type="a">0.224259 0 0 0.2203 45.3602 758.032 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -4999,20 +5014,20 @@ Encontrar sector con mayor media de distancia.</_text>
 								<m_bgFlag type="a">0</m_bgFlag>
 							</IColor>
 						</m_color>
-						<m_position type="a">4 -6 -9  94 -9  94 5  -6 5  </m_position>
+						<m_position type="a">4 -6 -9  129 -9  129 5  -6 5  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_transform type="a">1 0 0 1 174 196 </m_transform>
-						<m_nHorizontalSpacing type="a">-7</m_nHorizontalSpacing>
-						<m_nVerticalSpacing type="a">-8</m_nVerticalSpacing>
+						<m_transform type="a">1 0 0 1 218 341 </m_transform>
+						<m_nHorizontalSpacing type="a">-138</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">19</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">551 1060 </m_SourcePort>
-				<m_TargetPort type="a">551 0 </m_TargetPort>
+				<m_line_style type="a">2</m_line_style>
+				<m_SourcePort type="a">1099 540 </m_SourcePort>
+				<m_TargetPort type="a">-3 537 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -5080,7 +5095,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.241676 0 0 0.217391 560.84 675.942 </m_transform>
+				<m_transform type="a">0.234681 0 0 0.2203 795.628 206.228 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -5169,7 +5184,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.241676 0 0 0.217391 560.84 188.188 </m_transform>
+				<m_transform type="a">0.234681 0 0 0.2203 42.9546 205.42 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -5245,17 +5260,18 @@ Encontrar sector con mayor media de distancia.</_text>
 						<m_position type="a">4 -6 -9  201 -9  201 5  -6 5  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_transform type="a">1 0 0 1 327 253 </m_transform>
-						<m_nHorizontalSpacing type="a">-98</m_nHorizontalSpacing>
-						<m_nVerticalSpacing type="a">-1</m_nVerticalSpacing>
+						<m_transform type="a">1 0 0 1 356 277 </m_transform>
+						<m_nHorizontalSpacing type="a">-212</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">28</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
+				<m_arrow type="a">2 548 241  547 241  </m_arrow>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">1096 530 </m_SourcePort>
-				<m_TargetPort type="a">0 601 </m_TargetPort>
+				<m_line_style type="a">2</m_line_style>
+				<m_SourcePort type="a">471 -7 </m_SourcePort>
+				<m_TargetPort type="a">498 1054 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -5308,19 +5324,20 @@ sensoresSumAngulo=0;</m_str>
 								<m_bgFlag type="a">0</m_bgFlag>
 							</IColor>
 						</m_color>
-						<m_position type="a">4 -68 -8  163 -8  163 6  -68 6  </m_position>
+						<m_position type="a">4 -6 -9  229 -9  229 19  -6 19  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_transform type="a">1 0 0 1 585 200 </m_transform>
-						<m_nHorizontalSpacing type="a">-5</m_nHorizontalSpacing>
+						<m_transform type="a">1 0 0 1 332 204 </m_transform>
+						<m_nHorizontalSpacing type="a">-87</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">18</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">537 0 </m_SourcePort>
-				<m_TargetPort type="a">537 1060 </m_TargetPort>
+				<m_line_style type="a">2</m_line_style>
+				<m_SourcePort type="a">-3 582 </m_SourcePort>
+				<m_TargetPort type="a">1100 585 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -5372,19 +5389,21 @@ sensoresSumAngulo=0;</m_str>
 								<m_bgFlag type="a">0</m_bgFlag>
 							</IColor>
 						</m_color>
-						<m_position type="a">4 -28 -8  119 -8  119 6  -28 6  </m_position>
+						<m_position type="a">4 -6 -9  141 -9  141 5  -6 5  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_transform type="a">1 0 0 1 314 122 </m_transform>
-						<m_nHorizontalSpacing type="a">-50</m_nHorizontalSpacing>
+						<m_transform type="a">1 0 0 1 146 219 </m_transform>
+						<m_nHorizontalSpacing type="a">-14</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">-29</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
+				<m_arrow type="a">2 137 239  140 239  </m_arrow>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">0 530 </m_SourcePort>
-				<m_TargetPort type="a">1096 530 </m_TargetPort>
+				<m_line_style type="a">2</m_line_style>
+				<m_SourcePort type="a">498 1058 </m_SourcePort>
+				<m_TargetPort type="a">534 -4 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -5440,17 +5459,17 @@ sensoresSumDistancia = 0;</m_str>
 						<m_position type="a">4 -6 -9  142 -9  142 19  -6 19  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_transform type="a">1 0 0 1 88 110 </m_transform>
-						<m_nHorizontalSpacing type="a">-70</m_nHorizontalSpacing>
-						<m_nVerticalSpacing type="a">-15</m_nVerticalSpacing>
+						<m_transform type="a">1 0 0 1 218 103 </m_transform>
+						<m_nHorizontalSpacing type="a">10</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">-11</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">0</m_line_style>
-				<m_SourcePort type="a">1054 311 </m_SourcePort>
-				<m_TargetPort type="a">1096 565 </m_TargetPort>
+				<m_SourcePort type="a">167 101 </m_SourcePort>
+				<m_TargetPort type="a">498 -2 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -5516,7 +5535,7 @@ Rodear el obstaculo y volver a encontrar a la persona.</_text>
 		<IState type="e">
 			<_id type="a">GUID 3cdd02b1-1ca5-4c88-8579-83a3f8620f79</_id>
 			<_name type="a">CrashAlgorithm</_name>
-			<_modifiedTimeWeak type="a">7.7.2020::9:57:10</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.9.2020::11:54:19</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Algoritmo de rodeo.%0D
 (El del TFG)</_text>
@@ -5528,10 +5547,10 @@ Rodear el obstaculo y volver a encontrar a la persona.</_text>
 			<_nestedStateChart type="p"><IStateChart type="e">
 				<_id type="a">GUID 8372eee0-8138-4da7-852b-65a6b52f025f</_id>
 				<_myState type="a">8192</_myState>
-				<_modifiedTimeWeak type="a">7.7.2020::9:57:10</_modifiedTimeWeak>
+				<_modifiedTimeWeak type="a">7.9.2020::11:54:19</_modifiedTimeWeak>
 				<_modifiedTime type="a">7.7.2020::9:57:3</_modifiedTime>
 				<_lastID type="a">32</_lastID>
-				<weakCGTime type="a">7.7.2020::9:57:10</weakCGTime>
+				<weakCGTime type="a">7.9.2020::11:54:19</weakCGTime>
 				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -5599,8 +5618,8 @@ sensoresSumAngulo&gt;-25</_body>
 				<_id type="a">GUID cff3772c-2a54-4375-9466-e99ddcb94269</_id>
 				<_myState type="a">2048</_myState>
 				<_name type="a">defaulttransition_3</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:20:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::12:20:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:54:19</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:54:19</_modifiedTime>
 				<_errorStatus type="a">ErrorItem</_errorStatus>
 				<_itsTarget type="s">GUID f4b81b07-0d1c-4f86-934e-7d4c430fdcb0</_itsTarget>
 				<_staticReaction type="a">0</_staticReaction>
@@ -5896,16 +5915,16 @@ sensoresSumDistancia=0;</_body>
 			</IConnector>
 			<IState type="e">
 				<_id type="a">GUID e35cf172-698b-4cac-8e24-2acebef71d9d</_id>
-				<_modifiedTimeWeak type="a">6.29.2020::12:20:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::12:20:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:54:19</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:54:19</_modifiedTime>
 				<_parent type="s"></_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID 0df5659b-28f6-4a54-914b-f98a5b6d55d2</_id>
 				<_name type="a">CrashAlgorithm</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:20:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::12:20:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:54:19</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:54:19</_modifiedTime>
 				<_parent type="s">GUID e35cf172-698b-4cac-8e24-2acebef71d9d</_parent>
 				<_defaultTrans type="s">GUID cff3772c-2a54-4375-9466-e99ddcb94269</_defaultTrans>
 			</IState>
@@ -6192,9 +6211,9 @@ sensoresSumDistancia=0;</_body>
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">statechartdiagram_0</_name>
-				<_modifiedTimeWeak type="a">7.7.2020::9:57:3</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::12:20:23</_modifiedTime>
-				<_lastModifiedTime type="a">7.7.2020::9:57:11</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:54:17</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:54:19</_modifiedTime>
+				<_lastModifiedTime type="a">7.9.2020::11:56:20</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -6352,7 +6371,7 @@ sensoresSumDistancia=0;</_body>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4096</m_drawBehavior>
-				<m_transform type="a">5 0 0 3.63636 20 20 </m_transform>
+				<m_transform type="a">5.45833 0 0 3.63636 20 20 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -6464,7 +6483,7 @@ sensoresSumDistancia=0;</_body>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.948904 0 0 0.40283 50 50 </m_transform>
+				<m_transform type="a">1.03923 0 0 0.40283 50 50 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -6554,7 +6573,7 @@ sensoresSumDistancia=0;</_body>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.118269 0 0 0.140515 55.8539 148.946 </m_transform>
+				<m_transform type="a">0.107989 0 0 0.140515 50.9992 148.946 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -6644,7 +6663,7 @@ sensoresSumDistancia=0;</_body>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.157692 0 0 0.140515 343.554 148.946 </m_transform>
+				<m_transform type="a">0.161545 0 0 0.140515 313.693 148.946 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -6764,7 +6783,7 @@ sensoresSumDistancia=0;</_body>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.147115 0 0 0.140515 786.169 141.499 </m_transform>
+				<m_transform type="a">0.17647 0 0 0.140515 801.552 141.499 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -6854,7 +6873,7 @@ sensoresSumDistancia=0;</_body>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.193269 0 0 0.140515 731.368 839.064 </m_transform>
+				<m_transform type="a">0.17647 0 0 0.140515 801.551 839.064 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -6944,7 +6963,7 @@ sensoresSumDistancia=0;</_body>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.176923 0 0 0.140515 311.937 844.029 </m_transform>
+				<m_transform type="a">0.176471 0 0 0.140515 314.654 839.064 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -7005,7 +7024,7 @@ sensoresSumDistancia=0;</_body>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4096</m_drawBehavior>
-				<m_transform type="a">-3.50503e-006 -2.48244 1.05384 -8.25643e-006 -8.43077 935.879 </m_transform>
+				<m_transform type="a">-3.20038e-006 -2.48244 0.962242 -8.25643e-006 -7.69798 935.879 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_position type="a">4 0 0  0 17  18 17  18 0  </m_position>
 				<m_pInheritsFrom type="r">
@@ -7072,7 +7091,7 @@ sensoresSumAngulo&gt;-25]</m_str>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">-6 477 </m_SourcePort>
+				<m_SourcePort type="a">-5 477 </m_SourcePort>
 				<m_TargetPort type="a">10 17 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
@@ -7133,7 +7152,7 @@ sensoresSumAngulo&gt;-25]</m_str>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">0</m_line_style>
-				<m_SourcePort type="a">19 223 </m_SourcePort>
+				<m_SourcePort type="a">17 223 </m_SourcePort>
 				<m_TargetPort type="a">-9 530 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
@@ -7263,7 +7282,7 @@ sensoresSumAngulo&gt;-25]</m_str>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">1</m_line_style>
 				<m_SourcePort type="a">1096 406 </m_SourcePort>
-				<m_TargetPort type="a">-7 459 </m_TargetPort>
+				<m_TargetPort type="a">-5 459 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -7357,9 +7376,9 @@ sensoresSumAngulo&gt;-25]</m_str>
 				</m_rpn>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">542 0 </m_SourcePort>
-				<m_TargetPort type="a">408 1060 </m_TargetPort>
+				<m_line_style type="a">0</m_line_style>
+				<m_SourcePort type="a">294 0 </m_SourcePort>
+				<m_TargetPort type="a">334 1060 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -7415,17 +7434,17 @@ sensoresSumDistancia=0;</m_str>
 						<m_position type="a">4 -6 -9  109 -9  109 5  -6 5  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
-						<m_transform type="a">1.33913 0 0 2.21429 951.035 270.929 </m_transform>
-						<m_nHorizontalSpacing type="a">-13</m_nHorizontalSpacing>
-						<m_nVerticalSpacing type="a">-27</m_nVerticalSpacing>
+						<m_transform type="a">1.33913 0 0 2.21429 1063.03 202.929 </m_transform>
+						<m_nHorizontalSpacing type="a">-17</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">-93</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">917 1060 </m_SourcePort>
-				<m_TargetPort type="a">982 0 </m_TargetPort>
+				<m_line_style type="a">0</m_line_style>
+				<m_SourcePort type="a">851 1060 </m_SourcePort>
+				<m_TargetPort type="a">851 0 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -7545,17 +7564,17 @@ sensoresSumDistancia=0;</m_str>
 						<m_position type="a">4 -110 -6  126 -6  126 8  -110 8  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
-						<m_transform type="a">0.694915 0 0 2 722.441 365 </m_transform>
-						<m_nHorizontalSpacing type="a">-172</m_nHorizontalSpacing>
-						<m_nVerticalSpacing type="a">76</m_nVerticalSpacing>
+						<m_transform type="a">0.694915 0 0 2 941.441 371 </m_transform>
+						<m_nHorizontalSpacing type="a">-158</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">84</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">1</m_line_style>
-				<m_SourcePort type="a">894 0 </m_SourcePort>
-				<m_TargetPort type="a">802 1060 </m_TargetPort>
+				<m_SourcePort type="a">720 0 </m_SourcePort>
+				<m_TargetPort type="a">714 1060 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -7675,9 +7694,9 @@ sensoresSumDistancia=0;</m_str>
 						<m_position type="a">4 -6 -9  153 -9  153 5  -6 5  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_transform type="a">1 0 0 1 543 283 </m_transform>
-						<m_nHorizontalSpacing type="a">-23</m_nHorizontalSpacing>
-						<m_nVerticalSpacing type="a">-55</m_nVerticalSpacing>
+						<m_transform type="a">1 0 0 1 571 298 </m_transform>
+						<m_nHorizontalSpacing type="a">-73</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">-59</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
@@ -7685,7 +7704,7 @@ sensoresSumDistancia=0;</m_str>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">1</m_line_style>
 				<m_SourcePort type="a">0 300 </m_SourcePort>
-				<m_TargetPort type="a">869 1060 </m_TargetPort>
+				<m_TargetPort type="a">870 1060 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -7750,7 +7769,7 @@ sensoresSumDistancia=0;</m_str>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">1</m_line_style>
 				<m_SourcePort type="a">1096 283 </m_SourcePort>
-				<m_TargetPort type="a">265 1060 </m_TargetPort>
+				<m_TargetPort type="a">267 1060 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -7818,7 +7837,7 @@ Terminar la ejecucion del algoritmo principal, liberar recursos y salir.</_text>
 		<IState type="e">
 			<_id type="a">GUID 04e33954-9bb9-4f05-b9f5-484be0278e1c</_id>
 			<_name type="a">UN_DOCKING</_name>
-			<_modifiedTimeWeak type="a">7.9.2020::8:2:35</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.9.2020::11:46:13</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Salir de la base.%0D
 Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
@@ -7830,10 +7849,10 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<_nestedStateChart type="p"><IStateChart type="e">
 				<_id type="a">GUID e1a723a5-b871-47d8-8f3d-33a500e758d0</_id>
 				<_myState type="a">8192</_myState>
-				<_modifiedTimeWeak type="a">7.9.2020::8:2:35</_modifiedTimeWeak>
-				<_modifiedTime type="a">7.9.2020::7:59:19</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:46:13</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:46:13</_modifiedTime>
 				<_lastID type="a">5</_lastID>
-				<weakCGTime type="a">7.9.2020::8:2:35</weakCGTime>
+				<weakCGTime type="a">7.9.2020::11:46:13</weakCGTime>
 				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -7996,7 +8015,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				<_properties type="p"><IPropertyContainer type="e">
 					<Subjects type="c">
 						<IRPYRawContainer type="e">
-							<size type="a">1</size>
+							<size type="a">2</size>
 							<IPropertySubject type="e">
 								<_Name type="a">Format</_Name>
 								<Metaclasses type="c">
@@ -8162,14 +8181,44 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 								</Metaclasses>
 							</IPropertySubject>
 							
+							<IPropertySubject type="e">
+								<_Name type="a">General</_Name>
+								<Metaclasses type="c">
+									<IRPYRawContainer type="e">
+										<size type="a">1</size>
+										<IPropertyMetaclass type="e">
+											<_Name type="a">Graphics</_Name>
+											<Properties type="c">
+												<IRPYRawContainer type="e">
+													<size type="a">2</size>
+													<IProperty type="e">
+														<_Name type="a">SmartRouting</_Name>
+														<_Value type="a">True</_Value>
+														<_Type type="a">Bool</_Type>
+													</IProperty>
+													
+													<IProperty type="e">
+														<_Name type="a">grid_snap</_Name>
+														<_Value type="a">True</_Value>
+														<_Type type="a">Bool</_Type>
+													</IProperty>
+													
+												</IRPYRawContainer>
+											</Properties>
+										</IPropertyMetaclass>
+										
+									</IRPYRawContainer>
+								</Metaclasses>
+							</IPropertySubject>
+							
 						</IRPYRawContainer>
 					</Subjects>
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">statechartdiagram_0</_name>
-				<_modifiedTimeWeak type="a">7.9.2020::8:2:35</_modifiedTimeWeak>
-				<_modifiedTime type="a">7.9.2020::7:59:19</_modifiedTime>
-				<_lastModifiedTime type="a">7.9.2020::8:2:35</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::11:46:13</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::11:46:13</_modifiedTime>
+				<_lastModifiedTime type="a">7.9.2020::11:46:13</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -8316,7 +8365,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4096</m_drawBehavior>
-				<m_transform type="a">2.63889 0 0 3.63636 20 20 </m_transform>
+				<m_transform type="a">3.38426 0 0 3.63636 20 20 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -8398,7 +8447,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.240876 0 0 0.364151 50 50 </m_transform>
+				<m_transform type="a">0.630475 0 0 0.156604 50 50 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -8488,7 +8537,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.412879 0 0 0.15544 66.4236 203.212 </m_transform>
+				<m_transform type="a">0.177735 0 0 0.452598 29.7104 516.343 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -8562,17 +8611,20 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 								<m_bgFlag type="a">0</m_bgFlag>
 							</IColor>
 						</m_color>
-						<m_position type="a">1 0 0  </m_position>
+						<m_position type="a">4 -6 -9  139 -9  139 5  -6 5  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+						<m_transform type="a">1 0 0 1 133 103 </m_transform>
+						<m_nHorizontalSpacing type="a">-11</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">-12</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">0</m_line_style>
-				<m_SourcePort type="a">257 99 </m_SourcePort>
-				<m_TargetPort type="a">523 0 </m_TargetPort>
+				<m_SourcePort type="a">111 266 </m_SourcePort>
+				<m_TargetPort type="a">475 -12 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -8640,7 +8692,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.412879 0 0 0.15544 66.4236 659.067 </m_transform>
+				<m_transform type="a">0.177735 0 0 0.452598 515.528 508.348 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -8717,17 +8769,17 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 						<m_position type="a">4 -77 -6  208 -6  208 8  -77 8  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
-						<m_transform type="a">0.54386 0 0 2.71429 163.877 238.286 </m_transform>
-						<m_nHorizontalSpacing type="a">-4</m_nHorizontalSpacing>
-						<m_nVerticalSpacing type="a">-15</m_nVerticalSpacing>
+						<m_transform type="a">0.54386 0 0 2.21429 230.877 176.286 </m_transform>
+						<m_nHorizontalSpacing type="a">-95</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">18</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">6</m_line_style>
-				<m_SourcePort type="a">513 1060 </m_SourcePort>
-				<m_TargetPort type="a">513 0 </m_TargetPort>
+				<m_SourcePort type="a">1109 623 </m_SourcePort>
+				<m_TargetPort type="a">-9 640 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -8756,16 +8808,17 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 								<m_bgFlag type="a">0</m_bgFlag>
 							</IColor>
 						</m_color>
-						<m_position type="a">1 0 0  </m_position>
+						<m_position type="a">4 129 -482  229 -482  229 -464  129 -464  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_nHorizontalSpacing type="a">22</m_nHorizontalSpacing>
-						<m_nVerticalSpacing type="a">18</m_nVerticalSpacing>
+						<m_transform type="a">1 0 0 1 519 629 </m_transform>
+						<m_nHorizontalSpacing type="a">-42</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">-20</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4096</m_drawBehavior>
-				<m_transform type="a">-4.15152 0 -0 -2.74612 325.894 1081.96 </m_transform>
+				<m_transform type="a">0 6.38556 -1.58611 0 1108.69 749.437 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_position type="a">4 0 0  0 17  18 17  18 0  </m_position>
 				<m_pInheritsFrom type="r">
@@ -8819,21 +8872,21 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 								<m_bgFlag type="a">0</m_bgFlag>
 							</IColor>
 						</m_color>
-						<m_position type="a">4 -6 -9  145 -9  145 5  -6 5  </m_position>
+						<m_position type="a">4 -6 -9  141 -9  141 5  -6 5  </m_position>
 						<m_nIdent type="a">0</m_nIdent>
 						<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-						<m_transform type="a">1 0 0 1 129 383 </m_transform>
-						<m_nHorizontalSpacing type="a">-4</m_nHorizontalSpacing>
-						<m_nVerticalSpacing type="a">-15</m_nVerticalSpacing>
+						<m_transform type="a">1 0 0 1 500 167 </m_transform>
+						<m_nHorizontalSpacing type="a">-136</m_nHorizontalSpacing>
+						<m_nVerticalSpacing type="a">-18</m_nVerticalSpacing>
 						<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 					</CGIText>
 				</m_rpn>
-				<m_arrow type="a">2 120 392  119 392  </m_arrow>
+				<m_arrow type="a">2 615 177  615 176  </m_arrow>
 				<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 				<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 				<m_line_style type="a">6</m_line_style>
-				<m_SourcePort type="a">543 1060 </m_SourcePort>
-				<m_TargetPort type="a">10 17 </m_TargetPort>
+				<m_SourcePort type="a">1097 669 </m_SourcePort>
+				<m_TargetPort type="a">9 17 </m_TargetPort>
 				<m_pInheritsFrom type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -8849,7 +8902,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
+						<size type="a">3</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
@@ -9205,6 +9258,30 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 						</IPropertySubject>
 						
 						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">grid_display</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
 							<_Name type="a">StatechartDiagram</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
@@ -9250,9 +9327,9 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">MainMaschine</_name>
-			<_modifiedTimeWeak type="a">7.9.2020::8:19:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.3.2020::9:4:41</_modifiedTime>
-			<_lastModifiedTime type="a">7.9.2020::8:30:13</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">7.9.2020::11:52:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.9.2020::11:36:59</_modifiedTime>
+			<_lastModifiedTime type="a">7.9.2020::11:53:4</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -9442,7 +9519,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">4.2963 0 0 7.48485 20 20 </m_transform>
+			<m_transform type="a">4.18518 0 0 7.7803 20 15 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -9554,7 +9631,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.237226 0 0 0.0707548 678 74 </m_transform>
+			<m_transform type="a">0.307481 0 0 0.0707548 34 81 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -9582,13 +9659,14 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+			<m_moveAndLineTimeStamp type="a">1.2.1990::0:0:0</m_moveAndLineTimeStamp>
 		</CGIState>
 		<CGIState type="e">
 			<_id type="a">GUID 44e79c87-b28c-4e85-9c07-3603fece3c31</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
@@ -9609,6 +9687,30 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 													<_Name type="a">Font.Underline</_Name>
 													<_Value type="a">0</_Value>
 													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
 												</IProperty>
 												
 											</IRPYRawContainer>
@@ -9649,7 +9751,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.228571 0 0 0.271494 761.981 589.955 </m_transform>
+			<m_transform type="a">0.228571 0 0 0.37803 761.981 582.636 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -9726,16 +9828,17 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 					<m_position type="a">4 -6 -9  50 -9  50 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 650 207 </m_transform>
-					<m_nHorizontalSpacing type="a">-10</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-21</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 427 134 </m_transform>
+					<m_nHorizontalSpacing type="a">-108</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-6</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
+			<m_arrow type="a">1 572 139  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">666 1060 </m_SourcePort>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">1096 820 </m_SourcePort>
 			<m_TargetPort type="a">11 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -9749,7 +9852,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
@@ -9770,6 +9873,30 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 													<_Name type="a">Font.Underline</_Name>
 													<_Value type="a">0</_Value>
 													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
 												</IProperty>
 												
 											</IRPYRawContainer>
@@ -9810,7 +9937,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.228571 0 0 0.271494 57.4091 589.955 </m_transform>
+			<m_transform type="a">0.228571 0 0 0.37803 57.4091 582.636 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -9959,8 +10086,8 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">-11 177 </m_SourcePort>
-			<m_TargetPort type="a">1096 177 </m_TargetPort>
+			<m_SourcePort type="a">-11 180 </m_SourcePort>
+			<m_TargetPort type="a">1096 180 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -10058,7 +10185,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.477272 0 0 0.37649 31.1364 92.0954 </m_transform>
+			<m_transform type="a">0.477272 0 0 0.442294 28.6455 124.662 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -10132,19 +10259,20 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -6 -9  43 -9  43 5  -6 5  </m_position>
+					<m_position type="a">4 -6 -9  50 -9  50 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 880 290 </m_transform>
-					<m_nHorizontalSpacing type="a">-65</m_nHorizontalSpacing>
+					<m_transform type="a">1 0 0 1 105 361 </m_transform>
+					<m_nHorizontalSpacing type="a">23</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">80</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">1079 -2 </m_SourcePort>
-			<m_TargetPort type="a">1037 1060 </m_TargetPort>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">42 0 </m_SourcePort>
+			<m_TargetPort type="a">98 1060 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -10236,7 +10364,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.0875912 0 0 0.0707547 453 188 </m_transform>
+			<m_transform type="a">0.0875912 0 0 0.0707547 275 242 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -10327,8 +10455,8 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 					<m_position type="a">4 -6 -9  46 -9  46 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 546 344 </m_transform>
-					<m_nHorizontalSpacing type="a">-3</m_nHorizontalSpacing>
+					<m_transform type="a">1 0 0 1 263 362 </m_transform>
+					<m_nHorizontalSpacing type="a">-44</m_nHorizontalSpacing>
 					<m_nVerticalSpacing type="a">2</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
@@ -10336,8 +10464,8 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">585 0 </m_SourcePort>
-			<m_TargetPort type="a">856 1060 </m_TargetPort>
+			<m_SourcePort type="a">321 0 </m_SourcePort>
+			<m_TargetPort type="a">183 1060 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -10424,17 +10552,17 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 					<m_position type="a">4 -6 -9  46 -9  46 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 380 175 </m_transform>
-					<m_nHorizontalSpacing type="a">-52</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-12</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 274 188 </m_transform>
+					<m_nHorizontalSpacing type="a">-69</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-41</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">173 1060 </m_SourcePort>
-			<m_TargetPort type="a">1096 410 </m_TargetPort>
+			<m_SourcePort type="a">855 1060 </m_SourcePort>
+			<m_TargetPort type="a">251 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -10502,7 +10630,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.949999 0 0 0.376491 31.1364 590.494 </m_transform>
+			<m_transform type="a">0.814772 0 0 0.317328 110.845 687.211 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -10576,11 +10704,11 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -30 -5  38 -5  38 9  -30 9  </m_position>
+					<m_position type="a">4 -6 -9  210 -9  210 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 512 476 </m_transform>
-					<m_nHorizontalSpacing type="a">-7</m_nHorizontalSpacing>
+					<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
+					<m_transform type="a">0.962963 0 0 1 119.778 775 </m_transform>
+					<m_nHorizontalSpacing type="a">-218</m_nHorizontalSpacing>
 					<m_nVerticalSpacing type="a">-12</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
@@ -10588,8 +10716,8 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">511 1060 </m_SourcePort>
-			<m_TargetPort type="a">257 0 </m_TargetPort>
+			<m_SourcePort type="a">611 1058 </m_SourcePort>
+			<m_TargetPort type="a">258 2 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -10657,7 +10785,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.172864 0 0 0.269553 209.161 565.906 </m_transform>
+			<m_transform type="a">0.172864 0 0 0.521747 126.824 383.469 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -10777,7 +10905,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.208907 0 0 0.434763 741.262 393.195 </m_transform>
+			<m_transform type="a">0.208907 0 0 0.524718 758.283 377.56 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -10855,17 +10983,17 @@ sensoresSumDistancia = 0;</m_str>
 					<m_position type="a">4 -6 -9  142 -9  142 19  -6 19  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 107 669 </m_transform>
-					<m_nHorizontalSpacing type="a">-73</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-18</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 333 958 </m_transform>
+					<m_nHorizontalSpacing type="a">-5</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-22</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">31 748 </m_SourcePort>
-			<m_TargetPort type="a">-12 676 </m_TargetPort>
+			<m_SourcePort type="a">196 165 </m_SourcePort>
+			<m_TargetPort type="a">389 -1 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -10917,20 +11045,20 @@ sensoresSumDistancia = 0;</m_str>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -49 -7  105 -7  105 7  -49 7  </m_position>
+					<m_position type="a">4 -6 -9  148 -9  148 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 384 664 </m_transform>
+					<m_transform type="a">1 0 0 1 429 931 </m_transform>
 					<m_nHorizontalSpacing type="a">-79</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">1</m_nVerticalSpacing>
+					<m_nVerticalSpacing type="a">-4</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">1096 303 </m_SourcePort>
-			<m_TargetPort type="a">-3 585 </m_TargetPort>
+			<m_SourcePort type="a">1097 524 </m_SourcePort>
+			<m_TargetPort type="a">-8 513 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -10986,17 +11114,17 @@ sensoresSumDistancia = 0;</m_str>
 					<m_position type="a">4 -72 -8  286 -8  286 6  -72 6  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
-					<m_transform type="a">0.645251 0 0 2.21429 411.458 927.714 </m_transform>
-					<m_nHorizontalSpacing type="a">-113</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">20</m_nVerticalSpacing>
+					<m_transform type="a">0.645251 0 0 2.21429 432.458 987.714 </m_transform>
+					<m_nHorizontalSpacing type="a">-88</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">19</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">-3 938 </m_SourcePort>
-			<m_TargetPort type="a">1096 872 </m_TargetPort>
+			<m_SourcePort type="a">-8 871 </m_SourcePort>
+			<m_TargetPort type="a">1097 874 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -11064,7 +11192,7 @@ sensoresSumDistancia = 0;</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.33409 0 0 0.37649 706.173 92.0954 </m_transform>
+			<m_transform type="a">0.33409 0 0 0.442294 703.682 124.662 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -11154,7 +11282,7 @@ sensoresSumDistancia = 0;</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.39796 0 0 0.271494 618.83 158.281 </m_transform>
+			<m_transform type="a">0.39796 0 0 0.177875 574.096 333.487 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -11231,18 +11359,18 @@ sensoresSumDistancia=0;</m_str>
 					</m_color>
 					<m_position type="a">4 -6 -9  135 -9  135 19  -6 19  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 667 374 </m_transform>
-					<m_nHorizontalSpacing type="a">-68</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-14</m_nVerticalSpacing>
+					<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
+					<m_transform type="a">0.943262 0 0 1 656.66 578 </m_transform>
+					<m_nHorizontalSpacing type="a">-146</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-17</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">75 297 </m_SourcePort>
-			<m_TargetPort type="a">-9 512 </m_TargetPort>
+			<m_SourcePort type="a">783 126 </m_SourcePort>
+			<m_TargetPort type="a">543 -19 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -11310,7 +11438,7 @@ sensoresSumDistancia=0;</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.39796 0 0 0.271494 618.83 652.307 </m_transform>
+			<m_transform type="a">0.39796 0 0 0.230191 574.096 761.623 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -11387,17 +11515,17 @@ sensoresSumDistancia=0;</m_str>
 					<m_position type="a">4 -28 -8  119 -8  119 6  -28 6  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
-					<m_transform type="a">0.945578 0 0 1 768.476 448 </m_transform>
-					<m_nHorizontalSpacing type="a">-155</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
+					<m_transform type="a">0.945578 0 0 1 670.476 713 </m_transform>
+					<m_nHorizontalSpacing type="a">-152</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-13</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">927 1060 </m_SourcePort>
-			<m_TargetPort type="a">927 0 </m_TargetPort>
+			<m_SourcePort type="a">525 1066 </m_SourcePort>
+			<m_TargetPort type="a">525 -8 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -11407,6 +11535,38 @@ sensoresSumDistancia=0;</m_str>
 		</CGITrans>
 		<CGIConnector type="e">
 			<_id type="a">GUID 2530c4f1-9ccc-4167-97a8-4b54ae04077e</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">StubConnector</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Label.Name</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">131</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -11429,14 +11589,14 @@ sensoresSumDistancia=0;</m_str>
 					<m_position type="a">4 -6 -9  122 -9  122 9  -6 9  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
-					<m_transform type="a">0.945313 0 0 1 539.672 801 </m_transform>
-					<m_nHorizontalSpacing type="a">-66</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-20</m_nVerticalSpacing>
+					<m_transform type="a">0.945313 0 0 1 595.672 855 </m_transform>
+					<m_nHorizontalSpacing type="a">45</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-24</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">6.27557 6.20308e-005 -3.52854e-005 11.0322 14.6305 -84.0589 </m_transform>
+			<m_transform type="a">7.31712 5.43992e-005 -4.11417e-005 9.67493 5.22358 -76.873 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_position type="a">4 0 0  0 17  18 17  18 0  </m_position>
 			<m_pInheritsFrom type="r">
@@ -11473,7 +11633,7 @@ sensoresSumDistancia=0;</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">2.60953 0 0 4.41267 524.515 335.747 </m_transform>
+			<m_transform type="a">2.60953 0 0 3.35086 516.686 341.982 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_position type="a">4 0 0  0 25  25 25  25 0  </m_position>
 			<m_pInheritsFrom type="r">
@@ -11571,8 +11731,8 @@ sensoresSumDistancia=0;</m_str>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">24 16 </m_SourcePort>
-			<m_TargetPort type="a">617 0 </m_TargetPort>
+			<m_SourcePort type="a">24 17 </m_SourcePort>
+			<m_TargetPort type="a">617 -3 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -11624,20 +11784,20 @@ sensoresSumDistancia=0;</m_str>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -18 -6  20 -6  20 8  -18 8  </m_position>
+					<m_position type="a">4 -6 -9  32 -9  32 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 209 361 </m_transform>
-					<m_nHorizontalSpacing type="a">-46</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">2</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 160 560 </m_transform>
+					<m_nHorizontalSpacing type="a">-27</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-2</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">1 15 </m_SourcePort>
-			<m_TargetPort type="a">617 0 </m_TargetPort>
+			<m_SourcePort type="a">1 17 </m_SourcePort>
+			<m_TargetPort type="a">617 -3 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -11735,7 +11895,7 @@ sensoresSumDistancia=0;</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.80292 0 0 0.553774 58 411 </m_transform>
+			<m_transform type="a">0.80292 0 0 0.620755 34 374 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -11812,17 +11972,17 @@ sensoresSumDistancia=0;</m_str>
 					<m_position type="a">4 -6 -9  113 -9  113 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 738 713 </m_transform>
-					<m_nHorizontalSpacing type="a">33</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-5</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 653 780 </m_transform>
+					<m_nHorizontalSpacing type="a">-107</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">3</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">814 0 </m_SourcePort>
-			<m_TargetPort type="a">295 1060 </m_TargetPort>
+			<m_SourcePort type="a">965 2 </m_SourcePort>
+			<m_TargetPort type="a">574 1058 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -11877,17 +12037,17 @@ sensoresSumDistancia=0;</m_str>
 					<m_position type="a">4 1 -8  158 -8  158 6  1 6  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
-					<m_transform type="a">0.955414 0 0 1 642.045 624 </m_transform>
-					<m_nHorizontalSpacing type="a">-15</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-1</m_nVerticalSpacing>
+					<m_transform type="a">0.955414 0 0 1 599.045 689 </m_transform>
+					<m_nHorizontalSpacing type="a">-16</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-4</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">0 601 </m_SourcePort>
-			<m_TargetPort type="a">1096 815 </m_TargetPort>
+			<m_SourcePort type="a">0 625 </m_SourcePort>
+			<m_TargetPort type="a">1096 906 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -11950,8 +12110,8 @@ sensoresSumDistancia=0;</m_str>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">1096 398 </m_SourcePort>
-			<m_TargetPort type="a">0 398 </m_TargetPort>
+			<m_SourcePort type="a">1096 399 </m_SourcePort>
+			<m_TargetPort type="a">0 399 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12011,8 +12171,8 @@ sensoresSumDistancia=0;</m_str>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">6 1 </m_SourcePort>
-			<m_TargetPort type="a">1096 935 </m_TargetPort>
+			<m_SourcePort type="a">5 0 </m_SourcePort>
+			<m_TargetPort type="a">1096 997 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12067,17 +12227,17 @@ sensoresSumDistancia=0;</m_str>
 					<m_position type="a">4 -6 -9  111 -9  111 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 365 344 </m_transform>
-					<m_nHorizontalSpacing type="a">-137</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">2</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 383 362 </m_transform>
+					<m_nHorizontalSpacing type="a">-10</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">1</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">527 0 </m_SourcePort>
-			<m_TargetPort type="a">320 1060 </m_TargetPort>
+			<m_SourcePort type="a">390 0 </m_SourcePort>
+			<m_TargetPort type="a">822 1060 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12132,17 +12292,17 @@ sensoresSumDistancia=0;</m_str>
 					<m_position type="a">4 -6 -9  111 -9  111 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 699 239 </m_transform>
-					<m_nHorizontalSpacing type="a">17</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">12</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 381 218 </m_transform>
+					<m_nHorizontalSpacing type="a">-11</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-11</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">308 1060 </m_SourcePort>
-			<m_TargetPort type="a">1096 749 </m_TargetPort>
+			<m_SourcePort type="a">1015 1060 </m_SourcePort>
+			<m_TargetPort type="a">811 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12202,8 +12362,8 @@ sensoresSumDistancia=0;</m_str>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">665 132 </m_SourcePort>
-			<m_TargetPort type="a">1096 106 </m_TargetPort>
+			<m_SourcePort type="a">294 64 </m_SourcePort>
+			<m_TargetPort type="a">556 -1 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12239,7 +12399,7 @@ sensoresSumDistancia=0;</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.0875912 0 0 0.0566038 171 183 </m_transform>
+			<m_transform type="a">0.0875912 0 0 0.0566038 818 81 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -12296,7 +12456,7 @@ sensoresSumDistancia=0;</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">1 0 0 0.92 207 290 </m_transform>
+			<m_transform type="a">1 0 0 0.92 854 25 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_position type="a">4 0 0  0 25  25 25  25 0  </m_position>
 			<m_pInheritsFrom type="r">
@@ -12358,8 +12518,8 @@ sensoresSumDistancia=0;</m_str>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">537 1060 </m_SourcePort>
-			<m_TargetPort type="a">11 0 </m_TargetPort>
+			<m_SourcePort type="a">559 0 </m_SourcePort>
+			<m_TargetPort type="a">12 25 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12411,18 +12571,20 @@ sensoresSumDistancia=0;</m_str>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -6 -9  43 -9  43 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 366 87 </m_transform>
+					<m_nHorizontalSpacing type="a">-221</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-5</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 219 104  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">6</m_line_style>
-			<m_SourcePort type="a">0 424 </m_SourcePort>
-			<m_TargetPort type="a">548 0 </m_TargetPort>
+			<m_SourcePort type="a">1096 141 </m_SourcePort>
+			<m_TargetPort type="a">0 177 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12458,7 +12620,7 @@ sensoresSumDistancia=0;</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.0875912 0 0 0.0566038 594 271 </m_transform>
+			<m_transform type="a">0.0875912 0 0 0.0566038 650 242 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -12515,7 +12677,7 @@ sensoresSumDistancia=0;</m_str>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">1 0 0 0.92 825 285 </m_transform>
+			<m_transform type="a">1 0 0 0.92 561 178 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_position type="a">4 0 0  0 25  25 25  25 0  </m_position>
 			<m_pInheritsFrom type="r">
@@ -12569,20 +12731,21 @@ sensoresSumDistancia=0;</m_str>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -65 -5  73 -5  73 9  -65 9  </m_position>
+					<m_position type="a">4 -6 -9  129 -9  129 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 770 284 </m_transform>
-					<m_nHorizontalSpacing type="a">-59</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-4</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 622 188 </m_transform>
+					<m_nHorizontalSpacing type="a">-88</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-3</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
+			<m_arrow type="a">1 699 189  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">6</m_line_style>
-			<m_SourcePort type="a">-1 14 </m_SourcePort>
-			<m_TargetPort type="a">1096 477 </m_TargetPort>
+			<m_SourcePort type="a">25 12 </m_SourcePort>
+			<m_TargetPort type="a">559 -18 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12634,17 +12797,20 @@ sensoresSumDistancia=0;</m_str>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -6 -9  32 -9  32 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 561 236 </m_transform>
+					<m_nHorizontalSpacing type="a">-57</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-68</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">6</m_line_style>
-			<m_SourcePort type="a">14 25 </m_SourcePort>
-			<m_TargetPort type="a">973 0 </m_TargetPort>
+			<m_SourcePort type="a">11 25 </m_SourcePort>
+			<m_TargetPort type="a">670 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12654,6 +12820,38 @@ sensoresSumDistancia=0;</m_str>
 		</CGITrans>
 		<CGIConnector type="e">
 			<_id type="a">GUID b05d3819-2aa2-45ba-aa80-206351673512</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">StubConnector</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Label.Name</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">131</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -12673,12 +12871,12 @@ sensoresSumDistancia=0;</m_str>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -6 -8  94 -8  94 10  -6 10  </m_position>
+					<m_position type="a">4 -6 -9  74 -9  74 6  -6 6  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 728 340 </m_transform>
-					<m_nHorizontalSpacing type="a">67</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">11</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 708 322 </m_transform>
+					<m_nHorizontalSpacing type="a">46</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">19</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
@@ -12746,7 +12944,7 @@ sensoresSumDistancia=0;</m_str>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">6</m_line_style>
 			<m_SourcePort type="a">9 0 </m_SourcePort>
-			<m_TargetPort type="a">725 0 </m_TargetPort>
+			<m_TargetPort type="a">824 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12798,21 +12996,21 @@ sensoresSumDistancia=0;</m_str>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -42 -6  96 -6  96 8  -42 8  </m_position>
+					<m_position type="a">4 -6 -9  140 -9  140 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 558 140 </m_transform>
-					<m_nHorizontalSpacing type="a">-46</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">24</m_nVerticalSpacing>
+					<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
+					<m_transform type="a">0.931507 0 0 1 157.589 282 </m_transform>
+					<m_nHorizontalSpacing type="a">-6</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-5</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 500 125  </m_arrow>
+			<m_arrow type="a">1 121 286  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">6</m_line_style>
-			<m_SourcePort type="a">537 -14 </m_SourcePort>
-			<m_TargetPort type="a">0 721 </m_TargetPort>
+			<m_SourcePort type="a">0 622 </m_SourcePort>
+			<m_TargetPort type="a">283 1060 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12872,8 +13070,8 @@ sensoresSumDistancia=0;</m_str>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">558 149 </m_SourcePort>
-			<m_TargetPort type="a">13 -1 </m_TargetPort>
+			<m_SourcePort type="a">556 126 </m_SourcePort>
+			<m_TargetPort type="a">13 -2 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12928,18 +13126,17 @@ sensoresSumDistancia=0;</m_str>
 					<m_position type="a">4 -6 -9  43 -9  43 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 137 368 </m_transform>
-					<m_nHorizontalSpacing type="a">47</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">62</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 841 356 </m_transform>
+					<m_nHorizontalSpacing type="a">-34</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">90</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 114 213  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">6</m_line_style>
-			<m_SourcePort type="a">70 0 </m_SourcePort>
-			<m_TargetPort type="a">0 530 </m_TargetPort>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">1060 0 </m_SourcePort>
+			<m_TargetPort type="a">754 1060 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12991,18 +13188,21 @@ sensoresSumDistancia=0;</m_str>
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -6 -9  43 -9  43 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 791 269 </m_transform>
+					<m_nHorizontalSpacing type="a">-86</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">5</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 394 317  394 215  </m_arrow>
+			<m_arrow type="a">1 846 275  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">6</m_line_style>
-			<m_SourcePort type="a">0 813 </m_SourcePort>
-			<m_TargetPort type="a">1096 565 </m_TargetPort>
+			<m_SourcePort type="a">1096 583 </m_SourcePort>
+			<m_TargetPort type="a">320 1060 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -13062,8 +13262,8 @@ sensoresSumDistancia=0;</m_str>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">726 37 </m_SourcePort>
-			<m_TargetPort type="a">202 0 </m_TargetPort>
+			<m_SourcePort type="a">197 38 </m_SourcePort>
+			<m_TargetPort type="a">530 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
