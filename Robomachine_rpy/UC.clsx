@@ -25,10 +25,10 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">7.7.2020::9:57:10</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.7.2020::9:57:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.9.2020::8:30:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.9.2020::8:46:49</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">7.7.2020::9:57:10</weakCGTime>
+			<weakCGTime type="a">7.9.2020::8:30:13</weakCGTime>
 			<strongCGTime type="a">7.1.2020::11:27:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -693,7 +693,7 @@
 			<_returnType type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">void</_hname>
 					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
 				</IHandle>
@@ -720,7 +720,7 @@
 			<_returnType type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">void</_hname>
 					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
 				</IHandle>
@@ -747,7 +747,7 @@
 			<_returnType type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">void</_hname>
 					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
 				</IHandle>
@@ -807,7 +807,7 @@
 			<_returnType type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">void</_hname>
 					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
 				</IHandle>
@@ -834,7 +834,7 @@
 			<_returnType type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">void</_hname>
 					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
 				</IHandle>
@@ -894,7 +894,7 @@
 			<_returnType type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">bool</_hname>
 					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
 				</IHandle>
@@ -950,7 +950,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">int</_hname>
 					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
 				</IHandle>
@@ -984,7 +984,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">bool</_hname>
 					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
 				</IHandle>
@@ -1018,7 +1018,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">int</_hname>
 					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
 				</IHandle>
@@ -1052,7 +1052,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">int</_hname>
 					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
 				</IHandle>
@@ -1086,7 +1086,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">int</_hname>
 					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
 				</IHandle>
@@ -1120,7 +1120,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">int</_hname>
 					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
 				</IHandle>
@@ -1154,7 +1154,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">bool</_hname>
 					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
 				</IHandle>
@@ -1188,7 +1188,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">bool</_hname>
 					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
 				</IHandle>
@@ -1222,7 +1222,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">bool</_hname>
 					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
 				</IHandle>
@@ -1256,7 +1256,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">int</_hname>
 					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
 				</IHandle>
@@ -1290,7 +1290,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">bool</_hname>
 					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
 				</IHandle>
@@ -1324,7 +1324,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">bool</_hname>
 					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
 				</IHandle>
@@ -1358,7 +1358,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">int</_hname>
 					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
 				</IHandle>
@@ -1392,7 +1392,7 @@
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
 					<_hname type="a">int</_hname>
 					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
 				</IHandle>
@@ -1407,10 +1407,10 @@
 			<_id type="a">GUID a1a6264f-dcb4-4313-8d2f-a570d42acffa</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_0</_name>
-			<_modifiedTimeWeak type="a">7.7.2020::9:57:10</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.9.2020::8:30:13</_modifiedTimeWeak>
 			<_modifiedTime type="a">7.7.2020::9:57:10</_modifiedTime>
 			<_lastID type="a">69</_lastID>
-			<weakCGTime type="a">7.7.2020::9:57:10</weakCGTime>
+			<weakCGTime type="a">7.9.2020::8:30:13</weakCGTime>
 			<strongCGTime type="a">7.1.2020::11:27:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1418,7 +1418,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">52</_defNumber>
-			<_version type="a">7.7.2020::11:57:11</_version>
+			<_version type="a">7.9.2020::10:30:13</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 08ddd88f-00ed-40d9-94d2-506ab535380e</_diagram>
 			<AggregatesList type="e">
@@ -2455,8 +2455,8 @@ sensoresSumDistancia=0;</_body>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 0947ae6c-dc8a-4d73-a273-0fad43d30c7e</_id>
-			<_name type="a">Idle</_name>
-			<_modifiedTimeWeak type="a">7.3.2020::9:4:41</_modifiedTimeWeak>
+			<_name type="a">IDLE</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::7:58:8</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 Modo de espera.\par%0D
@@ -2468,14 +2468,14 @@ En el modo de espera se puede estar cargando o sin cargar\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">7.3.2020::9:4:41</_modifiedTime>
+			<_modifiedTime type="a">7.9.2020::7:58:8</_modifiedTime>
 			<_parent type="s">GUID b6e02952-1d43-4be0-b601-a6616e5247cd</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 2f80e355-c3cb-4d17-bc28-d6bfc7c89d93</_id>
-			<_name type="a">PersonInView</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::12:26:17</_modifiedTimeWeak>
+			<_name type="a">FollowingUser</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::8:19:15</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 La persona est\'e1 a la vista.\par%0D
@@ -2484,16 +2484,16 @@ Acercarse todo lo que se pueda sin invadir su espacio.\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.29.2020::11:32:27</_modifiedTime>
+			<_modifiedTime type="a">7.9.2020::8:5:8</_modifiedTime>
 			<_parent type="s">GUID 5e4889df-c6df-495f-b166-38ac0620048c</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_nestedStateChart type="p"><IStateChart type="e">
 				<_id type="a">GUID 70d0934c-5d2e-4d38-bc4b-612b5842822b</_id>
 				<_myState type="a">8192</_myState>
-				<_modifiedTimeWeak type="a">6.29.2020::12:26:17</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:2:49</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::8:19:15</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:3:53</_modifiedTime>
 				<_lastID type="a">27</_lastID>
-				<weakCGTime type="a">6.29.2020::12:26:17</weakCGTime>
+				<weakCGTime type="a">7.9.2020::8:19:15</weakCGTime>
 				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -2702,16 +2702,16 @@ reproducirSonidoPerdida();</_body>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID b1bb4980-daa7-41da-a2ae-e4220d2b4a29</_id>
-				<_name type="a">PersonInView</_name>
-				<_modifiedTimeWeak type="a">6.24.2020::12:3:31</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:3:31</_modifiedTime>
+				<_name type="a">FollowingUser</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::8:5:8</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:5:8</_modifiedTime>
 				<_parent type="s">GUID 8e69d477-0ea3-4bdf-bb99-9a1ea505f745</_parent>
 				<_defaultTrans type="s">GUID cf2ff380-99df-45be-a2a7-4594ebacf0ce</_defaultTrans>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID b81c3c0e-1c59-4b77-b8b9-6d2d84c65c25</_id>
-				<_name type="a">PersonInView_ApproachUser</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:26:17</_modifiedTimeWeak>
+				<_name type="a">FollowingUser_GettingCloser</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::8:19:15</_modifiedTimeWeak>
 				<_description type="p"><IDescription type="e">
 					<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 Acercarse a la persona\par%0D
@@ -2721,7 +2721,7 @@ El frente est\'e1 libre, el robot se acerca a la persona.\par%0D
 </_textRTF>
 				</IDescription>
 				</_description>
-				<_modifiedTime type="a">6.29.2020::12:26:17</_modifiedTime>
+				<_modifiedTime type="a">7.9.2020::8:19:15</_modifiedTime>
 				<_parent type="s">GUID b1bb4980-daa7-41da-a2ae-e4220d2b4a29</_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 				<_entryAction type="p"><IAction type="e">
@@ -2735,15 +2735,15 @@ El frente est\'e1 libre, el robot se acerca a la persona.\par%0D
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID a514a3c0-8627-4bbc-b333-ffa45d58be15</_id>
-				<_name type="a">PersonInView_PathBlocked</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:26:9</_modifiedTimeWeak>
+				<_name type="a">FollwingUser_ObstacleInBetween</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::8:19:1</_modifiedTimeWeak>
 				<_description type="p"><IDescription type="e">
 					<_text type="a">Obstaculo en el camino%0D
 El obstaculo puede ser una persona o un onstaculo real%0D
 Puedo rotar si la persona se mueve y retroceder</_text>
 				</IDescription>
 				</_description>
-				<_modifiedTime type="a">6.29.2020::12:26:9</_modifiedTime>
+				<_modifiedTime type="a">7.9.2020::8:19:1</_modifiedTime>
 				<_parent type="s">GUID b1bb4980-daa7-41da-a2ae-e4220d2b4a29</_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 				<_entryAction type="p"><IAction type="e">
@@ -3003,9 +3003,9 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">statechartdiagram_0</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:26:9</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:3:31</_modifiedTime>
-				<_lastModifiedTime type="a">6.29.2020::12:26:17</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::8:18:19</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:5:8</_modifiedTime>
+				<_lastModifiedTime type="a">7.9.2020::8:19:15</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -3223,7 +3223,7 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 				<m_pParent type="s">GUID df0b87b6-adfe-4273-8b6c-f919c2b19cf0</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">PersonInView</m_str>
+						<m_str type="a">FollowingUser</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -3367,7 +3367,7 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 				<m_pParent type="s">GUID 4c12300e-d221-4da5-9a4a-7bcc23d0b6d3</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">PersonInView_ApproachUser</m_str>
+						<m_str type="a">FollowingUser_GettingCloser</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -3495,7 +3495,7 @@ Puedo rotar si la persona se mueve y retroceder</_text>
 				<m_pParent type="s">GUID 4c12300e-d221-4da5-9a4a-7bcc23d0b6d3</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">PersonInView_PathBlocked</m_str>
+						<m_str type="a">FollwingUser_ObstacleInBetween</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -4118,8 +4118,8 @@ reproducirSonidoPerdida();</m_str>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 9404afd9-092d-42c6-9ab1-37a9b3fc6f86</_id>
-			<_name type="a">PersonOutView</_name>
-			<_modifiedTimeWeak type="a">7.2.2020::9:11:14</_modifiedTimeWeak>
+			<_name type="a">SearchingUser</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::8:17:7</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 La persona no est\'e1 a la vista.\par%0D
@@ -4128,16 +4128,16 @@ Ejecutar algoritmo de b\'fasqueda.\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">7.2.2020::9:11:14</_modifiedTime>
+			<_modifiedTime type="a">7.9.2020::8:4:43</_modifiedTime>
 			<_parent type="s">GUID 5e4889df-c6df-495f-b166-38ac0620048c</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_nestedStateChart type="p"><IStateChart type="e">
 				<_id type="a">GUID 959fb343-b7b9-40c5-aa5b-286623d6e776</_id>
 				<_myState type="a">8192</_myState>
-				<_modifiedTimeWeak type="a">7.2.2020::9:11:14</_modifiedTimeWeak>
-				<_modifiedTime type="a">7.2.2020::9:11:14</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::8:17:7</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:3:4</_modifiedTime>
 				<_lastID type="a">6</_lastID>
-				<weakCGTime type="a">7.2.2020::9:11:14</weakCGTime>
+				<weakCGTime type="a">7.9.2020::8:17:7</weakCGTime>
 				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -4327,46 +4327,46 @@ sensoresSumDistancia = 0;</_body>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID 97d29809-7076-4608-a8d8-e62fb185241e</_id>
-				<_name type="a">PersonOutView</_name>
-				<_modifiedTimeWeak type="a">6.24.2020::12:1:27</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:1:27</_modifiedTime>
+				<_name type="a">SearchingUser</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::8:4:43</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:4:43</_modifiedTime>
 				<_parent type="s">GUID ded41808-bd7e-4708-bdfe-117689ddccb6</_parent>
 				<_defaultTrans type="s">GUID e78c6227-b01c-45ec-b551-65853dcba285</_defaultTrans>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID e1a381fd-4c8b-4f36-86e2-d1de55577a17</_id>
-				<_name type="a">PersonOutView_RotateToMove</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:17:3</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::12:17:3</_modifiedTime>
+				<_name type="a">SearchingUser_TurnToEmptyHallway</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::8:7:40</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:7:40</_modifiedTime>
 				<_parent type="s">GUID 97d29809-7076-4608-a8d8-e62fb185241e</_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID 77a66db0-7d3c-464d-85af-557096a36937</_id>
-				<_name type="a">PersonOutView_ComputePosition</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:16:59</_modifiedTimeWeak>
+				<_name type="a">SearchingUser_FindEmptyHallway</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::8:7:7</_modifiedTimeWeak>
 				<_description type="p"><IDescription type="e">
 					<_text type="a">Computar posicion a la que dirigirse.%0D
 Encontrar sector con mayor media de distancia.</_text>
 				</IDescription>
 				</_description>
-				<_modifiedTime type="a">6.29.2020::12:16:59</_modifiedTime>
+				<_modifiedTime type="a">7.9.2020::8:7:7</_modifiedTime>
 				<_parent type="s">GUID 97d29809-7076-4608-a8d8-e62fb185241e</_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID a4fd420d-2581-4fb8-9684-5098c9eaf1e2</_id>
-				<_name type="a">PersonOutView_GoForward</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:16:41</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::12:16:41</_modifiedTime>
+				<_name type="a">SearchingUser_TraverseEmptyHallway</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::8:8:10</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:8:10</_modifiedTime>
 				<_parent type="s">GUID 97d29809-7076-4608-a8d8-e62fb185241e</_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID 509afdc1-d5d0-425d-9397-c237f088c2f6</_id>
-				<_name type="a">PersonOutView_Rotate360</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:16:45</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::12:16:45</_modifiedTime>
+				<_name type="a">SearchingUser_Look360Around</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::8:16:45</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:16:45</_modifiedTime>
 				<_parent type="s">GUID 97d29809-7076-4608-a8d8-e62fb185241e</_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 			</IState>
@@ -4514,9 +4514,9 @@ Encontrar sector con mayor media de distancia.</_text>
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">statechartdiagram_0</_name>
-				<_modifiedTimeWeak type="a">7.2.2020::9:11:14</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.24.2020::12:1:27</_modifiedTime>
-				<_lastModifiedTime type="a">7.2.2020::9:11:14</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::8:17:7</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:4:43</_modifiedTime>
+				<_lastModifiedTime type="a">7.9.2020::8:17:32</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -4731,7 +4731,7 @@ Encontrar sector con mayor media de distancia.</_text>
 				<m_pParent type="s">GUID 0510f603-cc48-4f18-ba46-d4a4d3762430</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">PersonOutView</m_str>
+						<m_str type="a">SearchingUser</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -4821,7 +4821,7 @@ Encontrar sector con mayor media de distancia.</_text>
 				<m_pParent type="s">GUID 71e76b95-1b0b-4994-8067-cca0c4b0fc8d</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">PersonOutView_RotateToMove</m_str>
+						<m_str type="a">SearchingUser_TurnToEmptyHallway</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -4837,7 +4837,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.223181 0 0 0.217391 124.331 691.304 </m_transform>
+				<m_transform type="a">0.223181 0 0 0.217391 55.4087 691.304 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -4910,7 +4910,7 @@ Encontrar sector con mayor media de distancia.</_text>
 				<m_pParent type="s">GUID 71e76b95-1b0b-4994-8067-cca0c4b0fc8d</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">PersonOutView_ComputePosition</m_str>
+						<m_str type="a">SearchingUser_FindEmptyHallway</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -4926,7 +4926,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.223181 0 0 0.217391 124.331 188.188 </m_transform>
+				<m_transform type="a">0.223181 0 0 0.217391 55.4087 188.188 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -5064,7 +5064,7 @@ Encontrar sector con mayor media de distancia.</_text>
 				<m_pParent type="s">GUID 71e76b95-1b0b-4994-8067-cca0c4b0fc8d</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">PersonOutView_GoForward</m_str>
+						<m_str type="a">SearchingUser_TraverseEmptyHallway</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -5080,7 +5080,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.191121 0 0 0.217391 629.762 675.942 </m_transform>
+				<m_transform type="a">0.241676 0 0 0.217391 560.84 675.942 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -5153,7 +5153,7 @@ Encontrar sector con mayor media de distancia.</_text>
 				<m_pParent type="s">GUID 71e76b95-1b0b-4994-8067-cca0c4b0fc8d</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">PersonOutView_Rotate360</m_str>
+						<m_str type="a">SearchingUser_Look360Around</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -5169,7 +5169,7 @@ Encontrar sector con mayor media de distancia.</_text>
 					</CGIText>
 				</m_name>
 				<m_drawBehavior type="a">4104</m_drawBehavior>
-				<m_transform type="a">0.191121 0 0 0.217391 629.762 188.188 </m_transform>
+				<m_transform type="a">0.241676 0 0 0.217391 560.84 188.188 </m_transform>
 				<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 				<m_AdditionalLabel type="p">
 					<CGIText type="e">
@@ -5474,13 +5474,13 @@ sensoresSumDistancia = 0;</m_str>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 0bf52fa6-61ea-4694-af74-409955911c25</_id>
-			<_name type="a">Dock</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::12:30:4</_modifiedTimeWeak>
+			<_name type="a">DOCKING</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::7:59:3</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Dirigirse a la base.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.29.2020::12:30:4</_modifiedTime>
+			<_modifiedTime type="a">7.9.2020::7:59:3</_modifiedTime>
 			<_parent type="s">GUID b6e02952-1d43-4be0-b601-a6616e5247cd</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
@@ -5494,22 +5494,22 @@ sensoresSumDistancia = 0;</m_str>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID b01cec7c-2593-4bad-9f9d-624006279444</_id>
-			<_name type="a">DodgeObstacle</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::12:35:5</_modifiedTimeWeak>
+			<_name type="a">DodgingObstacle</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::8:22:5</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Se ha colisionado con un obstaculo.%0D
 Rodear el obstaculo y volver a encontrar a la persona.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.29.2020::12:35:5</_modifiedTime>
+			<_modifiedTime type="a">7.9.2020::8:22:5</_modifiedTime>
 			<_parent type="s">GUID 329325a8-47b0-4293-994a-b4dab6ba64b2</_parent>
 			<_defaultTrans type="s">GUID 39bd5f3f-c72d-46ba-89c1-0ae1b7a0b705</_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 0c4c3692-330a-43e8-9d77-128553f3d8da</_id>
-			<_name type="a">Dodge_MoveBack</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::12:24:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.29.2020::12:24:52</_modifiedTime>
+			<_name type="a">MovingBackFromObstacle</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::8:22:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.9.2020::8:22:23</_modifiedTime>
 			<_parent type="s">GUID b01cec7c-2593-4bad-9f9d-624006279444</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
@@ -7762,78 +7762,78 @@ sensoresSumDistancia=0;</m_str>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 67de38aa-b1bb-489a-804c-ec0eed6be85b</_id>
-			<_name type="a">CliffAhead</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::12:18:57</_modifiedTimeWeak>
+			<_name type="a">AvoidingCliff</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::8:19:41</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Barranco detectado.%0D
 Devolver el robot a un estado seguro.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.29.2020::12:18:57</_modifiedTime>
+			<_modifiedTime type="a">7.9.2020::8:19:41</_modifiedTime>
 			<_parent type="s">GUID 329325a8-47b0-4293-994a-b4dab6ba64b2</_parent>
 			<_defaultTrans type="s">GUID d5143df3-a0a7-405d-85ba-65c84b0e3920</_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 9d4e1579-45b7-4741-b11f-12cc99385818</_id>
-			<_name type="a">CliffAhead_Rotate180</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::12:18:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.29.2020::12:18:50</_modifiedTime>
+			<_name type="a">TurnAwayFromCliff</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::8:20:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.9.2020::8:20:22</_modifiedTime>
 			<_parent type="s">GUID 67de38aa-b1bb-489a-804c-ec0eed6be85b</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 3919d41d-bd10-48e3-9a53-b27cf94a3363</_id>
-			<_name type="a">CliffAhead_GoForward</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::12:18:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.29.2020::12:18:53</_modifiedTime>
+			<_name type="a">LeaveCliffBehind</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::8:30:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.9.2020::8:30:13</_modifiedTime>
 			<_parent type="s">GUID 67de38aa-b1bb-489a-804c-ec0eed6be85b</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 329325a8-47b0-4293-994a-b4dab6ba64b2</_id>
-			<_name type="a">NormalOperate</_name>
-			<_modifiedTimeWeak type="a">6.29.2020::12:32:23</_modifiedTimeWeak>
+			<_name type="a">ROAMING</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::8:24:3</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Modo de operacion normal.%0D
 </_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.29.2020::12:32:23</_modifiedTime>
+			<_modifiedTime type="a">7.9.2020::8:24:3</_modifiedTime>
 			<_parent type="s">GUID b6e02952-1d43-4be0-b601-a6616e5247cd</_parent>
 			<_defaultTrans type="s">GUID bdd6e80e-5d6c-4bf5-b913-83b0d7af69b4</_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 59243a46-790c-490e-8498-a78a6a22e51b</_id>
-			<_name type="a">Shutdown</_name>
-			<_modifiedTimeWeak type="a">7.3.2020::9:4:41</_modifiedTimeWeak>
+			<_name type="a">SHUTDOWN</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::7:58:39</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Fin de operacion%0D
 Terminar la ejecucion del algoritmo principal, liberar recursos y salir.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">7.3.2020::9:4:41</_modifiedTime>
+			<_modifiedTime type="a">7.9.2020::7:58:39</_modifiedTime>
 			<_parent type="s">GUID b6e02952-1d43-4be0-b601-a6616e5247cd</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 04e33954-9bb9-4f05-b9f5-484be0278e1c</_id>
-			<_name type="a">UnDock</_name>
-			<_modifiedTimeWeak type="a">7.2.2020::10:49:7</_modifiedTimeWeak>
+			<_name type="a">UN_DOCKING</_name>
+			<_modifiedTimeWeak type="a">7.9.2020::8:2:35</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Salir de la base.%0D
 Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">7.2.2020::10:49:7</_modifiedTime>
+			<_modifiedTime type="a">7.9.2020::7:59:19</_modifiedTime>
 			<_parent type="s">GUID b6e02952-1d43-4be0-b601-a6616e5247cd</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_nestedStateChart type="p"><IStateChart type="e">
 				<_id type="a">GUID e1a723a5-b871-47d8-8f3d-33a500e758d0</_id>
 				<_myState type="a">8192</_myState>
-				<_modifiedTimeWeak type="a">7.2.2020::10:49:7</_modifiedTimeWeak>
-				<_modifiedTime type="a">7.2.2020::10:49:7</_modifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::8:2:35</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::7:59:19</_modifiedTime>
 				<_lastID type="a">5</_lastID>
-				<weakCGTime type="a">7.2.2020::10:49:7</weakCGTime>
+				<weakCGTime type="a">7.9.2020::8:2:35</weakCGTime>
 				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -7968,9 +7968,9 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID 5c3aec87-d2ee-4cc6-939a-ae4a8529e975</_id>
-				<_name type="a">UnDock</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:26:55</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::12:26:55</_modifiedTime>
+				<_name type="a">UN_DOCKING</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::7:59:19</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::7:59:19</_modifiedTime>
 				<_parent type="s">GUID 6385695c-fde5-4984-a12a-9bb0a2b36bdf</_parent>
 				<_defaultTrans type="s">GUID 6a4b71e8-833a-4ea6-9084-b49b43631aef</_defaultTrans>
 			</IState>
@@ -7984,9 +7984,9 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID e53179f5-db70-4236-b1ef-738f60776586</_id>
-				<_name type="a">UnDock_Rotate180</_name>
-				<_modifiedTimeWeak type="a">6.29.2020::12:27:3</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::12:27:3</_modifiedTime>
+				<_name type="a">TurnAwayFromDock</_name>
+				<_modifiedTimeWeak type="a">7.9.2020::8:2:35</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::8:2:35</_modifiedTime>
 				<_parent type="s">GUID 5c3aec87-d2ee-4cc6-939a-ae4a8529e975</_parent>
 				<_defaultTrans type="s"></_defaultTrans>
 			</IState>
@@ -8167,9 +8167,9 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">statechartdiagram_0</_name>
-				<_modifiedTimeWeak type="a">7.2.2020::10:49:7</_modifiedTimeWeak>
-				<_modifiedTime type="a">6.29.2020::11:16:12</_modifiedTime>
-				<_lastModifiedTime type="a">7.2.2020::10:49:7</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">7.9.2020::8:2:35</_modifiedTimeWeak>
+				<_modifiedTime type="a">7.9.2020::7:59:19</_modifiedTime>
+				<_lastModifiedTime type="a">7.9.2020::8:2:35</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -8382,7 +8382,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				<m_pParent type="s">GUID a77f3600-8dc0-4bb1-afc2-1dc1abb6b6d5</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">UnDock</m_str>
+						<m_str type="a">UN_DOCKING</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -8624,7 +8624,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				<m_pParent type="s">GUID e26058fc-2106-4925-9867-665bfde5f792</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">UnDock_Rotate180</m_str>
+						<m_str type="a">TurnAwayFromDock</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -9250,9 +9250,9 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">MainMaschine</_name>
-			<_modifiedTimeWeak type="a">7.3.2020::9:4:34</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.9.2020::8:19:41</_modifiedTimeWeak>
 			<_modifiedTime type="a">7.3.2020::9:4:41</_modifiedTime>
-			<_lastModifiedTime type="a">7.3.2020::9:5:0</_lastModifiedTime>
+			<_lastModifiedTime type="a">7.9.2020::8:30:13</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -9538,7 +9538,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<m_pParent type="s">GUID 496ef2ea-5fcf-48c5-9daa-e49ba8c57b09</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Idle</m_str>
+					<m_str type="a">IDLE</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -9633,7 +9633,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<m_pParent type="s">GUID 0e2885b6-3a71-4286-9978-3d38cec5f8a2</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">PersonInView</m_str>
+					<m_str type="a">FollowingUser</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -9794,7 +9794,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<m_pParent type="s">GUID 0e2885b6-3a71-4286-9978-3d38cec5f8a2</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">PersonOutView</m_str>
+					<m_str type="a">SearchingUser</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10220,7 +10220,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<m_pParent type="s">GUID 496ef2ea-5fcf-48c5-9daa-e49ba8c57b09</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Dock</m_str>
+					<m_str type="a">DOCKING</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10486,7 +10486,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<m_pParent type="s">GUID 3233f2f9-5ee9-4bf7-a863-383cd0b57deb</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">DodgeObstacle</m_str>
+					<m_str type="a">DodgingObstacle</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10641,7 +10641,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 			<m_pParent type="s">GUID 167a9324-513b-4b19-8e6b-585937530ba9</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Dodge_MoveBack</m_str>
+					<m_str type="a">MovingBackFromObstacle</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10657,7 +10657,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.115426 0 0 0.269553 209.16 565.906 </m_transform>
+			<m_transform type="a">0.172864 0 0 0.269553 209.161 565.906 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -10777,7 +10777,7 @@ Salir marcha atras y dar la vuelta para empezar a funcionar.</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.208907 0 0 0.434763 669.157 393.195 </m_transform>
+			<m_transform type="a">0.208907 0 0 0.434763 741.262 393.195 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -10865,7 +10865,7 @@ sensoresSumDistancia = 0;</m_str>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">31 748 </m_SourcePort>
-			<m_TargetPort type="a">-6 676 </m_TargetPort>
+			<m_TargetPort type="a">-12 676 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -11048,7 +11048,7 @@ sensoresSumDistancia = 0;</m_str>
 			<m_pParent type="s">GUID 3233f2f9-5ee9-4bf7-a863-383cd0b57deb</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CliffAhead</m_str>
+					<m_str type="a">AvoidingCliff</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -11138,7 +11138,7 @@ sensoresSumDistancia = 0;</m_str>
 			<m_pParent type="s">GUID fb773096-4e57-4f1b-bbc8-5c03b9ad930f</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CliffAhead_Rotate180</m_str>
+					<m_str type="a">TurnAwayFromCliff</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -11294,7 +11294,7 @@ sensoresSumDistancia=0;</m_str>
 			<m_pParent type="s">GUID fb773096-4e57-4f1b-bbc8-5c03b9ad930f</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CliffAhead_GoForward</m_str>
+					<m_str type="a">LeaveCliffBehind</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -11428,9 +11428,10 @@ sensoresSumDistancia=0;</m_str>
 					</m_color>
 					<m_position type="a">4 -6 -9  122 -9  122 9  -6 9  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 471 691 </m_transform>
-					<m_nHorizontalSpacing type="a">-86</m_nHorizontalSpacing>
+					<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
+					<m_transform type="a">0.945313 0 0 1 539.672 801 </m_transform>
+					<m_nHorizontalSpacing type="a">-66</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-20</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
@@ -11718,7 +11719,7 @@ sensoresSumDistancia=0;</m_str>
 			<m_pParent type="s">GUID 496ef2ea-5fcf-48c5-9daa-e49ba8c57b09</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">NormalOperate</m_str>
+					<m_str type="a">ROAMING</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -12222,7 +12223,7 @@ sensoresSumDistancia=0;</m_str>
 			<m_pParent type="s">GUID 496ef2ea-5fcf-48c5-9daa-e49ba8c57b09</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Shutdown</m_str>
+					<m_str type="a">SHUTDOWN</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -12441,7 +12442,7 @@ sensoresSumDistancia=0;</m_str>
 			<m_pParent type="s">GUID 496ef2ea-5fcf-48c5-9daa-e49ba8c57b09</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">UnDock</m_str>
+					<m_str type="a">UN_DOCKING</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
